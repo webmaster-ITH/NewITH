@@ -1,0 +1,40 @@
+{
+    "notas": [
+        {
+            "id": 1,
+            "titulo": "Graduación Generación 2020-2025 | TecNM-Hermosillo",
+            "contenido": "En el marco del 50 Aniversario del TecNM-Hermosillo, se llevó a cabo la Ceremonia de Graduación de la Generación 2020-2025, un emotivo evento que reconoce el esfuerzo, la dedicación y la perseverancia de nuestras y nuestros egresados, así como su compromiso con la excelencia académica.\nLa ceremonia fue presidida por el Mtro. Rogelio Noriega Vargas, director del Instituto Tecnológico de Hermosillo, acompañado de autoridades académicas, docentes, personal de apoyo a la educación, familiares y estudiantes. Durante su intervención, destacó la relevancia del avance tecnológico y cómo el ITH, a lo largo de 50 años, ha transformado a generaciones de profesionistas, formando líderes capaces de enfrentar los retos del siglo XXI.\nContamos también con la presencia del Lic. Froylán Gámez Gamboa, secretario de Educación y Cultura del Estado de Sonora, en representación del Dr. Alfonso Durazo Montaño, Gobernador del Estado de Sonora, quien reconoció la trayectoria académica del ITH y felicitó a la institución por este significativo 50 aniversario.\nAsimismo, se transmitió un mensaje virtual del Mtro. Ramón Jiménez López, Director General del Tecnológico Nacional de México, quien felicitó a las y los egresados por sus logros, subrayando la importancia de su papel en la transformación de México mediante la innovación, el conocimiento y el compromiso social, así como el orgullo de ser parte de la comunidad del ITH.\n🌎 Con gran orgullo, se destacó la graduación de tres de los cuatro jóvenes de la primera generación de movilidad académica a Taiwán, quienes representan un capítulo histórico en la institución:\n• Jesús Rodolfo Marroquín Soriano – Ing. en Mecatrónica\n• Alejandro Ibarra Gálvez – Ing. en Eléctrica\n• Eduardo Contreras Robles – Ing. en Eléctrica\nEste logro refleja la formación integral que ofrece el Modelo Educativo del TecNM, orientado a formar profesionistas innovadores, responsables y con un sólido sentido humano, capaces de transformar su entorno y enfrentar los desafíos con ética y excelencia.\nFelicitamos a nuestras y nuestros graduados, así como a sus familias, quienes son parte fundamental de este logro. Su esfuerzo y compromiso nos inspiran a continuar construyendo juntos la excelencia académica que distingue al #TecNM-Hermosillo.",
+            "fecha": "2024-06-20",
+            "fotoperfil": "assets/img/perfil.jpg",
+            "imagen": [
+                {
+                    "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=960&h=360&fit=crop",
+                    "descripcion": "Descripción de la imagen 1"
+                },
+                {
+                    "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=960&h=360&fit=crop",
+                    "descripcion": "Descripción de la imagen 2"
+                }
+            ],
+            "activo": true
+        },
+        {
+            "id": 2,
+            "titulo": "Nota 2",
+            "contenido": "Contenido de la nota 2",
+            "fecha": "2024-06-21",
+            "fotoperfil": "assets/img/perfil.jpg",
+            "imagen": [
+                {
+                    "url": "assets/img/imagen3.jpg",
+                    "descripcion": "Descripción de la imagen 3"
+                },
+                {
+                    "url": "assets/img/imagen4.jpg",
+                    "descripcion": "Descripción de la imagen 4"
+                }
+            ],
+            "activo": false
+        }
+    ]
+}

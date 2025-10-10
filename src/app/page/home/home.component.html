@@ -1,0 +1,283 @@
+<!-- Jssor Slider Carousel Initialization -->
+<script src="Incluir/Scripts/jquery-1.4.1.min.js"></script>
+<script src="jssor.slider.min.js"></script>
+<script>
+    $(document).ready(function () {
+        var options = {
+            $AutoPlay: 1,
+            $Idle: 2000,
+            $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+            },
+            $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+            }
+        };
+        var jssor_slider = new $JssorSlider$("jssor_1", options);
+        var MAX_WIDTH = 980;
+
+        function ScaleSlider() {
+            var containerElement = jssor_slider.$Elmt.parentNode;
+            var containerWidth = containerElement.clientWidth;
+            if (containerWidth) {
+                var expectedWidth = Math.min(MAX_WIDTH, containerWidth);
+                jssor_slider.$ScaleWidth(expectedWidth);
+            } else {
+                window.setTimeout(ScaleSlider, 30);
+            }
+        }
+
+        ScaleSlider();
+        $(window).on("load resize orientationchange", ScaleSlider);
+    });
+</script>
+
+<!-- Accesibilidad Script -->
+<script>
+    const currentURL = window.location.hostname;
+    let scriptContent = "";
+
+    if (currentURL === "hermosillo.tecnm.mx") {
+        scriptContent = `
+            window.interdeal = {
+                "sitekey": "c8700d9cf950be63738668a48d457167",
+                "Position": "Left",
+                "domains": {
+                    "js": "https://cdn.equalweb.com/",
+                    "acc": "https://access.equalweb.com/"
+                },
+                "Menulang": "es-MX",
+                "showTooltip": true,
+                "btnStyle": {
+                    "vPosition": ["80%", "80%"],
+                    "scale": ["0.5", "0.5"],
+                    "color": {
+                        "main": "#1876c9",
+                        "second": "#ffffff"
+                    },
+                    "icon": {
+                        "outline": false,
+                        "type": 1,
+                        "shape": "circle"
+                    }
+                }
+            };
+            (function(doc, head, body){
+                var coreCall = doc.createElement('script');
+                coreCall.src = interdeal.domains.js + 'core/5.0.9/accessibility.js';
+                coreCall.defer = true;
+                coreCall.integrity = 'sha512-dxjHZQgpVIG70EQus4+1KR3oj2KGyrtwR/nr4lY+tcMjrQ1Yb9V1SCKNVLGhD3CcPMgANKAqOk4ldI8WWNnQTw==';
+                coreCall.crossOrigin = 'anonymous';
+                coreCall.setAttribute('data-cfasync', true);
+                body ? body.appendChild(coreCall) : head.appendChild(coreCall);
+            })(document, document.head, document.body);
+        `;
+    } else {
+        scriptContent = `
+            window.interdeal = {
+                "sitekey": "6cfed8cb261241405f4d153464c3fdbc",
+                "Position": "left",
+                "domains": {
+                    "js": "https://cdn.equalweb.com/",
+                    "acc": "https://access.equalweb.com/"
+                },
+                "Menulang": "es-MX",
+                "btnStyle": {
+                    "vPosition": ["80%", "80%"],
+                    "scale": ["0.5", "0.5"],
+                    "color": {
+                        "main": "#1876c9",
+                        "second": "#ffffff"
+                    },
+                    "icon": {
+                        "outline": false,
+                        "type": 1,
+                        "shape": "circle"
+                    }
+                }
+            };
+            (function(doc, head, body){
+                var coreCall = doc.createElement('script');
+                coreCall.src = interdeal.domains.js + 'core/5.0.13/accessibility.js';
+                coreCall.defer = true;
+                coreCall.integrity = 'sha512-pk3CeR0KGJu+GfK2x2ybTSZ1o1qfua6XW2PRAxMWOhC85M3+CanPYmvRp6BOiW0/riZjWGerRN7+JH4wEF0wJQ==';
+                coreCall.crossOrigin = 'anonymous';
+                coreCall.setAttribute('data-cfasync', true);
+                body ? body.appendChild(coreCall) : head.appendChild(coreCall);
+            })(document, document.head, document.body);
+        `;
+    }
+    const script = document.createElement("script");
+    script.textContent = scriptContent;
+    document.body.appendChild(script);
+</script>
+
+<div class="row">
+    <div class="col-md-12">
+        <!-- Jssor Carousel HTML -->
+        <app-carusel></app-carusel>
+    </div>
+
+    <div class=col-md-8>
+     <app-noticiaslist></app-noticiaslist>
+
+
+
+        <div class=row>
+            <div class=col-md-12 style=text-align:right>
+                <h3 class=titulo><a href=archivo-de-notas.html class=titulo>Consulta notas anteriores
+                        haciendo click aquí</a>
+                </h3>
+            </div>
+
+
+            <app-sitios-interes></app-sitios-interes>
+
+        </div>
+    </div>
+
+    <div class=""></div>
+    <div id=fb-root></div>
+    <script>window.fbAsyncInit = function () { FB.init({ xfbml: !0, version: "v10.0" }) }, function (e, t, n) { var c, o = e.getElementsByTagName(t)[0]; e.getElementById(n) || ((c = e.createElement(t)).id = n, c.src = "https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js", o.parentNode.insertBefore(c, o)) }(document, "script", "facebook-jssdk")</script>
+    <div class=fb-customerchat attribution=setup_tool page_id=326891494403017></div>
+    <div class=fb-customerchat attribution=install_email page_id=326891494403017
+        logged_in_greeting="¡Hola! ¿En qué podemos ayudarte?" logged_out_greeting="¡Hola! ¿En qué podemos ayudarte?">
+    </div>
+    <div class=col-md-4>
+        <div class=row>
+            <div id=occ-widget>
+                <script src="https://jobdiscovery-widget-occ.occ.com.mx/button-bundle.js" id="bolsa-widget"
+                    key="1dB7fHQDr88fflw5kCMNO1nQOXu"></script>
+            </div>
+            <div class="row">
+                <div class="col-md-12 m-b-xs" style="margin-top:10px">
+                    <iframe frameborder="0" height="220" scrolling="no"
+                        src="https://maps.google.com/maps?width=340&height=220&hl=en&q=TecNM%20Hermosillo%20S/N%20Hermosillo+(Instituto%20Tecnol%C3%B3gico%20de%20Hermosillo)&t=&z=15&ie=UTF8&iwloc=B&output=embed"
+                        width="340" id="gmap_canvas" marginheight="0" marginwidth="0"></iframe>
+                    <script src="script.js?id=637df4c8ad9b2fcfce20cb0760077ee2b7473c63"></script>
+                    <div class="col-md-12 text-center" style="margin-top:10px">
+                        <label style="float:left;margin-top:6px;font-size:15px">Redes TecNM/ITH</label>
+                        <a href="https://www.facebook.com/TecNMHermosillo" target="_top" title="Facebook" class="imgFa"
+                            style="margin-left:10px!important"></a>
+                        <a href="https://twitter.com/TecNMHermosillo" target="_top" title="Twitter" class="imgTw"></a>
+                        <a href="https://www.instagram.com/TecNMHermosillo/" target="_top" title="Instagram"
+                            class="imgIn"></a>
+                        <a href="https://www.youtube.com/channel/UC8Jkl4oQH-9FrH6JVHuESjQ" target="_top" title="YouTube"
+                            class="imgYo"></a>
+                    </div>
+                    <br><br>
+                    <div id="fb-root"></div>
+                    <script src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v9.0" async
+                        crossorigin="anonymous" defer nonce="TZ6Bl2xe"></script>
+                    <div class="fb-page" data-adapt-container-width="true" data-height="" data-hide-cover="false"
+                        data-href="https://www.facebook.com/TecNMHermosillo/" data-show-facepile="true"
+                        data-small-header="false" data-tabs="timeline" data-width="">
+                        <blockquote cite="https://www.facebook.com/TecNMHermosillo/" class="fb-xfbml-parse-ignore">
+                            <a href="https://www.facebook.com/TecNMHermosillo">TECNM Campus Hermosillo</a>
+                        </blockquote>
+                    </div>
+                    <br><br>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card" style="width:18rem">
+                                <img src="https://www.tecnm.mx/images/dir_calidad/re/logo_genero.jpg"
+                                    class="card-img-top" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Sistema de Gestión de Igualdad de Género y No
+                                        Discriminación (SGIG)</h5>
+                                    <p class="card-text">Norma Mexicana NMX-R-025-SCFI-2015</p>
+                                    <a href="SGIG.html" class="btn btn-primary">Ir al sitio</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <a href="documentos/TECNM-GIG-PO-01 POLITICA DE IGUALDAD LABORAL.pdf" target="_blank"
+                                title="Mural">
+                                <img class="img-responsive" src="imagenes/WhatsApp Image 2024-01-26 at 3.01.44 PM.jpeg"
+                                    style="width:289px;margin:25px 5px 25px 30px;border:2px solid gray;border-radius:15px" />
+                            </a>
+                        </div>
+                        <div class="col-md-12">
+                            <a href="imagenes/WhatsApp Image 2024-10-16 at 1.00.36 PM.jpeg" target="_blank"
+                                title="Mural">
+                                <img class="img-responsive" src="imagenes/WhatsApp Image 2024-10-16 at 1.00.36 PM.jpeg"
+                                    style="width:289px;margin:25px 5px 25px 30px;border:2px solid gray;border-radius:15px" />
+                            </a>
+                        </div>
+                        <div class="col-md-12">
+                            <a href="imagenes/WhatsApp Image 2025-09-09 at 10.10.20_e8112825.jpg" target="_blank"
+                                title="Mural">
+                                <img class="img-responsive"
+                                    src="imagenes/WhatsApp Image 2025-09-09 at 10.10.20_e8112825.jpg"
+                                    style="width:289px;margin:25px 5px 25px 30px;border:2px solid gray;border-radius:15px" />
+                            </a>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="carouselvideo"
+                                style="width:289px;margin:25px 5px 25px 30px;border:2px solid gray;border-radius:15px">
+                                <div class="carouselvideo-container" id="carouselContainer">
+                                    <div class="carouselvideo-item">
+                                        <video controls>
+                                            <source src="imagenes/video 1 - Made with Clipchamp.mp4" type="video/mp4" />
+                                            Tu navegador no soporta el elemento de video.
+                                        </video>
+                                    </div>
+                                </div>
+                                <button class="carouselvideo-button prevvideo" onclick="moveSlide(-1)">❮</button>
+                                <button class="carouselvideo-button nextvideo" onclick="moveSlide(1)">❯</button>
+                            </div>
+                            <script>
+                                let index = 0;
+                                function moveSlide(direction) {
+                                    const container = document.getElementById('carouselContainer');
+                                    const totalItems = document.querySelectorAll('.carouselvideo-item').length;
+                                    index = (index + direction + totalItems) % totalItems;
+                                    container.style.transform = `translateX(${-index * 100}%)`;
+                                }
+                            </script>
+                        </div>
+                        <div class="col-md-12">
+                            <a href="documentos/proyecto mujeres.pdf" target="_blank" title="Mural">
+                                <img class="img-responsive" src="imagenes/Artboard 1.png"
+                                    style="width:100%; border:2px solid gray; border-radius:15px;" />
+                            </a>
+                        </div>
+                    </div>
+                    <!--  -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal-overlay" *ngIf="show" (click)="closeModal()">
+    <div class="modal-dialog modal-lg" (click)="$event.stopPropagation()">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="row">
+                    <div class="col-md-10">
+                        <h4 class="modal-title">Aviso</h4>
+                    </div>
+                    <div class="col-md-2">
+                        <span class="btn btn-default fa fa-close" (click)="closeModal()"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="text-center">
+                    <a href="Videos 50 aniver.html">
+                        <img src="imagenes/WhatsApp Image 2025-09-08 at 12.24.30_a472d079.jpg" 
+                             loading="lazy"
+                             style="height:360px;width:80%" 
+                             alt="">
+                        <br><br>
+                    </a>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" type="button" (click)="closeModal()">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
