@@ -18,6 +18,7 @@ const routes: Routes = [
       {path:'Escudo', component: EscudoComponent},
       {path:'Murales', component: MuralesComponent},
       {path:'Documentos', component: DocumentosComponent},
+      {path:'Inversion', component: InversionComponent},
       {path: '**', redirectTo: 'Direccion'}
     ]
   }
