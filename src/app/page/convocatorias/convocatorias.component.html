@@ -1,0 +1,417 @@
+<div class="row">
+    <script>
+        /*
+        
+        Want to customize your button? visit our documentation page:
+        
+        https://login.equalweb.com/custom-button.taf
+        
+        */
+        window.interdeal = {
+            "sitekey": "c8700d9cf950be63738668a48d457167",
+            "Position": "Left",
+            "domains": {
+                "js": "https://cdn.equalweb.com/",
+                "acc": "https://access.equalweb.com/"
+            },
+            "Menulang": "es-MX",
+            "showTooltip": true,
+            "btnStyle": {
+                "vPosition": [
+                    "80%",
+                    "80%"
+                ],
+                "scale": [
+                    "0.5",
+                    "0.5"
+                ],
+                "color": {
+                    "main": "#1876c9",
+                    "second": "#ffffff"
+                },
+                "icon": {
+                    "outline": false,
+                    "type": 1,
+                    "shape": "circle"
+                }
+            }
+        };
+        (function (doc, head, body) {
+            var coreCall = doc.createElement('script');
+            coreCall.src = interdeal.domains.js + 'core/5.0.9/accessibility.js';
+            coreCall.defer = true;
+            coreCall.integrity = 'sha512-dxjHZQgpVIG70EQus4+1KR3oj2KGyrtwR/nr4lY+tcMjrQ1Yb9V1SCKNVLGhD3CcPMgANKAqOk4ldI8WWNnQTw==';
+            coreCall.crossOrigin = 'anonymous';
+            coreCall.setAttribute('data-cfasync', true);
+            body ? body.appendChild(coreCall) : head.appendChild(coreCall);
+        })(document, document.head, document.body);
+    </script>
+    <div class="col-md-12">
+        <!------CONTENIDO-------->
+
+        <div class="col-md-12">
+            <h2 class="tnota">CONVOCATORIAS</h2>
+        </div>
+        <div class="col-md-12">
+            <strong>En etapa de registro</strong><br>
+            <ul id="link-list" style="list-style-type: none; padding-left: 0;">
+                <li *ngFor="let item of documents">
+                    <a [href]="'../documentos/' + item.name" target="_blank">{{ item.name.replace('.pdf', '') }}</a>
+                </li>
+            </ul>
+            <a href="../documentos/Convocatoria Maestria en Ingenieria Industrial 2025-2027.pdf"
+                target="_blank">Convocatoria Maestría en Ingeniería Industrial 2025-2027</a> <br>
+            <a href="../documentos/Convocatoria Maestria en Ciencias de la Computacion 2025-2027.pdf"
+                target="_blank">Convocatoria en Ciencias de la Computación 2025-2027</a> <br>
+            <a href="../documentos/Convocatoria Maestria en Administracion 2025-2027.pdf" target="_blank">Convocatoria
+                en Maestría en Administración 2025-2027</a> <br>
+            <a href="../documentos/Convocatoria Maestria en Ingenieria Electronica 2025-2027.pdf"
+                target="_blank">Convocatoria de Maestría en Ingeniería en Electrónica 2025-2027</a> <br>
+            <a href="../documentos/FORMULARIO CB.pdf" target="_blank">FORMULARIO CB</a> <br>
+            <a href="../documentos/TEMARIO CB.pdf" target="_blank">TEMARIO CB</a> <br>
+            <a href="../documentos/TEMARIO CEA.pdf" target="_blank">TEMARIO CEA</a> <br>
+            <a href="../documentos/convocatoria (2) 2025.pdf" target="_blank">CONVOCATORIA</a> <br>
+            <a href="../documentos/Convocatoria Taiwan 2da Generacion.pdf" target="_blank">Convocatoria
+                Taiwan 2da Generacion</a> <br>
+            <a href="../documentos/Formatos de Solicitud para Evaluacion de Promocion Docente 2025 (1).xlsx"
+                target="_blank">Formatos de Solicitud para Evaluación de Promoción Docente 2025</a> <br>
+            <a href="../documentos/Documento del Proceso de Promocion para el Personal Docente de los ITs 2025.pdf"
+                target="_blank">Documento del Proceso de Promoción para el Personal Docente de los ITs
+                2025</a> <br>
+            <a href="../documentos/Convocatoria_Doctorado en Ciencias de la Ingenieria.pdf" target="_blank">Convocatoria
+                Doctorado en Ciencias de la Ingeniería</a> <br>
+            <a href="../documentos/CONVOCATORIA IMPULSO A LA INVESTIGACION 2025.pdf" target="_blank">CONVOCATORIA Y
+                PROTOCOLO IMPULSO A LA INVESTIGACIÓN</a> <br>
+            <a href="../documentos/Convocatoria Investigacion Cientifica 2025.pdf" target="_blank">Convocatoria
+                Investigacion Cientifica 2025</a> <br>
+            <a href="../documentos/ConvocatoriaENECB2024.pdf" target="_blank">ConvocatoriaENECB2024</a> <br>
+            <a href="../documentos/Formulario2024cb.pdf" target="_blank">Formulario2024cb</a> <br>
+            <a href="../documentos/Formulario2024cea.pdf" target="_blank">Formulario2024cea</a> <br>
+            <a href="../documentos/Temario2024cb.pdf" target="_blank">Temario2024cb</a> <br>
+            <a href="../documentos/Temario2024cea.pdf" target="_blank">Temario2024cea</a> <br>
+            <a href="../documentos/Convocatoria 2023-2025 MCC.pdf" target="_blank">Convocatoria Nuevo
+                Ingreso Nacional</a> <br>
+            <a href="../documentos/Proceso para aspirantes extranjeros  2023-2025.pdf" target="_blank">Convocatoria
+                Nuevo Ingreso Extranjero</a> <br>
+            <a href="../documentos/Convocatoria Foro Humanismo.pdf" target="_blank">Convocatoria Foro
+                Humanismo</a> <br>
+            <a href="../documentos/Convocatoria 2023-2025 MIE.pdf" target="_blank">Convocatoria Nuevo
+                Ingreso Nacional</a> <br>
+            <a href="../documentos/Proceso para aspirantes extranjeros  2023-2025.pdf" target="_blank">Convocatoria
+                Nuevo Ingreso Extranjero</a><br>
+            <a href="../documentos/FORMATO SPD 2024.pdf">• FORMATO SPD 2024</a> <br>
+            <a href="../documentos/LINEAMIENTOS EDD 2024.pdf">• LINEAMIENTOS EDD 2024</a> <br>
+            <a href="../documentos/CONVOCATORIA EDD 2024.pdf">• CONVOCATORIA EDD 2024</a> <br>
+            <a
+                href="https://app.santanderopenacademy.com/es/program/movilidad-internacional-2024?utm_source=CRM_country&utm_medium=Email&utm_campaign=Movilidad2024_Mexico_paes">•
+                Becas Santander</a> <br>
+            <a href="../documentos/CONVOCATORIA 2-2024.pdf">• CONVOCATORIA 2-2024</a> <br>
+            <a href="../documentos/Politicas Academicas Periodo Sabatico 2-2024.pdf">• Politicas Academicas
+                Periodo Sabatico 2-2024.pdf</a> <br>
+            <a href="../documentos/Convocatoria DCI-1.pdf">• Convocatoria 2024-2028 Doctorado en Ciencias de
+                la Ingenieria</a> <br>
+            <a href="../documentos/Comunicado Publicacion Convocatorias 2024.pdf">• Comunicado Publicación
+                Convocatorias 2024</a> <br>
+            <a href="../documentos/CONVOCATORIA RECONOCIMIENTO PERFIL DESEABLE 2024.pdf">• CONVOCATORIA
+                RECONOCIMIENTO PERFIL DESEABLE 2024</a> <br>
+            <a href="../documentos/CONVOCATORIA APOYOS PERFIL DESEABLE 2024.pdf">• CONVOCATORIA APOYOS
+                PERFIL DESEABLE 2024</a> <br>
+            <a href="../documentos/CONVOCATORIA APOYOS GASTOS DE PUBLICACION 2024.pdf">• CONVOCATORIA APOYOS
+                GASTOS DE PUBLICACION 2024</a> <br>
+            <a href="../documentos/CONVOCATORIA APOYOS ESTUDIOS DE POSGRADO 2024.pdf">• CONVOCATORIA APOYOS
+                ESTUDIOS DE POSGRADO 2024</a> <br>
+            <a href="../documentos/CONVOCATORIA APOYOS FORTALECIMIENTO CA 2024.pdf">• CONVOCATORIA APOYOS
+                FORTALECIMIENTO CA 2024</a> <br>
+            <a href="../documentos/CONVOCATORIA 2024.pdf">• Convocatoria beca-comisión 2024</a> <br>
+
+            <a href="../documentos/Convocatoria 25 Mujeres en la Ciencia-DGPPIE.pdf">• Convocatoria 25
+                Mujeres en la Ciencia-DGPPIE</a> <br>
+            <a href="../documentos/Convocatoria Subcomite de etica 2024.pdf">• Convocatoria Subcomité de
+                ética 2024</a> <br>
+            <a href="../documentos/Convocatoria 2024-2026 Aspirantes Extranjeros.pdf">• Convocatoria
+                2024-2026 Aspirantes Extranjeros</a> <br>
+            <a href="../documentos/Convocatoria 2024-2026 Maestria en Administracion.pdf">• Convocatoria
+                2024-2026 Maestria en Administracion</a> <br>
+            <a href="../documentos/Convocatoria 2024-2026 Maestria en Ciencias de la Computacion.pdf">•
+                Convocatoria 2024-2026 Maestria en Ciencias de la Computacion</a> <br>
+            <a href="../documentos/Convocatoria 2024-2026 Maestria en Ingenieria Electronica.pdf">•
+                Convocatoria 2024-2026 Maestria en Ingenieria Electronica</a> <br>
+            <a href="../documentos/Convocatoria 2024-2026 Maestria en Ingenieria Industrial.pdf">•
+                Convocatoria 2024-2026 Maestria en Ingenieria Industrial</a> <br>
+
+
+            <a href="../documentos/Convocatoria Beca de Excelencia 2024.pdf">• Convocatoria Beca de
+                Excelencia 2024</a> <br>
+            <a href="../documentos/Cursos Intersemestrales 2024-1.pdf">• Cursos Intersemestrales 2024-1</a>
+            <br>
+            <a href="../documentos/Convocatoria Modelo de Educacion Dual  Enero-Diciembre 2024.pdf">•
+                Convocatoria Modelo de Educación Dual Enero-Diciembre 2024</a> <br>
+
+            <a href="../documentos/Conv_ICDTI_2023_TR.pdf">• Conv_ICDTI_2023_TR</a> <br>
+
+
+            <a href="../documentos/Convocatoria 2023-2025 Maestria en Administracion (1).pdf">• Convocatoria
+                2023-2025 Maestria en Administracion</a> <br>
+            <a href="../documentos/Convocatoria 2023-2025 MCC.pdf">• Convocatoria 2023-2025 Maestria en
+                Ciencias de la Computacion</a> <br>
+            <a href="../documentos/Convocatoria 2023-2025 MIE.pdf">• Convocatoria 2023-2025 Maestria en
+                Ingenieria Electronica</a> <br>
+            <a href="../documentos/Convocatoria 2023-2025 Maestria en Ingenieria Industrial.pdf">•
+                Convocatoria 2023-2025 Maestria en Ingenieria Industrial</a> <br>
+
+            <a href="../documentos/CONVOCATORIA-CONCURSO-DE-ALTARES-2022.pdf" target="_blank">• Convocatoria
+                concurso de altares</a> <br>
+            <a href="../documentos/PROGRAMA-SEMANA-NACIONAL-FINANCIERA-ITH-2022.pdf" target="_blank">•
+                Convocatoria Programa Semanal Nacional Financiera ITH</a> <br>
+
+
+            <a href="../imagenes/MOOC Promo General 2022 banner standard(3).png" target="_blank">•
+                Convocatoria MOOCS TecNM</a> <br>
+            <a href="http://www.hermosillo.tecnm.mx/Huawei-ICT-Academy.html" target="_blank">• Convocatoria
+                CHuawei ICT Academy</a> <br>
+            <a href="../documentos/Convocatoria 2022-2024 MII.pdf" target="_blank">• Convocatoria 2022-2024
+                MII</a> <br>
+            <a href="../documentos/Convocatoria 2022-2024 MA.pdf" target="_blank">• Convocatoria 2022-2024
+                MA</a> <br>
+            <a href="../documentos/Convocatoria 2021-2023 MIE.pdf" target="_blank">• Convocatoria 2021-2023
+                MIE</a> <br>
+            <a href="../documentos/Convocatoria 2021-2023 MCC.pdf" target="_blank">• Convocatoria 2021-2023
+                MCC</a> <br>
+            <a href="http://resilientmaterials.ucsd.edu/ENLACE/" target="_blank">• Convocatoria para
+                estudiantes e investigadores Enlace 2022 University of California, San Diego</a> <br>
+            <a href="../documentos/Convocatoria Oficial WER Universidad 2021-2022.pdf" target="_blank">•
+                Convocatoria WER México 2021 -2022</a> <br>
+            <a href="https://pasific.pan.pl/">• Programa de Becas PASIFIC</a> <br>
+            <!--<a href="https://theacademy.unm.edu/upcoming-edition/index.html" target="_blank">• Innovation Academy For Women of the Americas - Women, Climate & Power 2021</a><br>-->
+            <br>
+            <strong>En proceso/Concluidas</strong><br>
+            <a href="../documentos/AGENDA 48 ANIVERSARIO ITH 2023.pdf">• AGENDA 48 ANIVERSARIO ITH 2023</a>
+            <br>
+            <a href="../documentos/CONVOCATORIA FEMECI SONORA 2023-1.pdf">• CONVOCATORIA FEMECI SONORA
+                2023-1</a> <br>
+            <a href="../documentos/CONVOCATORIA EDD 2023.pdf">• CONVOCATORIA EDD 2023</a> <br>
+            <a href="../documentos/FORMATO SPD 2023.pdf">• FORMATO SPD 2023</a> <br>
+            <a href="../documentos/LINEAMIENTOS EDD 2023.pdf">• LINEAMIENTOS EDD 2023</a> <br>
+
+
+
+            <a href="../documentos/Convocatoria de Periodo Sabatico 2-2023.pdf">• Convocatoria de Periodo
+                Sabático 2-2023.pdf</a> <br>
+            <a href="../documentos/Politicas Academicas P Sabatico 2-2023.pdf">• Politicas Académicas P
+                Sabatico 2-2023.pdf</a> <br>
+            <a href="../documentos/Apoyos para Fortalecimiento CA 2023.pdf">• Apoyos para Fortalecimiento CA
+                2023</a> <br>
+            <a href="../documentos/Apoyos a Perfil Deseable 2023.pdf">• Apoyos a Perfil Deseable 2023</a>
+            <br>
+            <a href="../documentos/Apoyos para Estudios Posgrado 2023.pdf">• Apoyos para Estudios Posgrado
+                2023</a> <br>
+            <a href="../documentos/Apoyos para Gastos Publicacion 2023.pdf">• Apoyos para Gastos Publicacion
+                2023</a> <br>
+            <a href="../documentos/Apoyos para Posdoctorales 2023.pdf">• Apoyos para Posdoctorales 2023</a>
+            <br>
+            <a href="../documentos/Comunicado Publicación Convocatorias 2023.pdf">• Comunicado Publicación
+                Convocatorias 2023</a> <br>
+            <a href="../documentos/Reconocimiento a Perfil Deseable 2023.pdf">• Reconocimiento a Perfil
+                Deseable 2023</a> <br>
+
+
+            <a href="../documentos/CONVOCATORIA DOCTORADO EN CIENCIAS ITH 2023.pdf">• CONVOCATORIA DOCTORADO
+                EN CIENCIAS ITH 2023</a> <br>
+            <a href="../documentos/Conv_EST_2023.pdf">• Conv_EST_2023</a> <br>
+
+            <a href="../documentos/Convocatoria-Concurso-de-Altares-2022.pdf" target="_blank">• Convocatoria
+                Concurso de Altares 2022</a> <br>
+            <a href="../documentos/convocatoria-periodo-sab-programa-lic.rar" target="_blank">• Convocatoria
+                de Periodo Sabático</a> <br>
+
+            <a href="../documentos/Convocatoria-de-Estimulos-al-Desempeno-del-Personal-Docente-2022.rar"
+                target="_blank">• Programa de Estímulos al Desempeño del Personal Docente 2022 para los
+                Institutos y Centros Federales</a> <br>
+            <a href="../documentos/Copa de Inteligencia Artificial TE 2022-2023.pdf" target="_blank">• Copa
+                de Inteligencia Artificial TE 2022-2023</a> <br>
+            <a href="../documentos/CEE - Concursos Nacionales de Urna Electronica Y Via Remota.pdf" target="_blank">•
+                CEE - Concursos Nacionales de Urna Electronica Y Via Remota</a> <br>
+            <a href="../documentos/Hackathon BBVA 2022.pdf" target="_blank">• Convocatoria de Hackathon
+                BBVA</a> <br>
+            <a href="../documentos/Convocatoria del Jurado Calificador de Profesionista del Ano.pdf" target="_blank">•
+                Convocatoria del Jurado Calificador de Profesionista del Año</a> <br>
+            <a href="../documentos/CURSOS DE VERANOS AUTORIZADOS-2022-DEP.pdf" target="_blank">•
+                Convocatoria Para Cursos de Verano 2022</a> <br>
+            <a href="../documentos/Lista de Verano 2022.xlsx" target="_blank">• Lista de verano 2022</a>
+            <br>
+            <a href="../documentos/Convocatoria Jurado Calificador Firma.pdf" target="_blank">• Convocatoria
+                Jurado Calificador Firma</a> <br>
+            <a href="../documentos/Solicitud Final de Inscripción Jurado Calificador.doc" target="_blank">•
+                Solicitud Final de Inscripción Jurado Calificador</a> <br>
+
+
+            <a href="../documentos/Convocatoria-para-Profesores-Verano-Cientifico.pdf" target="_blank">•
+                Convocatoria para Profesores Verano Científico</a> <br>
+            <a href="../documentos/Convocatoria-para-Estudiantes-Verano-Cientifico.pdf" target="_blank">•
+                Convocatoria para Estudiantes Verano Científico</a> <br>
+            <a href="../documentos/Convocatoria-Tres-Minutos-Sobre-mi-Verano.pdf" target="_blank">•
+                Convocatoria Tres Minutos Sobre mi Verano</a> <br>
+            <a href="../documentos/Convocatoria Congreso Verano.pdf" target="_blank">• Convocatoria Congreso
+                Verano</a> <br>
+
+            <a href="../documentos/Convocatoria Apoyo para el fortalecimiento de los Cuerpos Académicos y Gastos de publicación 2022.pdf"
+                target="_blank">• Convocatoria Apoyo para el fortalecimiento de los Cuerpos Académicos y
+                Gastos de publicación 2022 </a> <br>
+            <a href="../documentos/Convocatoria Reconocimiento a Profesores-as de Tiempo Completo con Perfil Deseable 2022.pdf"
+                target="_blank">• Convocatoria Reconocimiento a Profesores-as de Tiempo Completo con Perfil
+                Deseable 2022</a> <br>
+            <a href="../documentos/Convocatoria Apoyo a PTC con Perfil Deseable 2022.pdf" target="_blank">•
+                Convocatoria Apoyo a PTC con Perfil Deseable 2022</a> <br>
+            <a href="../documentos/Convocatoria Apoyos para Estudios de Posgrado de Alta Calidad 2022.pdf"
+                target="_blank">• Convocatoria Apoyos para Estudios de Posgrado de Alta Calidad 2022</a>
+            <br>
+            <a href="../documentos/Proceso para aspirantes extranjeros  2021-2023.pdf" target="_blank">•
+                Convocatoria Proceso para aspirantes extranjeros 2021-2023 posgrado.pdf</a> <br>
+
+            <a href="../documentos/CONVOCATORIA_XXVI_2022.pdf" target="_blank">• Convocatoria Evento
+                Estudiantil De Ciencias Basicas</a> <br>
+            <a href="../documentos/Hackatoìn 2022 - Convocatoria ACTUALIZADA 2.1 (1).pdf" target="_blank">•
+                Convocatoria Hackatoìn 2022</a> <br>
+            <a href="http://www.hermosillo.tecnm.mx/Huawei-ICT-Academy.html" target="_blank">• Convocatoria
+                HUAWEI ICT Academy</a> <br>
+            <a href="../documentos/Convocatoria quim tecnm 2021-2.png" target="_blank">• Convocatoria
+                Federación de quimicos de sonora</a> <br>
+
+
+            <a href="../documentos/9 Convocatoria-Posgrado-DCI-2022-2 (1).pdf" target="_blank">•
+                Convocatoria programa de Doctorado en Ciencias de la Ingeniería</a> <br>
+
+            <a href="https://www.ceenl.mx/2021/historietas/" target="_blank">• Primer Concurso Nacional
+                Historietas por la Igualdad</a> <br>
+            <a href="../documentos/CONVOCATORIA PEJ2021 SOMOS MÁS.pdf" target="_blank">• Premio Estatal de
+                la Juventud 2021</a> <br>
+            <a href="../documentos/Convocatorias docentes 2021 TecNM Hermosillo.zip" target="_blank">•
+                Convocatorias de Promoción Docente 2021</a> <br>
+            <a href="../documentos/rvconvocatoriasnodocentes.zip" target="_blank">• Convocatorias de
+                Promoción no Docente 2021</a> <br>
+            <a href="../documentos/Convocatoria y solicitud Profesionista del Año 2021-2.zip" target="_blank">•
+                Convocaoria Profesionista del Año</a> <br>
+            <a href="http://innovacion.sec.gob.mx/hackaton2021/" target="_blank">• Hackatón en línea 2021
+                Retos y Oportunidades del Regreso a Clases Presenciales</a> <br>
+            <a href="http://educa.banxico.org.mx/eub2022.html" target="_blank">• Convocatoria Enlaces
+                Universitarios Banxico 2022</a> <br>
+            <a href="https://www.ceenl.mx/2021/cineminuto/" target="_blank">• Cuarto Concurso Nacional de
+                Cineminuto #ParidadEnCorto</a> <br>
+            <a href="http://ibd.senado.gob.mx/sites/default/files/invitacion_190821_2.pdf" target="_blank">•
+                Concurso Nacional de Ensayo sobre Federalismo</a> <br>
+            <a href="../imagenes/Convocatoria-prorroga-paridad-corto.jpg" target="_blank">• Prórroga del
+                Cuarto Concurso Nacional de Cineminuto Paridad en Corto</a> <br>
+            <a href="../documentos/Convocatoria_Anio_Sabatico__2_2021.pdf" target="_blank">• Convocatoria
+                Año Sabático 2-2021</a> <br>
+            <a href="https://contraloria.sonora.gob.mx/images/Micrositios/transparencia-en-corto/convocatoria-xvi-cntc-son.pdf"
+                target="_blank">• XVI Concurso Nacional y Estatal de Transparencia en Corto 2021</a> <br>
+            <a href="../imagenes/Convocatoria 2021.png" target="_blank">• Innovation Contest 2021</a> <br>
+            <a href="https://fer.org.mx/maestria/" target="_blank">• Beca de Excelencia 2021 para estudios
+                de maestría en el extranjero de Pitic, Familia Ortega Huerta y Fundación Esposos
+                Rodríguez</a> <br>
+            <a href="https://www.tecnm.mx/?vista=Convocatorias_TecNM_Academicos" target="_blank">•
+                Convocatoria 2021 Programa de Estímulos al Desempeño del Personal Docente</a> <br>
+            <a href="https://posible.org.mx" target="_blank">• Convocatoria Beca POSIBLE 2021</a> <br>
+            <a href="../documentos/Convocatoria Apoyo a Profesores con Perfil Deseable.pdf" target="_blank">•
+                Convocatoria Apoyo a Profesores con Perfil Deseable</a> <br>
+            <a href="../documentos/Convocatoria Fortalecimiento de Cuerpos Académicos y Gastos de Publicación.pdf"
+                target="_blank">• Convocatoria Fortalecimiento de Cuerpos Académicos y Gastos de
+                Publicación</a> <br>
+            <a href="../documentos/Convocatoria para Apoyo de Posgrado de Alta Calidad.pdf" target="_blank">•
+                Convocatoria para Apoyo de Posgrado de Alta Calidad</a> <br>
+            <a href="../documentos/Convocatoria Reconocimiento al Perfil Deseable.pdf" target="_blank">•
+                Convocatoria Reconocimiento al Perfil Deseable</a> <br>
+            <a href="../documentos/Convocatoria ex becarios promep.pdf" target="_blank">• Convocatoria Ex
+                Becarios PROMEP</a> <br>
+            <a href="../documentos/Convocatoria Concluido Titulacion.pdf" target="_blank">• Beca Federal por
+                Haber Concluido la Titulación 2021-2</a> <br>
+            <a href="../documentos/Convocatoria Inicio Titulacion.pdf" target="_blank">• Beca Federal para
+                Iniciar la Titulación 2021-2</a> <br>
+            <a href="../documentos/Convocatoria Manutencion Federal 2021-II.pdf" target="_blank">• Beca
+                Federal para Apoyo a la Manutención 2021-II</a> <br>
+            <a href="https://www.rallydeinnovacion.org/" target="_blank">• Rally de Innovación 2021</a> <br>
+            <a href="https://www.clusterminerosonora.com.mx/hackatonconvocatoria.php" target="_blank">•
+                Hackatón Minero 202</a> <br>
+            <a href="../documentos/Convocatoria Becas Santander Habilidades TECNM 2021 VF1 (2708 vf).pdf"
+                target="_blank">• Becas Santander Habilidades</a> <br>
+            <a href="https://www.cjf.gob.mx/convocatorias2021.htm" target="_blank">• Convocatoria para
+                integrar la Lista de Peritos del Poder Judicial de la Federación 2022</a> <br>
+            <a href="http://hermosillo.tecnm.mx/documentos/Convocatoria%202020%20v2.pdf">• XVII Concurso
+                Leamos La Ciencia para Todos, 2020-2021.</a> <br>
+            <a href="https://www.conacyt.gob.mx/Convocatoria-Programas-nacionales-estrategicos-2021.html"
+                target="_blank">• Convocatoria 2021 para la presentación de proyectos de investigación e
+                incidencia orientados a la adaptación y mitigación del cambio climático y la mejora de la
+                calidad del aire en ciudades mexicanas</a><br>
+            <a href="https://www.conacyt.gob.mx/Convocatoria-Desarrollo-de-Innovaciones-Tecnologicas-para-una-Agricultura-Mexicana-Libre-de-Agroinsumos-Toxicos.html"
+                target="_blank">• Desarrollo de Innovaciones Tecnológicas para una Agricultura Mexicana
+                Libre de Agroinsumos Tóxicos 2021</a><br>
+            <a href="https://www.conacyt.gob.mx/Convocatoria-Programas-nacionales-estrategicos-2021-Protocolos.html"
+                target="_blank">• Elaboración de Protocolos de Investigación e Incidencia en Materia de
+                Soberanía Alimentaria</a><br>
+            <a href="http://resilientmaterials.ucsd.edu/ENLACE" target="_blank">• Enlace 2021 Experiencia de
+                Verano de Investigación UC San Diego</a><br>
+            <a href="http://www.hermosillo.tecnm.mx/apoyo-a-madres-de-familia.html" target="_blank">• Apoyo
+                a Madres mexicanas Jefas de Familia para Fortalecer su Desarrollo Profesional Convocatoria
+                2021 (1)</a><br>
+            <a href="https://www.conacyt.gob.mx/PDF/Convocatoria%202021%20Estancias%20Sabaticas%20VF.pdf">•
+                Apoyos complementarios para estancias sabáticas vinculadas a la consolidación de grupos de
+                investigación CONVOCATORIA 2021</a> <br>
+            <a
+                href="https://www.conacyt.gob.mx/PDF/Convocatorias/Becas-al-extranjero/Propuesta%20Conacyt-FUNED%202021%20VF.pdf">•
+                Becas CONACYT – FUNED 2021 en Áreas Relacionadas con la Salud</a> <br>
+            <a href="https://www.becas-santander.com/es/program/becas-santander-idiomas-ingles-slang">•
+                Becas Santander Idiomas - Inglés - Slang</a> <br>
+
+            <a href="http://www.hermosillo.tecnm.mx/promocion-docente-2021.html">• Proceso de Promoción
+                Docente 2021</a> <br>
+            <a href="http://hermosillo.tecnm.mx/Capacitaci%C3%B3n%20Microsoft%20Teams%20Enero%202021.html">•
+                Proceso de Capacitación para Estudiantes, Docentes y Personal Administrativo de TECNM.
+                Microsoft 365 y Microsoft Teams</a> <br>
+            <a href="http://hermosillo.tecnm.mx/convocatorias/CONVOCATORIA-CENITAE-2021.pdf">• Convocatoria
+                CENITAE 2021</a> <br>
+            <a
+                href="https://www.tecnm.mx/menu/convocatorias_tecnm/Proyectos_de_desarrollo_Tecnologico_e_Innovacion_para_Estudiantes_Convocatoria_2021.pdf">•
+                Proyectos de Desarrollo Tecnológico e Innovación para Estudiantes Convocatoria 2021</a> <br>
+            <a
+                href="https://www.tecnm.mx/menu/convocatorias_tecnm/Proyectos_de_Desarrollo_Tecnologico_e_Innovacion_Convocatoria_2021.pdf">•
+                Proyectos de Desarrollo Tecnológico e Innovación Convocatoria 2021</a> <br>
+            <a
+                href="https://www.tecnm.mx/menu/convocatorias_tecnm/Proyectos_de_Investigacion_Cientifica_Convocatoria_2021.pdf">•
+                Proyectos de Investigación Científica Convocatoria 2021</a> <br>
+            <a href="http://hermosillo.tecnm.mx/documentos/Convocatoria%20Sabatico%201-2021.pdf">• Año
+                Sabático Convocatoria 1-2021</a> <br>
+            <a href="https://www.tecnm.mx/archivos/slider/CONVOCATORIA%202020%20LICENCIA%20BECA%20COMISION.pdf">•
+                Convocatoria Licencia por Beca-Comisión 2020</a> <br>
+            <a
+                href="http://hermosillo.tecnm.mx/documentos/Espa%C3%B1ol%20Solicitud%20100K%20Concurso%20Mex-US%202020%20(1).pdf">•
+                Concurso del Fondo de Innovación México-Estados Unidos 2020</a> <br>
+            <a href="http://hermosillo.tecnm.mx/imagenes/CONVOCATORIA%20BECAS%20DISCAPACIDAD%20AUDITIVA%202020.jpg">•
+                Beca para discapacidad auditiva 2020</a> <br>
+            <a
+                href="http://hermosillo.tecnm.mx/imagenes/CONVOCATORIA%20%20BECA%20T%C3%89CNICO%20SUPERIOR%20Y%20LICENCIATURA%20P%C3%9ABLICA%20CICLO%202020-2021.jpg">•
+                Beca Sonora 2020</a> <br>
+            <a
+                href="http://hermosillo.tecnm.mx/documentos/2021%20FWIS%20INTERNATIONAL%20AWARDS%20-%20CALL%20FOR%20NOMINATION.pdf">•
+                L’Oreal-UNESCO 2021 for Women in Science International Awards</a> <br>
+            <a href="http://hermosillo.tecnm.mx/documentos/CONVOCATORIA%20CECB&CEA%202020.pdf">• XXI
+                Concurso Estatal de Ciencias Básicas y Ciencias Económico-Administrativas</a> <br>
+            <a
+                href="http://hermosillo.tecnm.mx/documentos/Oferta%20de%20Becas%20por%20la%20Embajada%20de%20Francia%20en%20M%C3%A9xico.pdf">•
+                Oferta de Becas por la Embajada de Francia en México</a> <br>
+            <a
+                href="http://hermosillo.tecnm.mx/documentos/Convocatoria%20Jovenes%20con%20Talento%20MEGARREGION%20SONORA-ARIZONA%202020.pdf">•
+                Jóvenes con Talento, Megarregión Sonora-Arizona 2020</a> <br>
+            <a
+                href="http://hermosillo.tecnm.mx/documentos/Convocatoria%20Premio%20Universitario%20Anticorrupci%C3%B3n.pdf">•
+                Convocatoria Premio Universitario de Protocolos de Investigación Aplicada en materia
+                Anticorrupción</a> <br>
+            <a href="http://hermosillo.tecnm.mx/documentos/Manutenci_n_Federal_2020-I.pdf">• Beca Federal
+                Apoyo a la Manutención 2020-1</a> <br>
+            <!---<a href="http://hermosillo.tecnm.mx/documentos/Capacitaciones%20Virtuales%20del%20CONRICYT(25%20y%2027%20de%20Febrero).pdf">• Capacitaciones Virtuales del CONRICYT</a> <br>
+                    <a href="http://hermosillo.tecnm.mx/documentos/Convocatoria%202020%20(1)%20Apoyos%20a%20Madres%20mexicanas%20jefas%20de%20familia.pdf">• Apoyo a Madres mexicanas Jefas de Familia para Fortalecer su Desarrollo Profesional CONVOCATORIA 2020 (1)</a> <br>
+                    --->
+            <a href="http://hermosillo.tecnm.mx/documentos/CONVOCATORIA_MANUTENCI_N_FUERZAS_ARMADAS.pdf">•
+                Beca de Apoyo a la Manutención para hijos/as de militares de las Fuerzas Armadas</a> <br>
+            <!--------END CONTENIDO-->
+    </div>
+</div>

@@ -15,6 +15,7 @@ import { NavbarTopComponent } from './component/shared/navbar-top/navbar-top.com
 import { HomeComponent } from './page/home/home.component';
 import { NotaComponent } from './page/nota/nota.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ConvocatoriasComponent } from './page/convocatorias/convocatorias.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     FooterGobComponent,
     NotaComponent,
+    ConvocatoriasComponent
   ],
   imports: [
     BrowserModule,
