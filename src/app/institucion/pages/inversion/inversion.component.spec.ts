@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DireccionComponent } from './direccion.component';
+import { InversionComponent } from './inversion.component';
 
-describe('DireccionComponent', () => {
-  let component: DireccionComponent;
-  let fixture: ComponentFixture<DireccionComponent>;
+describe('InversionComponent', () => {
+  let component: InversionComponent;
+  let fixture: ComponentFixture<InversionComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DireccionComponent ]
+      declarations: [ InversionComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(DireccionComponent);
+    fixture = TestBed.createComponent(InversionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

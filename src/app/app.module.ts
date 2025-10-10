@@ -12,7 +12,6 @@ import { HeaderComponent } from './component/shared/header/header.component';
 import { NavbarGobComponent } from './component/shared/navbar-gob/navbar-gob.component';
 import { NavbarMainComponent } from './component/shared/navbar-main/navbar-main.component';
 import { NavbarTopComponent } from './component/shared/navbar-top/navbar-top.component';
-import { DireccionComponent } from './page/direccion/direccion.component';
 import { HomeComponent } from './page/home/home.component';
 import { NotaComponent } from './page/nota/nota.component';
 import { HttpClientModule } from '@angular/common/http';
@@ -31,7 +30,6 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     FooterGobComponent,
     NotaComponent,
-    DireccionComponent
   ],
   imports: [
     BrowserModule,
