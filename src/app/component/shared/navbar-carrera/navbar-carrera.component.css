@@ -1,0 +1,180 @@
+/* Contenedor principal */
+.board-inner {
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+/* Lista de navegación */
+.nav-tabs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-bottom: none;
+}
+
+/* Botón de tab individual */
+.btn-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 0 15px;
+}
+
+.btn-tab a {
+  text-decoration: none;
+  display: block;
+  margin: 0 !important;
+  float: none !important;
+}
+
+/* Label del título */
+.label-titulo-icono {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #666;
+  margin: 0 0 10px 0 !important;
+  text-align: center;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+
+/* Círculos de los iconos */
+.round-tabs {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #ddd;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.round-tabs i {
+  font-size: 28px;
+  color: #999;
+  transition: color 0.3s ease;
+}
+
+/* Colores específicos para cada tab */
+.round-tabs.one {
+  border-color: #5cb85c;
+}
+
+.round-tabs.one i {
+  color: #5cb85c;
+}
+
+.round-tabs.two {
+  border-color: #f0ad4e;
+}
+
+.round-tabs.two i {
+  color: #f0ad4e;
+}
+
+.round-tabs.three {
+  border-color: #5bc0de;
+}
+
+.round-tabs.three i {
+  color: #5bc0de;
+}
+
+.round-tabs.four {
+  border-color: #d9534f;
+}
+
+.round-tabs.four i {
+  color: #d9534f;
+}
+
+.round-tabs.five {
+  border-color: #337ab7;
+}
+
+.round-tabs.five i {
+  color: #337ab7;
+}
+
+/* Estado activo */
+.btn-tab.active .round-tabs.one {
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+  box-shadow: 0 4px 10px rgba(92, 184, 92, 0.4);
+}
+
+.btn-tab.active .round-tabs.two {
+  background-color: #f0ad4e;
+  border-color: #f0ad4e;
+  box-shadow: 0 4px 10px rgba(240, 173, 78, 0.4);
+}
+
+.btn-tab.active .round-tabs.three {
+  background-color: #5bc0de;
+  border-color: #5bc0de;
+  box-shadow: 0 4px 10px rgba(91, 192, 222, 0.4);
+}
+
+.btn-tab.active .round-tabs.four {
+  background-color: #d9534f;
+  border-color: #d9534f;
+  box-shadow: 0 4px 10px rgba(217, 83, 79, 0.4);
+}
+
+.btn-tab.active .round-tabs.five {
+  background-color: #337ab7;
+  border-color: #337ab7;
+  box-shadow: 0 4px 10px rgba(51, 122, 183, 0.4);
+}
+
+.btn-tab.active .round-tabs i {
+  color: #fff;
+}
+
+.btn-tab.active .label-titulo-icono {
+  color: #333;
+  font-weight: 600;
+}
+
+/* Efectos hover */
+.btn-tab:hover .round-tabs {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.btn-tab:hover .label-titulo-icono {
+  color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-tabs {
+    flex-wrap: wrap;
+  }
+  
+  .btn-tab {
+    margin: 10px 5px;
+  }
+  
+  .round-tabs {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .round-tabs i {
+    font-size: 24px;
+  }
+  
+  .label-titulo-icono {
+    font-size: 13px;
+  }
+}

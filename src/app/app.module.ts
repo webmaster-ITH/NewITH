@@ -16,6 +16,8 @@ import { HomeComponent } from './page/home/home.component';
 import { NotaComponent } from './page/nota/nota.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ConvocatoriasComponent } from './page/convocatorias/convocatorias.component';
+import { NavbarCarreraComponent } from './component/shared/navbar-carrera/navbar-carrera.component';
+import { IsoComponent } from './pages/iso/iso.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,8 @@ import { ConvocatoriasComponent } from './page/convocatorias/convocatorias.compo
     FooterComponent,
     FooterGobComponent,
     NotaComponent,
-    ConvocatoriasComponent
+    ConvocatoriasComponent,
+    IsoComponent,
   ],
   imports: [
     BrowserModule,

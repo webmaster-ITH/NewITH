@@ -2,8 +2,10 @@
 <header style="z-index: 3; position: relative;">
   <app-header></app-header>
 </header>
-<app-navbar-top style="z-index: 2; position: relative;"></app-navbar-top>
-<app-navbar-main style="z-index: 1; position: relative;"></app-navbar-main>
-<router-outlet></router-outlet>
-<app-footer></app-footer>
-<app-footer-gob></app-footer-gob>
+<div class="container-fluid">
+  <app-navbar-top style="z-index: 2; position: relative;"></app-navbar-top>
+  <app-navbar-main style="z-index: 1; position: relative;"></app-navbar-main>
+  <router-outlet></router-outlet>
+  <app-footer></app-footer>
+  <app-footer-gob></app-footer-gob>
+</div>
