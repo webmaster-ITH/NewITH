@@ -12,6 +12,7 @@ import { EncuestaEmpleadorComponent } from './pages/encuesta-empleador/encuesta-
 import { Residencias1Component } from './pages/residencias1/residencias1.component';
 import { Residencias2Component } from './pages/residencias2/residencias2.component';
 import { Residencias3Component } from './pages/residencias3/residencias3.component';
+import { EgresadosComponent } from './pages/egresados/egresados.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { Residencias3Component } from './pages/residencias3/residencias3.compone
     EncuestaEmpleadorComponent,
     Residencias1Component,
     Residencias2Component,
-    Residencias3Component
+    Residencias3Component,
+    EgresadosComponent
   ],
   imports: [
     CommonModule,

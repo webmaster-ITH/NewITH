@@ -1,1 +1,82 @@
-<p>residencias works!</p>
+  <script>
+            /*
+            
+            Want to customize your button? visit our documentation page:
+            
+            httpss://login.equalweb.com/custom-button.taf
+            
+            */
+            window.interdeal = {
+                "sitekey": "c8700d9cf950be63738668a48d457167",
+                "Position": "Left",
+                "domains": {
+                    "js": "httpss://cdn.equalweb.com/",
+                    "acc": "httpss://access.equalweb.com/"
+                },
+                "Menulang": "es-MX",
+                "showTooltip": true,
+                "btnStyle": {
+                    "vPosition": [
+                        "80%",
+                        "80%"
+                    ],
+                    "scale": [
+                        "0.5",
+                        "0.5"
+                    ],
+                    "color": {
+                        "main": "#1876c9",
+                        "second": "#ffffff"
+                    },
+                    "icon": {
+                        "outline": false,
+                        "type": 1,
+                        "shape": "circle"
+                    }
+                }
+            };
+            (function(doc, head, body){
+                var coreCall             = doc.createElement('script');
+                coreCall.src             = interdeal.domains.js + 'core/5.0.9/accessibility.js';
+                coreCall.defer           = true;
+                coreCall.integrity       = 'sha512-dxjHZQgpVIG70EQus4+1KR3oj2KGyrtwR/nr4lY+tcMjrQ1Yb9V1SCKNVLGhD3CcPMgANKAqOk4ldI8WWNnQTw==';
+                coreCall.crossOrigin     = 'anonymous';
+                coreCall.setAttribute('data-cfasync', true );
+                body? body.appendChild(coreCall) : head.appendChild(coreCall);
+            })(document, document.head, document.body);
+            </script>
+
+        <div class="col-md-12 ">
+            
+
+
+            <!--------NOTAS--->
+            <div class="row">
+                <div class="col-md-12">
+                    <!------CONTENIDO-------->
+
+                    <div class="col-md-12">
+                        <h2 class="tnota">RESIDENCIAS</h2>
+                    </div>
+
+
+                    <div class="col-md-12">
+                            <table width="630" border="0">
+                                    <tr>
+                                      <td><a routerLink="/comunidad/residencias1">Procedimiento para residencias (planes 2004-2005)</a></td>
+                                    </tr>
+                                    <tr>
+                                      <td><a routerLink="/comunidad/residencias2">Procedimiento para residencias (planes 2009-2010)</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a routerLink="/comunidad/residencias3">Procedimiento para Residencias Profesionales (Planes 2015)</a></td>
+                                      </tr>
+                                  </table>
+                        <!------------------------------------>
+                        <!--------END CONTENIDO-->
+                    </div>
+                </div>
+            </div>
+            <!----END NOTAS------>
+
+        </div>
