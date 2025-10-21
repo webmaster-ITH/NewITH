@@ -14,6 +14,7 @@ import { MecatronicaComponent } from './mecatronica/mecatronica.component';
 import { SistemasComponent } from './sistemas/sistemas.component';
 import { InformaticaComponent } from './informatica/informatica.component';
 import { GestionComponent } from './gestion/gestion.component';
+import { AdminOfComponent } from './admin/admin.component';
 
 const routes: Routes = [
   {path:'',
@@ -26,7 +27,7 @@ const routes: Routes = [
       { path: 'Industrial', component: IndustrialComponent },
       { path: 'Mecanica', component: MecanicaComponent },
       { path: 'Mecatronica', component: MecatronicaComponent },
-      { path: 'Administracion', component: AdminComponent },
+      { path: 'Administracion', component: AdminOfComponent },
       { path: 'Sistemas', component: SistemasComponent },
       { path: 'Informatica', component: InformaticaComponent },
       { path: 'Gestion', component: GestionComponent },

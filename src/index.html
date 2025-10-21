@@ -300,6 +300,89 @@
     </style>
 </head>
 <body>
-  <app-root></app-root>
-</body>
+     <script>// Obtener el dominio de la URL actual
+            const currentURL = window.location.hostname;
+
+            let scriptContent = "";
+
+            if (currentURL === "hermosillo.tecnm.mx") {
+                console.log("Cargando script de accesibilidad para hermosillo.tecnm.mx");
+                scriptContent = `
+                            window.interdeal = {
+                                "sitekey": "c8700d9cf950be63738668a48d457167",
+                                "Position": "Left",
+                                "domains": {
+                                    "js": "https://cdn.equalweb.com/",
+                                    "acc": "https://access.equalweb.com/"
+                                },
+                                "Menulang": "es-MX",
+                                "showTooltip": true,
+                                "btnStyle": {
+                                    "vPosition": ["80%", "80%"],
+                                    "scale": ["0.5", "0.5"],
+                                    "color": {
+                                        "main": "#1876c9",
+                                        "second": "#ffffff"
+                                    },
+                                    "icon": {
+                                        "outline": false,
+                                        "type": 1,
+                                        "shape": "circle"
+                                    }
+                                }
+                            };
+                            (function(doc, head, body){
+                                var coreCall = doc.createElement('script');
+                                coreCall.src = interdeal.domains.js + 'core/5.0.9/accessibility.js';
+                                coreCall.defer = true;
+                                coreCall.integrity = 'sha512-dxjHZQgpVIG70EQus4+1KR3oj2KGyrtwR/nr4lY+tcMjrQ1Yb9V1SCKNVLGhD3CcPMgANKAqOk4ldI8WWNnQTw==';
+                                coreCall.crossOrigin = 'anonymous';
+                                coreCall.setAttribute('data-cfasync', true);
+                                body ? body.appendChild(coreCall) : head.appendChild(coreCall);
+                            })(document, document.head, document.body);
+                        `;
+            } else {
+                console.log("Cargando script de accesibilidad por defecto para otras URLs");
+                scriptContent = `
+                            window.interdeal = {
+                                "sitekey": "6cfed8cb261241405f4d153464c3fdbc",
+                                "Position": "left",
+                                "domains": {
+                                    "js": "https://cdn.equalweb.com/",
+                                    "acc": "https://access.equalweb.com/"
+                                },
+                                "Menulang": "es-MX",
+                                "btnStyle": {
+                                    "vPosition": ["80%", "80%"],
+                                    "scale": ["0.5", "0.5"],
+                                    "color": {
+                                        "main": "#1876c9",
+                                        "second": "#ffffff"
+                                    },
+                                    "icon": {
+                                        "outline": false,
+                                        "type": 1,
+                                        "shape": "circle"
+                                    }
+                                }
+                            };
+                            (function(doc, head, body){
+                                var coreCall = doc.createElement('script');
+                                coreCall.src = interdeal.domains.js + 'core/5.0.13/accessibility.js';
+                                coreCall.defer = true;
+                                coreCall.integrity = 'sha512-pk3CeR0KGJu+GfK2x2ybTSZ1o1qfua6XW2PRAxMWOhC85M3+CanPYmvRp6BOiW0/riZjWGerRN7+JH4wEF0wJQ==';
+                                coreCall.crossOrigin = 'anonymous';
+                                coreCall.setAttribute('data-cfasync', true);
+                                body ? body.appendChild(coreCall) : head.appendChild(coreCall);
+                            })(document, document.head, document.body);
+                        `;
+            }
+
+            // Insertar el script en el documento
+            const script = document.createElement("script");
+            script.textContent = scriptContent;
+            document.body.appendChild(script);
+        </script>
+        <app-root></app-root>
+    </body>
 </html>

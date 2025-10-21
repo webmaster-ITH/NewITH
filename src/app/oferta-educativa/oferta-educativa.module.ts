@@ -19,6 +19,7 @@ import { MecatronicaComponent } from './mecatronica/mecatronica.component';
 import { SistemasComponent } from './sistemas/sistemas.component';
 import { InformaticaComponent } from './informatica/informatica.component';
 import { GestionComponent } from './gestion/gestion.component';
+import { AdminOfComponent } from './admin/admin.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { GestionComponent } from './gestion/gestion.component';
     ElectricaComponent,
     NavbarCarreraComponent,
     AdminComponent,
+    AdminOfComponent,
     HomeComponent,
     NavbarComponent,
     ObjetivoComponent,
