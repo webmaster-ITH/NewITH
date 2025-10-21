@@ -14,6 +14,7 @@ const routes: Routes = [
   { path: 'oferta-educativa', loadChildren: () => import('./oferta-educativa/oferta-educativa.module').then(m => m.OfertaEducativaModule) },
   { path: 'comunidad', loadChildren: () => import('./comunidad/comunidad.module').then(m => m.ComunidadModule) },
   { path: 'privacidad', loadChildren: () => import('./privacidad/privacidad.module').then(m => m.PrivacidadModule) },
+  { path: 'Sitios', loadChildren: () => import('./sitios-interes/sitios-interes.module').then(m => m.SitiosInteresModule) },
   {
     path: 'institucion', loadChildren: () => import('./institucion/institucion.module').then(m => m.InstitucionModule)
   }

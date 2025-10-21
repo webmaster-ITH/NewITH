@@ -1,17 +1,20 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>Instituto Tecnológico de Hermosillo</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <meta name="google-adsense-account" content="ca-pub-5259865975776835">
+    <meta charset="utf-8">
+    <title>Instituto Tecnológico de Hermosillo</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="google-adsense-account" content="ca-pub-5259865975776835">
     <meta content="Sitio web oficial del instituto tecnológico de Hermosillo" name=description>
     <meta content="instituto, tecnológico, Hermosillo, ITH, ith" name=keywords>
     <link href=https://framework-gb.cdn.gob.mx/assets/styles/main.css rel=stylesheet>
     <link href=https://ith.mx/page.css rel=stylesheet>
     <link href="http://hermosillo.tecnm.mx/page.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="https://ith.mx/Incluir/Estilos/taps.css" />
+    <link rel="stylesheet" media="screen" href="https://ith.mx/contraloria-social.css" />
     <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js></script>
     <script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js></script>
     <script src=https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js></script>
@@ -299,15 +302,16 @@
         }
     </style>
 </head>
+
 <body>
-     <script>// Obtener el dominio de la URL actual
-            const currentURL = window.location.hostname;
+    <script>// Obtener el dominio de la URL actual
+        const currentURL = window.location.hostname;
 
-            let scriptContent = "";
+        let scriptContent = "";
 
-            if (currentURL === "hermosillo.tecnm.mx") {
-                console.log("Cargando script de accesibilidad para hermosillo.tecnm.mx");
-                scriptContent = `
+        if (currentURL === "hermosillo.tecnm.mx") {
+            console.log("Cargando script de accesibilidad para hermosillo.tecnm.mx");
+            scriptContent = `
                             window.interdeal = {
                                 "sitekey": "c8700d9cf950be63738668a48d457167",
                                 "Position": "Left",
@@ -341,9 +345,9 @@
                                 body ? body.appendChild(coreCall) : head.appendChild(coreCall);
                             })(document, document.head, document.body);
                         `;
-            } else {
-                console.log("Cargando script de accesibilidad por defecto para otras URLs");
-                scriptContent = `
+        } else {
+            console.log("Cargando script de accesibilidad por defecto para otras URLs");
+            scriptContent = `
                             window.interdeal = {
                                 "sitekey": "6cfed8cb261241405f4d153464c3fdbc",
                                 "Position": "left",
@@ -376,13 +380,14 @@
                                 body ? body.appendChild(coreCall) : head.appendChild(coreCall);
                             })(document, document.head, document.body);
                         `;
-            }
+        }
 
-            // Insertar el script en el documento
-            const script = document.createElement("script");
-            script.textContent = scriptContent;
-            document.body.appendChild(script);
-        </script>
-        <app-root></app-root>
-    </body>
+        // Insertar el script en el documento
+        const script = document.createElement("script");
+        script.textContent = scriptContent;
+        document.body.appendChild(script);
+    </script>
+    <app-root></app-root>
+</body>
+
 </html>
