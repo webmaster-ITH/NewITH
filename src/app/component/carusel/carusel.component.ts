@@ -163,7 +163,7 @@ export class CaruselComponent implements OnInit {
       openInNewTab: false
     },
     {
-      image: 'imagenes/WhatsApp Image 2025-06-10 at 11.58.17 AM.jpeg',
+      image: '../../imagenes/WhatsApp Image 2025-06-10 at 11.58.17 AM.jpeg',
       link: '/convocatorias/index.html',
       alt: 'Convocatorias',
       title: 'Convocatorias',
@@ -171,13 +171,13 @@ export class CaruselComponent implements OnInit {
       openInNewTab: false
     },
     {
-      image: 'imagenes/WhatsApp Image 2025-04-08 at 1.45.56 PM.jpeg',
+      image: '../../imagenes/WhatsApp Image 2025-04-08 at 1.45.56 PM.jpeg',
       alt: '',
       title: '',
       description: ''
     },
     {
-      image: 'imagenes/img convotaria 2025 proyecto de investigacion educativa.jpg',
+      image: '../../imagenes/img convotaria 2025 proyecto de investigacion educativa.jpg',
       downloadUrl: '/documentos/COMUNICADO INVESTIGACION EDUCATIVA (1).pdf',
       downloadFileName: 'COMUNICADO INVESTIGACION EDUCATIVA (1).pdf',
       alt: 'Investigación educativa',
@@ -185,13 +185,13 @@ export class CaruselComponent implements OnInit {
       description: 'Descarga el comunicado de investigación educativa'
     },
     {
-      image: 'imagenes/WhatsApp Image 2025-03-18 at 2.11.26 PM.jpeg',
+      image: '../../imagenes/WhatsApp Image 2025-03-18 at 2.11.26 PM.jpeg',
       alt: '',
       title: '',
       description: ''
     },
     {
-      image: 'imagenes/WhatsApp Image 2025-03-04 at 3.22.27 PM.jpeg',
+      image: '../../imagenes/WhatsApp Image 2025-03-04 at 3.22.27 PM.jpeg',
       link: '/convocatorias/index.html',
       alt: '',
       title: 'Convocatorias',
@@ -199,43 +199,43 @@ export class CaruselComponent implements OnInit {
       openInNewTab: false
     },
     {
-      image: 'imagenes/8Banner-Respeto_01.png',
+      image: '../../imagenes/8Banner-Respeto_01.png',
       alt: 'Respeto 01',
       title: 'Respeto',
       description: 'Campaña de respeto'
     },
     {
-      image: 'imagenes/8Banner-Respeto_02.png',
+      image: '../../imagenes/8Banner-Respeto_02.png',
       alt: 'Respeto 02',
       title: 'Respeto',
       description: 'Campaña de respeto'
     },
     {
-      image: 'imagenes/9Banner-Acoso_laboral_01 AVISO 9.png',
+      image: '../../imagenes/9Banner-Acoso_laboral_01 AVISO 9.png',
       alt: 'Acoso laboral 01',
       title: 'Acoso laboral',
       description: 'Aviso sobre acoso laboral'
     },
     {
-      image: 'imagenes/9Banner-Acoso_laboral_02.png',
+      image: '../../imagenes/9Banner-Acoso_laboral_02.png',
       alt: 'Acoso laboral 02',
       title: 'Acoso laboral',
       description: 'Aviso sobre acoso laboral'
     },
     {
-      image: 'imagenes/10Banner-reflexion_01.png',
+      image: '../../imagenes/10Banner-reflexion_01.png',
       alt: 'Reflexión 01',
       title: 'Reflexión',
       description: 'Mensaje de reflexión'
     },
     {
-      image: 'imagenes/10Banner-reflexion_02.png',
+      image: '../../imagenes/10Banner-reflexion_02.png',
       alt: 'Reflexión 02',
       title: 'Reflexión',
       description: 'Mensaje de reflexión'
     },
     {
-      image: 'imagenes/WhatsApp Image 2025-02-20 at 12.57.02 PM.jpeg',
+      image: '../../imagenes/WhatsApp Image 2025-02-20 at 12.57.02 PM.jpeg',
       downloadUrl: '/documentos/Este logo no solo conmemora los 50 anos del ITH.pdf',
       downloadFileName: 'Este logo no solo conmemora los 50 anos del ITH.pdf',
       alt: 'Logo 50 años ITH',
@@ -243,7 +243,7 @@ export class CaruselComponent implements OnInit {
       description: 'Descarga el comunicado conmemorativo'
     },
     {
-      image: 'imagenes/WhatsApp Image 2025-02-18 at 10.10.42 AM.jpeg',
+      image: '../../imagenes/WhatsApp Image 2025-02-18 at 10.10.42 AM.jpeg',
       link: 'https://www.tecnm.mx/archivos/anexos/POSICIONAMIENTO_CERO_TOLERANCIA_ACTOS_CORRUPCION_FIRMADO.pdf?pdf=132512',
       alt: 'Cero tolerancia corrupción',
       title: 'Cero tolerancia',
@@ -251,7 +251,7 @@ export class CaruselComponent implements OnInit {
       openInNewTab: true
     },
     {
-      image: 'imagenes/WhatsApp Image 2025-02-11 at 5.10.17 PM.jpeg',
+      image: '../../imagenes/WhatsApp Image 2025-02-11 at 5.10.17 PM.jpeg',
       link: '/convocatorias/index.html',
       alt: '',
       title: 'Convocatorias',
@@ -259,13 +259,13 @@ export class CaruselComponent implements OnInit {
       openInNewTab: false
     },
     {
-      image: 'imagenes/475850167_1076620044267098_3884819740472580519_n.jpg',
+      image: '../../imagenes/475850167_1076620044267098_3884819740472580519_n.jpg',
       alt: '',
       title: '',
       description: ''
     },
     {
-      image: 'imagenes/WhatsApp Image 2024-11-15 at 12.41.44 PM.jpeg',
+      image: '../../imagenes/WhatsApp Image 2024-11-15 at 12.41.44 PM.jpeg',
       downloadUrl: '/documentos/Derecho a licencia de paternidad.rar',
       downloadFileName: 'Derecho a licencia de paternidad.rar',
       alt: 'Licencia de paternidad',
@@ -273,7 +273,7 @@ export class CaruselComponent implements OnInit {
       description: 'Descarga el documento de derecho a licencia'
     },
     {
-      image: 'imagenes/WhatsApp Image 2024-11-06 at 5.56.32 PM.jpeg',
+      image: '../../imagenes/WhatsApp Image 2024-11-06 at 5.56.32 PM.jpeg',
       link: 'https://forms.office.com/r/pEHaLXDxgs',
       alt: 'Formulario Office',
       title: 'Formulario Office',
@@ -281,13 +281,13 @@ export class CaruselComponent implements OnInit {
       openInNewTab: true
     },
     {
-      image: 'imagenes/WhatsApp Image 2024-06-05 at 5.04.38 PM.jpeg',
+      image: '../../imagenes/WhatsApp Image 2024-06-05 at 5.04.38 PM.jpeg',
       alt: '',
       title: '',
       description: ''
     },
     {
-      image: 'imagenes/WhatsApp Image 2023-12-14 at 1.35.13 PM.jpeg',
+      image: '../../imagenes/WhatsApp Image 2023-12-14 at 1.35.13 PM.jpeg',
       link: 'https://linktr.ee/TecnologicoNacionaldeMexico',
       alt: 'TecNM Linktree',
       title: 'TecNM Linktree',
@@ -295,7 +295,7 @@ export class CaruselComponent implements OnInit {
       openInNewTab: true
     },
     {
-      image: 'imagenes/Egresados (2).png',
+      image: '../../imagenes/Egresados (2).png',
       link: 'https://hermosillo.tecnm.mx/EGRESADO%20LICENCIATURA%20Y%20POSGRADO.html',
       alt: 'Egresados',
       title: 'Egresados',
@@ -303,7 +303,7 @@ export class CaruselComponent implements OnInit {
       openInNewTab: true
     },
     {
-      image: 'imagenes/Empleadores 2.png',
+      image: '../../imagenes/Empleadores 2.png',
       link: 'https://hermosillo.tecnm.mx/EMPLEADOR.html',
       alt: 'Empleadores',
       title: 'Empleadores',

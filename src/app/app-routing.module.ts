@@ -13,6 +13,7 @@ const routes: Routes = [
   { path: 'iso', component: IsoComponent },
   { path: 'oferta-educativa', loadChildren: () => import('./oferta-educativa/oferta-educativa.module').then(m => m.OfertaEducativaModule) },
   { path: 'comunidad', loadChildren: () => import('./comunidad/comunidad.module').then(m => m.ComunidadModule) },
+  { path: 'privacidad', loadChildren: () => import('./privacidad/privacidad.module').then(m => m.PrivacidadModule) },
   {
     path: 'institucion', loadChildren: () => import('./institucion/institucion.module').then(m => m.InstitucionModule)
   }

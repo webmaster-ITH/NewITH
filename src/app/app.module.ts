@@ -18,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ConvocatoriasComponent } from './page/convocatorias/convocatorias.component';
 import { NavbarCarreraComponent } from './component/shared/navbar-carrera/navbar-carrera.component';
 import { IsoComponent } from './pages/iso/iso.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,9 @@ import { IsoComponent } from './pages/iso/iso.component';
     AppRoutingModule,
     HttpClientModule,
   ],
-  providers: [],
+  providers: [
+    {provide: LocationStrategy, useClass: HashLocationStrategy}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
