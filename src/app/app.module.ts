@@ -19,6 +19,9 @@ import { ConvocatoriasComponent } from './page/convocatorias/convocatorias.compo
 import { NavbarCarreraComponent } from './component/shared/navbar-carrera/navbar-carrera.component';
 import { IsoComponent } from './pages/iso/iso.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { U079Component } from './pages/u079/u079.component';
+import { SGIGComponent } from './pages/sgig/sgig.component';
+import { VideosComponent } from './pages/videos/videos.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +39,9 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     NotaComponent,
     ConvocatoriasComponent,
     IsoComponent,
+    U079Component,
+    SGIGComponent,
+    VideosComponent,
   ],
   imports: [
     BrowserModule,

@@ -8,6 +8,9 @@ import { CodigoEticaComponent } from './pages/codigo-etica/codigo-etica.componen
 import { ContraloresSocialesComponent } from './pages/contralores-sociales/contralores-sociales.component';
 import { CiieComponent } from './pages/ciie/ciie.component';
 import { MaterialServidoresPublicosComponent } from './pages/material-servidores-publicos/material-servidores-publicos.component';
+import { ProcesoComponent } from './pages/proceso/proceso.component';
+import { RecursoComponent } from './pages/recurso/recurso.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
 
 
 @NgModule({
@@ -17,7 +20,10 @@ import { MaterialServidoresPublicosComponent } from './pages/material-servidores
     CodigoEticaComponent,
     ContraloresSocialesComponent,
     CiieComponent,
-    MaterialServidoresPublicosComponent
+    MaterialServidoresPublicosComponent,
+    ProcesoComponent,
+    RecursoComponent,
+    ContactoComponent
   ],
   imports: [
     CommonModule,

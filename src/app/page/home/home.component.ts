@@ -11,6 +11,15 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
+  ngAfterViewInit() {
+    // Espera un momento para asegurar que el DOM esté listo
+    setTimeout(() => {
+      if ((window as any).FB && (window as any).FB.XFBML) {
+        (window as any).FB.XFBML.parse(); // 👈 Reprocesa el contenedor fb-page
+      }
+    }, 500);
+  }
+  
   ngOnInit(): void {
   }
 

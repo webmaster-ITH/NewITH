@@ -4,6 +4,9 @@ import { HomeComponent } from './page/home/home.component';
 import { NotaComponent } from './page/nota/nota.component';
 import { ConvocatoriasComponent } from './page/convocatorias/convocatorias.component';
 import { IsoComponent } from './pages/iso/iso.component';
+import { U079Component } from './pages/u079/u079.component';
+import { SGIGComponent } from './pages/sgig/sgig.component';
+import { VideosComponent } from './pages/videos/videos.component';
 
 const routes: Routes = [
    { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -11,6 +14,9 @@ const routes: Routes = [
   { path: 'noticia/:id', component: NotaComponent },
   { path: 'convocatorias', component: ConvocatoriasComponent },
   { path: 'iso', component: IsoComponent },
+  { path: 'U079', component: U079Component },
+  { path: 'Videos', component: VideosComponent },
+  { path: 'SGIG', component: SGIGComponent },
   { path: 'oferta-educativa', loadChildren: () => import('./oferta-educativa/oferta-educativa.module').then(m => m.OfertaEducativaModule) },
   { path: 'comunidad', loadChildren: () => import('./comunidad/comunidad.module').then(m => m.ComunidadModule) },
   { path: 'privacidad', loadChildren: () => import('./privacidad/privacidad.module').then(m => m.PrivacidadModule) },
