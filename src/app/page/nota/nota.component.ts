@@ -11,6 +11,7 @@ export class NotaComponent implements OnInit {
   id: number = 0;
   nota: any;
   albums: any[] = [];
+  imagenSeleccionada: any = null;
 
   constructor(private notasService: NotasService, private route: ActivatedRoute) { }
 

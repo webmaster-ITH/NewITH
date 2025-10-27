@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 export interface CarouselSlide {
   image: string;
   title: string;
@@ -38,7 +39,7 @@ export class CaruselComponent implements OnInit {
     },
     {
       image: 'https://ith.mx/imagenes/WhatsApp Image 2025-09-09 at 12.18.32_2a648a40.jpg',
-      link: 'https://ith.mx/convocatorias/index.html',
+      link: '/convocatorias',
       alt: 'Convocatorias',
       title: 'Convocatorias',
       description: 'Consulta convocatorias recientes',
@@ -118,7 +119,7 @@ export class CaruselComponent implements OnInit {
     },
     {
       image: 'https://ith.mx/imagenes/WhatsApp Image 2025-08-08 at 11.52.01_e4efa1e1.jpg',
-      link: 'https://ith.mx/pasos-nuevo-ingreso.html',
+      link: '/pasos-nuevo-ingreso',
       alt: 'Pasos nuevo ingreso',
       title: 'Nuevo Ingreso',
       description: 'Conoce los pasos para nuevo ingreso',
@@ -126,7 +127,7 @@ export class CaruselComponent implements OnInit {
     },
     {
       image: 'https://ith.mx/imagenes/WhatsApp Image 2025-08-01 at 13.09.29_d0a7bfc1.jpg',
-      link: 'https://ith.mx/reinscripciones.html',
+      link: '/reinscripciones',
       alt: 'Reinscripciones',
       title: 'Reinscripciones',
       description: 'Información sobre reinscripciones',
@@ -140,7 +141,7 @@ export class CaruselComponent implements OnInit {
     },
     {
       image: 'https://ith.mx/imagenes/WhatsApp Image 2025-06-23 at 3.09.33 PM.jpeg',
-      link: 'https://ith.mx/convocatorias/index.html',
+      link: '/convocatorias',
       alt: '',
       title: 'Convocatorias',
       description: 'Convocatorias recientes',
@@ -148,7 +149,7 @@ export class CaruselComponent implements OnInit {
     },
     {
       image: 'https://ith.mx/imagenes/e1d88a2f-75a5-4209-beac-a1286e27d6e5.jpeg',
-      link: 'https://ith.mx/convocatorias/index.html',
+      link: '/convocatorias',
       alt: '',
       title: 'Convocatorias',
       description: 'Convocatorias activas',
@@ -156,7 +157,7 @@ export class CaruselComponent implements OnInit {
     },
     {
       image: 'https://ith.mx/imagenes/WhatsApp Image 2025-06-16 at 11.51.31 AM.jpeg',
-      link: 'https://ith.mx/avisos-adicionales.html',
+      link: '/avisos-adicionales',
       alt: 'Avisos adicionales',
       title: 'Avisos adicionales',
       description: 'Consulta avisos recientes',
@@ -164,7 +165,7 @@ export class CaruselComponent implements OnInit {
     },
     {
       image: '../../imagenes/WhatsApp Image 2025-06-10 at 11.58.17 AM.jpeg',
-      link: '/convocatorias/index.html',
+      link: '/convocatorias',
       alt: 'Convocatorias',
       title: 'Convocatorias',
       description: 'Consulta las convocatorias',
@@ -192,7 +193,7 @@ export class CaruselComponent implements OnInit {
     },
     {
       image: '../../imagenes/WhatsApp Image 2025-03-04 at 3.22.27 PM.jpeg',
-      link: '/convocatorias/index.html',
+      link: '/convocatorias',
       alt: '',
       title: 'Convocatorias',
       description: 'Convocatorias activas',
@@ -252,7 +253,7 @@ export class CaruselComponent implements OnInit {
     },
     {
       image: '../../imagenes/WhatsApp Image 2025-02-11 at 5.10.17 PM.jpeg',
-      link: '/convocatorias/index.html',
+      link: '/convocatorias',
       alt: '',
       title: 'Convocatorias',
       description: 'Convocatorias recientes',
@@ -312,7 +313,6 @@ export class CaruselComponent implements OnInit {
     }
   ];
 
-
   ngOnInit() {
     this.startAutoPlay();
   }
@@ -351,12 +351,34 @@ export class CaruselComponent implements OnInit {
     return `translateX(-${this.currentSlide * 100}%)`;
   }
 
-  onSlideClick(slide: CarouselSlide) {
+  // Determinar si es URL externa
+  isExternalUrl(url: string): boolean {
+    if (!url) return false;
+    return url.startsWith('http://') || url.startsWith('https://') || url.startsWith('www.');
+  }
+
+  // Determinar si es ruta interna
+  isInternalRoute(url: string): boolean {
+    if (!url) return false;
+    return url.startsWith('/') && !url.endsWith('.html') && !url.endsWith('.pdf');
+  }
+
+  onSlideClick(slide: CarouselSlide, event: Event) {
+    // Si es un download, manejarlo directamente
     if (slide.downloadUrl) {
+      event.preventDefault();
       this.downloadFile(slide.downloadUrl, slide.downloadFileName);
-    } else if (slide.link) {
-      this.navigateToLink(slide.link, slide.openInNewTab);
+      return;
     }
+
+    // Si no hay link, no hacer nada
+    if (!slide.link || slide.link === '#') {
+      event.preventDefault();
+      return;
+    }
+
+    // Para URLs externas o archivos .html, dejar que el href lo maneje
+    // No hacer nada aquí, el navegador se encargará
   }
 
   downloadFile(url: string, fileName?: string) {
@@ -367,14 +389,6 @@ export class CaruselComponent implements OnInit {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-  }
-
-  navigateToLink(url: string, openInNewTab?: boolean) {
-    if (openInNewTab) {
-      window.open(url, '_blank');
-    } else {
-      window.location.href = url;
-    }
   }
 
   hasAction(slide: CarouselSlide): boolean {

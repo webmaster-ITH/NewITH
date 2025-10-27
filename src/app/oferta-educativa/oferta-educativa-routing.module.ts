@@ -22,7 +22,7 @@ import { NucleoComponent } from './maestria/components/nucleo/nucleo.component';
 import { ProductividadComponent } from './maestria/components/productividad/productividad.component';
 import { AplicacionComponent } from './maestria/components/aplicacion/aplicacion.component';
 import { EstudianteComponent } from './maestria/components/estudiante/estudiante.component';
-import { ConvocatoriasComponent } from '../page/convocatorias/convocatorias.component';
+import { ConvocatoriaComponent } from './maestria/components/convocatoria/convocatoria.component';
 
 const routes: Routes = [
   {path:'',
@@ -49,7 +49,7 @@ const routes: Routes = [
       { path:'Productividad', component: ProductividadComponent},
       { path:'Aplicaciones', component: AplicacionComponent},
       { path:'Estudiantes', component: EstudianteComponent},
-      { path:'Convocatorias', component: ConvocatoriasComponent},
+      { path:'Convocatorias', component: ConvocatoriaComponent},
     ]
   },
 
