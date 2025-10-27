@@ -1,1 +1,769 @@
-<p>estudiante works!</p>
+ <div class="row">
+        <script>
+            /*
+            
+            Want to customize your button? visit our documentation page:
+            
+            https://login.equalweb.com/custom-button.taf
+            
+            */
+            window.interdeal = {
+                "sitekey": "c8700d9cf950be63738668a48d457167",
+                "Position": "Left",
+                "domains": {
+                    "js": "https://cdn.equalweb.com/",
+                    "acc": "https://access.equalweb.com/"
+                },
+                "Menulang": "es-MX",
+                "showTooltip": true,
+                "btnStyle": {
+                    "vPosition": [
+                        "80%",
+                        "80%"
+                    ],
+                    "scale": [
+                        "0.5",
+                        "0.5"
+                    ],
+                    "color": {
+                        "main": "#1876c9",
+                        "second": "#ffffff"
+                    },
+                    "icon": {
+                        "outline": false,
+                        "type": 1,
+                        "shape": "circle"
+                    }
+                }
+            };
+            (function (doc, head, body) {
+                var coreCall = doc.createElement('script');
+                coreCall.src = interdeal.domains.js + 'core/5.0.9/accessibility.js';
+                coreCall.defer = true;
+                coreCall.integrity = 'sha512-dxjHZQgpVIG70EQus4+1KR3oj2KGyrtwR/nr4lY+tcMjrQ1Yb9V1SCKNVLGhD3CcPMgANKAqOk4ldI8WWNnQTw==';
+                coreCall.crossOrigin = 'anonymous';
+                coreCall.setAttribute('data-cfasync', true);
+                body ? body.appendChild(coreCall) : head.appendChild(coreCall);
+            })(document, document.head, document.body);
+        </script>
+        <div class="col-md-12">
+            <!------CONTENIDO-------->
+            <div class="col-md-12">
+                <h2 class="tnota">MAESTRÍA EN ADMINISTRACIÓN <br> ALUMNOS MATRICULADOS</h2>
+            </div>
+
+            <div class="col-md-12">
+                <div class="col-md-7">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Cohorte</th>
+                                <th>Estado</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tabla-body">
+                            <!-- Los datos se insertarán aquí con JavaScript -->
+                            <tr *ngFor="let estudiante of estudiantes">
+                                <td>{{ estudiante.Nombre }}</td>
+                                <td>{{ estudiante.Cohorte }}</td>
+                                <td class="${estudiante.estado.toLowerCase()}">{{ estudiante.estado }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                
+
+
+                <!-- <div class="col-md-9">
+                            <div class="container col-md-12">
+
+                                <div class="panel-group" id="accordion">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion"
+                                                    href="#g2017">Generación 2017</a>
+                                            </h4>
+                                        </div>
+                                        <div id="g2017" class="panel-collapse collapse in">
+                                            <div class="panel-body">
+                                                <table class="table table-bordered">
+                                                    <tr>
+
+                                                        <th>Estudiante</th>
+                                                        <th>Tesis</th>
+                                                        <th>Estado</th>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Durazo Ruiz Sandra Marbrisa
+                                                        </td>
+                                                        <td>
+                                                            Revisión de estandarización para elevar la productividad en
+                                                            el departamento de materiales en Lear Hermosillo
+
+                                                        </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Egurrola Cárdenas Cesar
+                                                        </td>
+                                                        <td>
+                                                            Benchmarking como estrategia en la ejecución del sistema
+                                                            productivo de Ford (FPS). Caso: proceso de confirmación en
+                                                            planta Ford Hermosillo
+                                                        </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Espinoza Bracamontes Jose Rafael
+                                                        </td>
+                                                        <td>
+                                                            Implementación de la administración estratégica como
+                                                            herramienta de expansión de mercados de una empresa de
+                                                            productos de maíz
+
+                                                        </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Garcia Borbon Maria Alejandra
+                                                        </td>
+                                                        <td>
+                                                            Análisis del liderazgo como estrategia de mejora del clima
+                                                            laboral en el área administrativa de TUM agencia Hermosillo
+                                                            . </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Garcia Meza Ilse Guadalupe
+                                                        </td>
+                                                        <td>
+                                                            Implementación de un plan estratégico en una organización
+                                                            sin fines de lucro con el propósito de buscar el crecimiento
+                                                            . </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Rivera Esquer Ruth Carolina
+                                                        </td>
+                                                        <td>
+                                                            Herramientas administrativas para estructurar y organizar el
+                                                            departamento de servicios generales de una institución
+                                                            financiera (caso de estudio)
+                                                            . </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Torres Coronado Daniel Antonio
+                                                        </td>
+                                                        <td>
+                                                            Optimización de la cadena de suministro como estrategia para
+                                                            elevar la competitividad de una empresa productora de harina
+                                                            en la ciudad de Hermosillo, son.
+                                                            . </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Urrea Huerta Jennifer
+                                                        </td>
+                                                        <td>
+                                                            Plan estratégico para lograr ventajas competitivas en una
+                                                            pyme en desarrollo. Caso de estudio
+                                                            . </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Vazquez Medina Vanessa
+                                                        </td>
+                                                        <td>
+                                                            Estandarización de procedimientos para la correcta
+                                                            administración del área de servicios en la empresa ECN
+                                                            . </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion"
+                                                    href="#g2016">Generación 2016</a>
+                                            </h4>
+                                        </div>
+                                        <div id="g2016" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <table class="table table-bordered">
+                                                    <tr>
+
+                                                        <th>Estudiante</th>
+                                                        <th>Tesis</th>
+                                                        <th>Estado</th>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Agundez Gauthereau Guadalupe Aaron
+                                                        </td>
+                                                        <td>
+                                                            Diseño de un modelo de sistema de información gerencial para
+                                                            el desarrollo de ventaja competitiva en el sector hotelero
+                                                            de Hermosillo, son.
+                                                        </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Arballo Garcia Ana Maria
+                                                        </td>
+                                                        <td>
+                                                            Comercialización de productos regionales. Caso cooperativo
+                                                            de productos y servicios del río sonora
+                                                        </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Bañuelos Castillo Jose Manuel
+                                                        </td>
+                                                        <td>
+                                                            Determinación de un plan estratégico utilizando Balanced
+                                                            Scorecard para reducir el tiempo de cobro de facturas en
+                                                            empresa manufacturera
+                                                        </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Casillas Enriquez Ivan Alejandro
+                                                        </td>
+                                                        <td>
+                                                            Implementación del desarrollo organizacional de la
+                                                            estructura del Center of Excellent (COE) de fibra óptica de
+                                                            la compañía NAI
+
+                                                            . </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Cruz Molina Karla Daniela
+                                                        </td>
+                                                        <td>
+                                                            La motivación como factor para mejorar el clima
+                                                            organizacional en una empresa de servicios de Hermosillo
+                                                            . </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Durazo Mendez Juan Hector
+                                                        </td>
+                                                        <td>
+                                                            Aumento de productividad en almacén de refacciones en la
+                                                            empresa Leoni
+
+                                                            . </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Durazo Mendez Karla Lucia
+                                                        </td>
+                                                        <td>
+                                                            Implementación de técnicas de relajación, como estrategia de
+                                                            atenuación del estrés mecánico, en la región del grupo
+                                                            muscular mano-muñeca cuando se realiza trabajo repetitivo.
+
+                                                        </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Godinez Almaraz Miryam Fernanda
+                                                        </td>
+                                                        <td>
+                                                            Diseño de una estrategia de mercadotecnia integral. El caso
+                                                            de cooperativa de productos y servicios del río sonora
+
+                                                        </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Gomez Pesqueira Javier Ernesto
+                                                        </td>
+                                                        <td>
+                                                            Los sistemas de información para la administración como
+                                                            mecanismo del proceso de control de proyectos de una empresa
+                                                            de automatización industrial
+                                                        </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Guevara Valenzuela Alejandra
+                                                        </td>
+                                                        <td>
+                                                            El factor innovación en la competitividad de las pymes de la
+                                                            industria alimentaria en la ciudad de Hermosillo
+                                                        </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Lagarda Ciscomani Rafael
+                                                        </td>
+                                                        <td>
+                                                            Factores que intervienen en la rotación de personal en la
+                                                            planta Leoni Wiring Systems de Hermosillo, sonora.
+                                                        </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Lizarraga Diaz Karime Jazmin
+                                                        </td>
+                                                        <td>
+                                                            Elevar la productividad mediante la implementación de un
+                                                            programa de capacitación por competencias. Caso
+                                                            Proautomation
+                                                        </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Lozano Torres Elizabeth
+                                                        </td>
+                                                        <td>
+                                                            Segregación ocupacional por género en grandes y medianas
+                                                            empresas de Hermosillo.
+                                                        </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Moroyoqui Ortiz Liliana Sughey
+                                                        </td>
+                                                        <td>
+                                                            Estrategias para incrementar la competitividad de una
+                                                            empresa avícola del estado de sonora utilizando la
+                                                            inteligencia competitiva
+                                                        </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Perez Abril Carolina Del Carmen
+                                                        </td>
+                                                        <td>
+                                                            Modelo de reclutamiento de personal docente para la UNIDEP
+                                                        </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+
+                                                    <tr>
+                                                        <td>
+                                                            Preciado Leon Julia Graciela
+                                                        </td>
+                                                        <td>
+                                                            Factores actitudinales que afectan el nivel de desempeño
+                                                            laboral de los docentes del ITH
+                                                        </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+
+                                                    <tr>
+                                                        <td>
+                                                            Rivera Ramirez Daniel Fernando
+                                                        </td>
+                                                        <td>
+                                                            Gestión Administrativa para un sistema de mantenimiento
+                                                            predictivo en la empresa ESAB, planta Hermosillo.
+                                                        </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Zarco Peña Brenda Lucero
+                                                        </td>
+                                                        <td>
+                                                            Factores que influyen en el clima laboral del archivo
+                                                            general del instituto sonorense de infraestructura educativa
+                                                        </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+                                                </table>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion"
+                                                    href="#g2015">Generación 2015</a>
+                                            </h4>
+                                        </div>
+                                        <div id="g2015" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <table class="table table-bordered">
+                                                    <tr>
+
+                                                        <th>Estudiante</th>
+                                                        <th>Tesis</th>
+                                                        <th>Estado</th>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Acuña Soto Luis Manuel
+                                                        </td>
+                                                        <td>
+                                                            Identificar los factores que inciden en la elaboración de
+                                                            una estrategia de ventas de la empresa Proautomation
+                                                            Engineering Development
+                                                        </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Arguello Carrillo Antonio
+                                                        </td>
+                                                        <td>
+                                                            Elaborar manual para definir criterios de certificación del
+                                                            instituto tecnológico de Hermosillo ante conocer en la
+                                                            aplicación del estándar ec-0533
+
+                                                        </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Bermúdez Tapia Diana Fátima
+                                                        </td>
+                                                        <td>
+                                                            Identificar la problemática de liderazgo de las áreas de
+                                                            gerencia y mando medios, con el fin elaborar y evaluar
+                                                            programas de capacitación que impactara en los logros de los
+                                                            equipos de trabajo
+
+                                                        </td>
+                                                        <td>
+                                                            En proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Escalante Duarte Abraham
+                                                        </td>
+                                                        <td>
+                                                            Impacto de la cultura organizacional en el proceso de
+                                                            realización del mantenimiento preventivo total TPM en la
+                                                            empresa magna Cosma International de Hermosillo, sonora
+
+
+                                                            . </td>
+                                                        <td>
+                                                            Titulado julio 2017
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Estrada Sanchez Jose Antonio
+                                                        </td>
+                                                        <td>
+                                                            La inteligencia competitiva como estrategia para elevar la
+                                                            competitividad de una empresa productora de cal en el estado
+                                                            de sonora
+
+                                                            . </td>
+                                                        <td>
+                                                            Titulado Julio 2017
+
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Flores Tarazon Gloria Maria
+                                                        </td>
+                                                        <td>
+                                                            Plan estratégico para promover productos orgánicos locales
+                                                            en la ciudad de Hermosillo Sonora
+                                                        </td>
+                                                        <td>
+                                                            Titulado enero 2018
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Garcia Franco Marcos Hiram
+                                                        </td>
+                                                        <td>
+                                                            Factores metodológicos que interaccionan en los sistemas de
+                                                            inspección de calidad de iac Hermosillo
+
+                                                        </td>
+                                                        <td>
+                                                            En Proceso
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Garcia Tarazon Rosalba Elizabeth
+                                                        </td>
+                                                        <td>
+                                                            Impacto del sistema de gestión de calidad ISO 9001:2008 en
+                                                            las organizaciones sonorenses
+                                                        </td>
+                                                        <td>
+                                                            Titulado Julio 2017
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Gaviña Zepeda Karla Lorena
+                                                        </td>
+                                                        <td>
+                                                            Medir el impacto de la implementación de un programa de
+                                                            evaluación de egresados, que conforman la bolsa de trabajo
+                                                            de ITH, con la finalidad de facilitar su inserción en el
+                                                            mercado laboral
+                                                        </td>
+                                                        <td>
+                                                            En Proceso
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Lizarraga Ávila Natalia Alicia
+                                                        </td>
+                                                        <td>
+                                                            Impacto del liderazgo en las variables de productividad y
+                                                            competitividad de un segmento de producción SG03 de la
+                                                            empresa Leoni Wiring Systems BU-SI
+                                                        </td>
+                                                        <td>
+                                                            Titulado Junio 2017
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Morales Miranda Jesus Arnulfo
+                                                        </td>
+                                                        <td>
+                                                            Diagnóstico de los factores endógenos que afectan clima
+                                                            laboral en el área de comunicación social del h.
+                                                            Ayuntamiento de Hermosillo
+                                                        </td>
+                                                        <td>
+                                                            Titulado enero 2018
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Moreno Lugo Sara Guadalupe
+                                                        </td>
+                                                        <td>
+                                                            Diseñar un modelo de equipo de alto rendimiento como
+                                                            herramienta de mejora en el proceso de control de
+                                                            inventarios en distribuciones Delpac
+                                                        </td>
+                                                        <td>
+                                                            En Proceso
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Perez Alvarado Liliana Patricia
+                                                        </td>
+                                                        <td>
+                                                            Medir el efecto que tiene el programa de inducción utilizado
+                                                            en el instituto tecnológico de Hermosillo, en el desempeño
+                                                            laboral de los docentes de nuevo ingreso
+                                                        </td>
+                                                        <td>
+                                                            En Proceso
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Retes Rodriguez Daniel Horacio
+                                                        </td>
+                                                        <td>
+                                                            Diseño de un procedimiento para identificar y diagnosticar
+                                                            los factores humanos que influyen en los procesos de
+                                                            inspección de calidad en iac Hermosillo
+                                                        </td>
+                                                        <td>
+                                                            En Proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Torres Holguin Marco Antonio
+                                                        </td>
+                                                        <td>
+                                                            Estrategias para el desarrollo del capital humano, que
+                                                            impulse la competitividad en las pymes del ramo de la
+                                                            construcción, en la región de Hermosillo, Sonora
+                                                        </td>
+                                                        <td>
+                                                            Titulado enero 2018
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Valenzuela Gonzalez Maricela Alejandra
+                                                        </td>
+                                                        <td>
+                                                            Evaluación y análisis el estado actual de las empresas del
+                                                            ramo de pastelería en Hermosillo Sonora
+                                                        </td>
+                                                        <td>
+                                                            En Proceso
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Valenzuela Jimenez Alejandra Edith
+                                                        </td>
+                                                        <td>
+                                                            Diseño de un modelo de gestión ambiental en el instituto
+                                                            tecnológico de Hermosillo.
+                                                        </td>
+                                                        <td>
+                                                            En Proceso
+                                                        </td>
+                                                    </tr>
+                                                </table>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div> -->
+                <div class="col-md-3">
+                    <div class="col-md-12">
+                       <app-navbar></app-navbar>
+                        <!--<div class="col-md-12 img-responsive text-center" style="margin-top:20px;">
+                                <img src="conacyt-pnpc.png">
+                        </div>-->
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+            <!------------------------------------>
+            <!--------END CONTENIDO-->
+        </div>
+    </div>

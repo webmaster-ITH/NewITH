@@ -15,6 +15,14 @@ import { SistemasComponent } from './sistemas/sistemas.component';
 import { InformaticaComponent } from './informatica/informatica.component';
 import { GestionComponent } from './gestion/gestion.component';
 import { AdminOfComponent } from './admin/admin.component';
+import { PlanComponent } from './maestria/components/plan/plan.component';
+import { PerfilComponent } from './maestria/components/perfil/perfil.component';
+import { InversionComponent } from './maestria/components/inversion/inversion.component';
+import { NucleoComponent } from './maestria/components/nucleo/nucleo.component';
+import { ProductividadComponent } from './maestria/components/productividad/productividad.component';
+import { AplicacionComponent } from './maestria/components/aplicacion/aplicacion.component';
+import { EstudianteComponent } from './maestria/components/estudiante/estudiante.component';
+import { ConvocatoriasComponent } from '../page/convocatorias/convocatorias.component';
 
 const routes: Routes = [
   {path:'',
@@ -31,9 +39,17 @@ const routes: Routes = [
       { path: 'Sistemas', component: SistemasComponent },
       { path: 'Informatica', component: InformaticaComponent },
       { path: 'Gestion', component: GestionComponent },
-      
+      //rutas de maestria admin
       { path:'Maestria-Admin', component: AdminComponent},
-      { path:'Objetivos', component: ObjetivoComponent}
+      { path:'Objetivos', component: ObjetivoComponent},
+      { path:'Plan', component: PlanComponent},
+      { path:'Perfil', component: PerfilComponent},
+      { path:'Inversion', component: InversionComponent},
+      { path:'Nucleo', component: NucleoComponent},
+      { path:'Productividad', component: ProductividadComponent},
+      { path:'Aplicaciones', component: AplicacionComponent},
+      { path:'Estudiantes', component: EstudianteComponent},
+      { path:'Convocatorias', component: ConvocatoriasComponent},
     ]
   },
 

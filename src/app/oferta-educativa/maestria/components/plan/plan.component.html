@@ -1,1 +1,108 @@
-<p>plan works!</p>
+<div class="row">
+    <script>
+        /*
+        
+        Want to customize your button? visit our documentation page:
+        
+        https://login.equalweb.com/custom-button.taf
+        
+        */
+        window.interdeal = {
+            "sitekey": "c8700d9cf950be63738668a48d457167",
+            "Position": "Left",
+            "domains": {
+                "js": "https://cdn.equalweb.com/",
+                "acc": "https://access.equalweb.com/"
+            },
+            "Menulang": "es-MX",
+            "showTooltip": true,
+            "btnStyle": {
+                "vPosition": [
+                    "80%",
+                    "80%"
+                ],
+                "scale": [
+                    "0.5",
+                    "0.5"
+                ],
+                "color": {
+                    "main": "#1876c9",
+                    "second": "#ffffff"
+                },
+                "icon": {
+                    "outline": false,
+                    "type": 1,
+                    "shape": "circle"
+                }
+            }
+        };
+        (function (doc, head, body) {
+            var coreCall = doc.createElement('script');
+            coreCall.src = interdeal.domains.js + 'core/5.0.9/accessibility.js';
+            coreCall.defer = true;
+            coreCall.integrity = 'sha512-dxjHZQgpVIG70EQus4+1KR3oj2KGyrtwR/nr4lY+tcMjrQ1Yb9V1SCKNVLGhD3CcPMgANKAqOk4ldI8WWNnQTw==';
+            coreCall.crossOrigin = 'anonymous';
+            coreCall.setAttribute('data-cfasync', true);
+            body ? body.appendChild(coreCall) : head.appendChild(coreCall);
+        })(document, document.head, document.body);
+    </script>
+    <div class="col-md-12">
+        <!------CONTENIDO-------->
+        <div class="col-md-12">
+            <h2 class="tnota">MAESTRÍA EN ADMINISTRACIÓN <br> PLAN DE ESTUDIOS</h2>
+        </div>
+
+        <div class="col-md-12">
+            <div class="col-md-9">
+                <div>
+                    <strong>Mapa Curricular</strong>
+                    <br>
+                    El plan de estudios de la Maestría en Administración, alineado con los lineamientos del Tecnológico
+                    Nacional de México, tiene las siguientes características:
+                    <br>
+                    • Duración: 24 meses.
+                    <br>
+                    • Período lectivo: Semestral.
+                    <br>
+                    • Ingreso: Anual, en agosto.
+                    <br>
+                    El programa se organiza en tres componentes principales:
+                    <br>
+                    1. Asignaturas básicas: De carácter obligatorio.
+                    <br>
+                    2. Asignaturas de línea de investigación: Enfocadas en apoyar el desarrollo de la tesis.
+                    <br>
+                    3. Proyecto de investigación: Culmina en la elaboración de la tesis de grado.
+                    <br>
+
+                    <br>
+                <div class="col-md-12">
+                    <div>
+                        <img src="../../imagenes/maestira ma 2025-1.png" class="img-responsive" style="max-width:100%;">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div>
+                        <img src="../../imagenes/maestira ma 2025-1-1.png" class="img-responsive"
+                            style="max-width:100%;">
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="col-md-12">
+                   <app-navbar></app-navbar>
+                </div>
+                <!--<div class="col-md-12 img-responsive text-center" style="margin-top:20px;">
+                                        <img src="conacyt-pnpc.png">
+                                </div>-->
+
+            </div>
+        </div>
+
+
+
+        <!------------------------------------>
+        <!--------END CONTENIDO-->
+    </div>
+</div>

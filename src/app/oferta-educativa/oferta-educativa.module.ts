@@ -26,6 +26,7 @@ import { ProductividadComponent } from './maestria/components/productividad/prod
 import { AplicacionComponent } from './maestria/components/aplicacion/aplicacion.component';
 import { EstudianteComponent } from './maestria/components/estudiante/estudiante.component';
 import { ConvocatoriaComponent } from './maestria/components/convocatoria/convocatoria.component';
+import { NucleoComponent } from './maestria/components/nucleo/nucleo.component';
 
 
 @NgModule({
@@ -54,6 +55,7 @@ import { ConvocatoriaComponent } from './maestria/components/convocatoria/convoc
     AplicacionComponent,
     EstudianteComponent,
     ConvocatoriaComponent,
+    NucleoComponent,
   ],
   imports: [
     CommonModule,
