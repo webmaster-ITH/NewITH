@@ -65,6 +65,11 @@ import {ObjetivosComponent as objIndus} from './maestria/INDUSTRIAL/objetivos/ob
 import {PerfilComponent as perfilIndus} from './maestria/INDUSTRIAL/perfil/perfil.component';
 import {PlanComponent as planIndus} from './maestria/INDUSTRIAL/plan/plan.component';
 import {ProductividadComponent as producIndus} from './maestria/INDUSTRIAL/productividad/productividad.component';
+
+//doctorado
+import {HomeComponent as homedoc} from './maestria/doctorado/home/home.component';
+import {ContactoComponent as contacdoc} from './maestria/doctorado/contacto/contacto.component';
+import {EstudiantesComponent as estudiadoc} from './maestria/doctorado/estudiantes/estudiantes.component';
 const routes: Routes = [
   {path:'',
     children: [
@@ -130,6 +135,11 @@ const routes: Routes = [
       {path:'Maestria-II-productividad', component:producIndus},
       {path:'Maestria-II-actividad', component:actIndus},
       {path:'Maestria-II-contacto', component:contacIndus},
+
+      //doctorado rutas
+      {path:'Doctorado', component:homedoc},
+      {path:'Doctorado-contacto', component:contacdoc},
+      {path:'Doctorado-estudiantes', component:estudiadoc},
     ]
   },
 

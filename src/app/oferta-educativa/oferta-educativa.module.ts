@@ -76,9 +76,20 @@ import {PerfilComponent as perfilIndus} from './maestria/INDUSTRIAL/perfil/perfi
 import {PlanComponent as planIndus} from './maestria/INDUSTRIAL/plan/plan.component';
 import {ProductividadComponent as producIndus} from './maestria/INDUSTRIAL/productividad/productividad.component';
 import {NavbarComponent as navbar4} from './maestria/INDUSTRIAL/navbar/navbar.component';
+
+//doctorado
+import {HomeComponent as homedoc} from './maestria/doctorado/home/home.component';
+import {ContactoComponent as contacdoc} from './maestria/doctorado/contacto/contacto.component';
+import {EstudiantesComponent as estudiadoc} from './maestria/doctorado/estudiantes/estudiantes.component';
+import {NavbarComponent as navdoc} from './maestria/doctorado/navbar/navbar.component';
+
 @NgModule({
   declarations: [
     homeElec,
+    homedoc,
+    navdoc,
+    contacdoc,
+    estudiadoc,
     navbar4,
     nucleoIndus,
     perfilIndus,

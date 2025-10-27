@@ -1,0 +1,103 @@
+<div class="row">
+    <script>
+        /*
+        
+        Want to customize your button? visit our documentation page:
+        
+        https://login.equalweb.com/custom-button.taf
+        
+        */
+        window.interdeal = {
+            "sitekey": "c8700d9cf950be63738668a48d457167",
+            "Position": "Left",
+            "domains": {
+                "js": "https://cdn.equalweb.com/",
+                "acc": "https://access.equalweb.com/"
+            },
+            "Menulang": "es-MX",
+            "showTooltip": true,
+            "btnStyle": {
+                "vPosition": [
+                    "80%",
+                    "80%"
+                ],
+                "scale": [
+                    "0.5",
+                    "0.5"
+                ],
+                "color": {
+                    "main": "#1876c9",
+                    "second": "#ffffff"
+                },
+                "icon": {
+                    "outline": false,
+                    "type": 1,
+                    "shape": "circle"
+                }
+            }
+        };
+        (function (doc, head, body) {
+            var coreCall = doc.createElement('script');
+            coreCall.src = interdeal.domains.js + 'core/5.0.9/accessibility.js';
+            coreCall.defer = true;
+            coreCall.integrity = 'sha512-dxjHZQgpVIG70EQus4+1KR3oj2KGyrtwR/nr4lY+tcMjrQ1Yb9V1SCKNVLGhD3CcPMgANKAqOk4ldI8WWNnQTw==';
+            coreCall.crossOrigin = 'anonymous';
+            coreCall.setAttribute('data-cfasync', true);
+            body ? body.appendChild(coreCall) : head.appendChild(coreCall);
+        })(document, document.head, document.body);
+    </script>
+    <div class="col-md-12">
+        <!------CONTENIDO-------->
+        <div class="col-md-12 col-sm-12 col-xs-12 panel panel-default">
+            <div class="col-md-2 col-xs-2 col-sm-2">
+                <img src="imagenes/logo_tecnm.jpg" class="img-responsive" alt="" height="74">
+            </div>
+            <div class="col-md-6 col-xs-6 col-sm-6">
+                <p class="centro">
+                    <br>
+                    <strong>Doctorado en Ciencias de la Ingeniería.</strong><br />
+                    Desde 2017<br />
+                    I.T. de Tuxtla Gutiérrez<br />
+                    I.T. de Hermosillo.<br /><br>
+                </p>
+            </div>
+            <div class="col-md-2 col-xs-2 col-sm-2">
+                <img src="imagenes/logo_ittg.jpg" class="img-responsive" alt="" height="74">
+            </div>
+            <div class="col-md-2 col-xs-2 col-sm-2">
+                <img src="imagenes/logo_ith.jpg" alt="" height="74" width="95" class="img-responsive">
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <h2 class="tnota">DOCTORADO EN CIENCIAS DE LA INGENIERÍA <br> ESTUDIANTES</h2>
+        </div>
+
+
+        <div class="col-md-12">
+            <div class="col-md-9">
+                <div>
+                    Una cordial invitación a todos los interesados en cursar el Doctorado en Ciencias de la Ingeniería
+                    en la siguiente convocatoria pueden verificar los requisitos.
+                    <br><br>
+                    <div><b><a
+                                href="../../../documentos/Convocatoria_Doctorado en Ciencias de la Ingenieria.pdf">Convocatoria
+                                Agosto - Diciembre 2025</a></b></div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="col-md-12">
+                    <app-navbar5></app-navbar5>
+                </div>
+
+
+
+            </div>
+
+
+
+            <!------------------------------------>
+            <!--------END CONTENIDO-->
+        </div>
+    </div>
+</div>
