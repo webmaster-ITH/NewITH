@@ -1,3 +1,6 @@
+
+
+
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ElectricaComponent } from './electrica/electrica.component';
@@ -23,7 +26,19 @@ import { ProductividadComponent } from './maestria/components/productividad/prod
 import { AplicacionComponent } from './maestria/components/aplicacion/aplicacion.component';
 import { EstudianteComponent } from './maestria/components/estudiante/estudiante.component';
 import { ConvocatoriaComponent } from './maestria/components/convocatoria/convocatoria.component';
-
+import { HomeComponent as homecc } from './maestria/computacion/component/home/home.component';
+import { AplicacionComponent as appcc } from './maestria/computacion/component/aplicacion/aplicacion.component';
+import { ConvocatoriaComputacionComponent as convocatoriacc } from './maestria/computacion/component/convocatoria-computacion/convocatoria-computacion.component';
+import { ContactoComponent as Contactocc } from './maestria/computacion/component/contacto/contacto.component';
+import { ActividadesComponent as actidadescc } from './maestria/computacion/component/actividades/actividades.component';
+import { PlanComponent as plancc } from './maestria/computacion/component/plan/plan.component';
+import { EstudiantesComponent as estudiantescc } from './maestria/computacion/component/estudiantes/estudiantes.component';
+import { CostosComponent as costoscc } from './maestria/computacion/component/costos/costos.component';
+import { NucleoComponent as nucleocc } from './maestria/computacion/component/nucleo/nucleo.component';
+import { VinculacionComponent as vinculacioncc } from './maestria/computacion/component/vinculacion/vinculacion.component';
+import { PerfilComponent as perfilcc } from './maestria/computacion/component/perfil/perfil.component';
+// import { HomeComponent as homecc } from './maestria/computacion/component/home/home.component';
+// import { HomeComponent as homecc } from './maestria/computacion/component/home/home.component';
 const routes: Routes = [
   {path:'',
     children: [
@@ -50,6 +65,22 @@ const routes: Routes = [
       { path:'Aplicaciones', component: AplicacionComponent},
       { path:'Estudiantes', component: EstudianteComponent},
       { path:'Convocatorias', component: ConvocatoriaComponent},
+      //rutas de mcc
+      {path:'Maestria-CC', component: homecc},
+      {path:'Maestria-CC-app', component: appcc},
+      {path:'Maestria-CC-plan', component: plancc},
+      {path:'Maestria-CC-objetivo', component: homecc},
+      {path:'Maestria-CC-perfil', component: perfilcc},
+      {path:'Maestria-CC-costo', component: costoscc},
+      {path:'Maestria-CC-actividades', component: actidadescc},
+      {path:'Maestria-CC-estudiantes', component: estudiantescc},
+      {path:'Maestria-CC-nucleo', component: nucleocc},
+      {path:'Maestria-CC-productivdad', component: homecc},
+      {path:'Maestria-CC-convocatoria', component: convocatoriacc},
+      {path:'Maestria-CC-contacto', component: Contactocc},
+      {path:'Maestria-CC-vinculacion', component: vinculacioncc},
+      // {path:'Maestria-CC-productivdad', component: homecc},
+
     ]
   },
 

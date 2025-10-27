@@ -27,6 +27,13 @@ import { AplicacionComponent } from './maestria/components/aplicacion/aplicacion
 import { EstudianteComponent } from './maestria/components/estudiante/estudiante.component';
 import { ConvocatoriaComponent } from './maestria/components/convocatoria/convocatoria.component';
 import { NucleoComponent } from './maestria/components/nucleo/nucleo.component';
+import { ComputacionComponent } from './maestria/computacion/computacion.component';
+import { ConvocatoriaComputacionComponent } from './maestria/computacion/component/convocatoria-computacion/convocatoria-computacion.component';
+import { CostosComponent } from './maestria/computacion/component/costos/costos.component';
+import { EstudiantesComponent } from './maestria/computacion/component/estudiantes/estudiantes.component';
+import { VinculacionComponent } from './maestria/computacion/component/vinculacion/vinculacion.component';
+import { ActividadesComponent } from './maestria/computacion/component/actividades/actividades.component';
+import { ContactoComponent } from './maestria/computacion/component/contacto/contacto.component';
 
 
 @NgModule({
@@ -56,6 +63,13 @@ import { NucleoComponent } from './maestria/components/nucleo/nucleo.component';
     EstudianteComponent,
     ConvocatoriaComponent,
     NucleoComponent,
+    ComputacionComponent,
+    ConvocatoriaComputacionComponent,
+    CostosComponent,
+    EstudiantesComponent,
+    VinculacionComponent,
+    ActividadesComponent,
+    ContactoComponent,
   ],
   imports: [
     CommonModule,
