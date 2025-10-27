@@ -20,6 +20,12 @@ import { SistemasComponent } from './sistemas/sistemas.component';
 import { InformaticaComponent } from './informatica/informatica.component';
 import { GestionComponent } from './gestion/gestion.component';
 import { AdminOfComponent } from './admin/admin.component';
+import { PerfilComponent } from './maestria/components/perfil/perfil.component';
+import { InversionComponent } from './maestria/components/inversion/inversion.component';
+import { ProductividadComponent } from './maestria/components/productividad/productividad.component';
+import { AplicacionComponent } from './maestria/components/aplicacion/aplicacion.component';
+import { EstudianteComponent } from './maestria/components/estudiante/estudiante.component';
+import { ConvocatoriaComponent } from './maestria/components/convocatoria/convocatoria.component';
 
 
 @NgModule({
@@ -42,6 +48,12 @@ import { AdminOfComponent } from './admin/admin.component';
     SistemasComponent,
     InformaticaComponent,
     GestionComponent,
+    PerfilComponent,
+    InversionComponent,
+    ProductividadComponent,
+    AplicacionComponent,
+    EstudianteComponent,
+    ConvocatoriaComponent,
   ],
   imports: [
     CommonModule,

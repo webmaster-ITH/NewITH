@@ -22,6 +22,8 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { U079Component } from './pages/u079/u079.component';
 import { SGIGComponent } from './pages/sgig/sgig.component';
 import { VideosComponent } from './pages/videos/videos.component';
+import { NotasOldComponent } from './pages/notas-old/notas-old.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -42,10 +44,12 @@ import { VideosComponent } from './pages/videos/videos.component';
     U079Component,
     SGIGComponent,
     VideosComponent,
+    NotasOldComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     HttpClientModule,
   ],
   providers: [

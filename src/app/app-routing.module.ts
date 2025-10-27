@@ -7,12 +7,14 @@ import { IsoComponent } from './pages/iso/iso.component';
 import { U079Component } from './pages/u079/u079.component';
 import { SGIGComponent } from './pages/sgig/sgig.component';
 import { VideosComponent } from './pages/videos/videos.component';
+import { NotasOldComponent } from './pages/notas-old/notas-old.component';
 
 const routes: Routes = [
    { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'noticia/:id', component: NotaComponent },
   { path: 'convocatorias', component: ConvocatoriasComponent },
+  { path: 'Archivero', component: NotasOldComponent },
   { path: 'iso', component: IsoComponent },
   { path: 'U079', component: U079Component },
   { path: 'Videos', component: VideosComponent },
