@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { AppRoutingModule } from "src/app/app-routing.module";
 
 @Component({
-  selector: 'app-navbar',
+  selector: 'app-navbar2',
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css'],
 })

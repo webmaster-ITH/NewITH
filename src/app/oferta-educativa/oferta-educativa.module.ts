@@ -34,11 +34,31 @@ import { EstudiantesComponent } from './maestria/computacion/component/estudiant
 import { VinculacionComponent } from './maestria/computacion/component/vinculacion/vinculacion.component';
 import { ActividadesComponent } from './maestria/computacion/component/actividades/actividades.component';
 import { ContactoComponent } from './maestria/computacion/component/contacto/contacto.component';
-
-
+import { NavbarComponent as navmcc} from './maestria/computacion/component/navbar/navbar.component';
+import { HomeComponent as homecc } from './maestria/computacion/component/home/home.component';
+import { AplicacionComponent as appcc } from './maestria/computacion/component/aplicacion/aplicacion.component';
+import { ConvocatoriaComputacionComponent as convocatoriacc } from './maestria/computacion/component/convocatoria-computacion/convocatoria-computacion.component';
+import { ContactoComponent as Contactocc } from './maestria/computacion/component/contacto/contacto.component';
+import { ActividadesComponent as actidadescc } from './maestria/computacion/component/actividades/actividades.component';
+import { PlanComponent as plancc } from './maestria/computacion/component/plan/plan.component';
+import { EstudiantesComponent as estudiantescc } from './maestria/computacion/component/estudiantes/estudiantes.component';
+import { CostosComponent as costoscc } from './maestria/computacion/component/costos/costos.component';
+import { NucleoComponent as nucleocc } from './maestria/computacion/component/nucleo/nucleo.component';
+import { VinculacionComponent as vinculacioncc } from './maestria/computacion/component/vinculacion/vinculacion.component';
+import { PerfilComponent as perfilcc } from './maestria/computacion/component/perfil/perfil.component';
+import { ProductividadComponent as produccc } from './maestria/computacion/component/productividad/productividad.component';
 @NgModule({
   declarations: [
     ElectricaComponent,
+    estudiantescc,
+    produccc,
+    vinculacioncc,
+    perfilcc,
+    nucleocc,
+    costoscc,
+    plancc,
+    actidadescc,
+    Contactocc,
     NavbarCarreraComponent,
     AdminComponent,
     AdminOfComponent,
@@ -70,6 +90,10 @@ import { ContactoComponent } from './maestria/computacion/component/contacto/con
     VinculacionComponent,
     ActividadesComponent,
     ContactoComponent,
+    navmcc,
+    homecc,
+    convocatoriacc,
+    appcc
   ],
   imports: [
     CommonModule,

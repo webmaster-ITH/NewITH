@@ -37,6 +37,7 @@ import { CostosComponent as costoscc } from './maestria/computacion/component/co
 import { NucleoComponent as nucleocc } from './maestria/computacion/component/nucleo/nucleo.component';
 import { VinculacionComponent as vinculacioncc } from './maestria/computacion/component/vinculacion/vinculacion.component';
 import { PerfilComponent as perfilcc } from './maestria/computacion/component/perfil/perfil.component';
+import { ProductividadComponent as produccc } from './maestria/computacion/component/productividad/productividad.component';
 // import { HomeComponent as homecc } from './maestria/computacion/component/home/home.component';
 // import { HomeComponent as homecc } from './maestria/computacion/component/home/home.component';
 const routes: Routes = [
@@ -75,7 +76,7 @@ const routes: Routes = [
       {path:'Maestria-CC-actividades', component: actidadescc},
       {path:'Maestria-CC-estudiantes', component: estudiantescc},
       {path:'Maestria-CC-nucleo', component: nucleocc},
-      {path:'Maestria-CC-productivdad', component: homecc},
+      {path:'Maestria-CC-productivdad', component: produccc},
       {path:'Maestria-CC-convocatoria', component: convocatoriacc},
       {path:'Maestria-CC-contacto', component: Contactocc},
       {path:'Maestria-CC-vinculacion', component: vinculacioncc},
