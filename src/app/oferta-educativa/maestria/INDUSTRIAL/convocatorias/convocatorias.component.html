@@ -1,1 +1,88 @@
-<p>convocatorias works!</p>
+<div class="row">
+    <script>
+        /*
+        
+        Want to customize your button? visit our documentation page:
+        
+        https://login.equalweb.com/custom-button.taf
+        
+        */
+        window.interdeal = {
+            "sitekey": "c8700d9cf950be63738668a48d457167",
+            "Position": "Left",
+            "domains": {
+                "js": "https://cdn.equalweb.com/",
+                "acc": "https://access.equalweb.com/"
+            },
+            "Menulang": "es-MX",
+            "showTooltip": true,
+            "btnStyle": {
+                "vPosition": [
+                    "80%",
+                    "80%"
+                ],
+                "scale": [
+                    "0.5",
+                    "0.5"
+                ],
+                "color": {
+                    "main": "#1876c9",
+                    "second": "#ffffff"
+                },
+                "icon": {
+                    "outline": false,
+                    "type": 1,
+                    "shape": "circle"
+                }
+            }
+        };
+        (function (doc, head, body) {
+            var coreCall = doc.createElement('script');
+            coreCall.src = interdeal.domains.js + 'core/5.0.9/accessibility.js';
+            coreCall.defer = true;
+            coreCall.integrity = 'sha512-dxjHZQgpVIG70EQus4+1KR3oj2KGyrtwR/nr4lY+tcMjrQ1Yb9V1SCKNVLGhD3CcPMgANKAqOk4ldI8WWNnQTw==';
+            coreCall.crossOrigin = 'anonymous';
+            coreCall.setAttribute('data-cfasync', true);
+            body ? body.appendChild(coreCall) : head.appendChild(coreCall);
+        })(document, document.head, document.body);
+    </script>
+    <div class="col-md-12">
+        <!------CONTENIDO-------->
+        <div class="col-md-12">
+            <h2 class="tnota">MAESTRÍA EN INGENIERÍA INDUSTRIAL <br> CONVOCATORIAS 2023</h2>
+        </div>
+
+        <div class="col-md-12">
+            <div class="col-md-9">
+                <p>
+                    <br>
+                    <a href="../../documentos/Convocatoria Maestria en Ingenieria Industrial 2025-2027.pdf"
+                        target="_blank">Convocatoria Nuevo Ingreso Nacional</a> <br><br>
+                    <a href="../../documentosConvocatoria 2024-2026 Aspirantes Extranjeros.pdf"
+                        target="_blank">Convocatoria Nuevo Ingreso Extranjero</a> <br><br>
+                    • Documentación requerida<br>
+                    <a href="FORMATO SOLICITUD - REGISTRO POSGRADO20.docx" target="_blank">Solicitud de Aspirante</a>
+
+
+                </p>
+            </div>
+            <div class="col-md-3">
+                <div class="col-md-12">
+                   <app-navbar4></app-navbar4>
+                </div>
+                <div class="col-md-12 img-responsive text-center" style="margin-top:20px;">
+                    <img src="conacyt-pnpc.png">
+                </div>
+
+
+            </div>
+
+
+
+            <!------------------------------------>
+            <!--------END CONTENIDO-->
+        </div>
+    </div>
+    <!----END NOTAS------>
+
+</div>

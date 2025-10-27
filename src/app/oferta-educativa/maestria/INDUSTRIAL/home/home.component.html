@@ -1,1 +1,115 @@
-<p>home works!</p>
+<div class="row">
+    <script>
+        /*
+        
+        Want to customize your button? visit our documentation page:
+        
+        https://login.equalweb.com/custom-button.taf
+        
+        */
+        window.interdeal = {
+            "sitekey": "c8700d9cf950be63738668a48d457167",
+            "Position": "Left",
+            "domains": {
+                "js": "https://cdn.equalweb.com/",
+                "acc": "https://access.equalweb.com/"
+            },
+            "Menulang": "es-MX",
+            "showTooltip": true,
+            "btnStyle": {
+                "vPosition": [
+                    "80%",
+                    "80%"
+                ],
+                "scale": [
+                    "0.5",
+                    "0.5"
+                ],
+                "color": {
+                    "main": "#1876c9",
+                    "second": "#ffffff"
+                },
+                "icon": {
+                    "outline": false,
+                    "type": 1,
+                    "shape": "circle"
+                }
+            }
+        };
+        (function (doc, head, body) {
+            var coreCall = doc.createElement('script');
+            coreCall.src = interdeal.domains.js + 'core/5.0.9/accessibility.js';
+            coreCall.defer = true;
+            coreCall.integrity = 'sha512-dxjHZQgpVIG70EQus4+1KR3oj2KGyrtwR/nr4lY+tcMjrQ1Yb9V1SCKNVLGhD3CcPMgANKAqOk4ldI8WWNnQTw==';
+            coreCall.crossOrigin = 'anonymous';
+            coreCall.setAttribute('data-cfasync', true);
+            body ? body.appendChild(coreCall) : head.appendChild(coreCall);
+        })(document, document.head, document.body);
+    </script>
+    <div class="col-md-12">
+        <!------CONTENIDO-------->
+        <div class="col-md-12">
+            <h2 class="tnota">MAESTRÍA EN INGENIERÍA INDUSTRIAL</h2>
+        </div>
+
+        <div class="col-md-12">
+            <div class="col-md-9">
+                <p>
+                    La apertura de mercados más competitivos y la globalización de la economía han generado
+                    una demanda de sistemas de manufactura confiables, eficientes y económicos. Para cumplir
+                    con esta demanda, el sector industrial y de servicios necesita de recursos humanos con
+                    un alto nivel de habilidades y competencias, altamente calificados para implementar
+                    soluciones en su entorno de trabajo.
+                    <br>
+
+                    El Instituto Tecnológico de Hermosillo creó la Maestría en Ingeniería Industrial para
+                    aprovechar el nicho de oportunidad que existe en el país, debido a las condiciones
+                    económicas, sociales y culturales particulares de la región del estado de Sonora.
+                    <br>
+
+                    El posgrado tiene orientación profesional y está dirigido a realizar investigación para
+                    aplicaciones de Ingeniería Industrial que resuelvan problemas en el entorno, por lo cual
+                    se proponen las líneas de generación y aplicación del conocimiento (LGAC) las cuales
+                    son:
+                    <br>
+
+                    Ergonomía Ocupacional
+                    <br>
+                    Sistemas de Manufactura
+                    <br>
+                    Contactos
+                    <br>
+                    M.A.N. Ivonne Esmeralda Lizarraga Coronado.
+                    <br>
+                    • depi_hermosillo@tecnm.mx
+                    <br>
+                    • (662) 2606500 ext 136
+                    <br>
+                    M.A. Francisco Alberto Martínez Villa
+                    <br>
+                    • coordinacion.mii@hermosillo.tecnm.mx
+                    <br>
+                    • (662) 2606500 ext 136
+                    <br>
+                </p>
+            </div>
+            <div class="col-md-3">
+                <div class="col-md-12">
+                    <app-navbar4></app-navbar4>
+                </div>
+                <div class="col-md-12 img-responsive text-center" style="margin-top:20px;">
+                    <img src="conacyt-pnpc.png">
+                </div>
+
+
+            </div>
+
+
+
+            <!------------------------------------>
+            <!--------END CONTENIDO-->
+        </div>
+    </div>
+    <!----END NOTAS------>
+
+</div>

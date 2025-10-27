@@ -1,1 +1,109 @@
-<p>objetivos works!</p>
+<div class="row">
+    <script>
+        /*
+        
+        Want to customize your button? visit our documentation page:
+        
+        https://login.equalweb.com/custom-button.taf
+        
+        */
+        window.interdeal = {
+            "sitekey": "c8700d9cf950be63738668a48d457167",
+            "Position": "Left",
+            "domains": {
+                "js": "https://cdn.equalweb.com/",
+                "acc": "https://access.equalweb.com/"
+            },
+            "Menulang": "es-MX",
+            "showTooltip": true,
+            "btnStyle": {
+                "vPosition": [
+                    "80%",
+                    "80%"
+                ],
+                "scale": [
+                    "0.5",
+                    "0.5"
+                ],
+                "color": {
+                    "main": "#1876c9",
+                    "second": "#ffffff"
+                },
+                "icon": {
+                    "outline": false,
+                    "type": 1,
+                    "shape": "circle"
+                }
+            }
+        };
+        (function (doc, head, body) {
+            var coreCall = doc.createElement('script');
+            coreCall.src = interdeal.domains.js + 'core/5.0.9/accessibility.js';
+            coreCall.defer = true;
+            coreCall.integrity = 'sha512-dxjHZQgpVIG70EQus4+1KR3oj2KGyrtwR/nr4lY+tcMjrQ1Yb9V1SCKNVLGhD3CcPMgANKAqOk4ldI8WWNnQTw==';
+            coreCall.crossOrigin = 'anonymous';
+            coreCall.setAttribute('data-cfasync', true);
+            body ? body.appendChild(coreCall) : head.appendChild(coreCall);
+        })(document, document.head, document.body);
+    </script>
+    <div class="col-md-12">
+        <!------CONTENIDO-------->
+        <div class="col-md-12">
+            <h2 class="tnota">MAESTRÍA EN INGENIERÍA INDUSTRIAL</h2>
+        </div>
+
+        <div class="col-md-12">
+            <div class="col-md-9">
+                <p>
+                    <br>
+                    Formar profesionales altamente especializados con calidad y equidad, capaces de contribuir al
+                    desarrollo tecnológico necesario en el entorno globalizado y altamente competitivo. Nuestro programa
+                    se enfoca en líneas de trabajo que se ajustan a la realidad del entorno, con el propósito de
+                    impulsar el desarrollo económico y social tanto a nivel regional como nacional.
+                    <br>
+                    Objetivos Específicos:
+
+                    <br>
+                    1. Formar recursos humanos de alto nivel.
+                    <br>
+                    • Desarrollar profesionales con la capacidad de llevar a cabo actividades de desarrollo de
+                    tecnología aplicada al mejoramiento de procesos.
+                    <br>
+                    • Capacitar profesionistas a nivel de maestría en la transferencia eficaz de tecnología y
+                    conocimientos mediante una sólida vinculación con otras instituciones y empresas.
+                    <br>
+                    2. Desarrollar competencias profesionales en áreas clave como manufactura, calidad y ergonomía,
+                    manteniéndonos al día con las tendencias más actuales del conocimiento.
+                    <br>
+                    3. Dirigir la actividad profesional hacia una comprensión más profunda de las necesidades del sector
+                    ocupacional, fomentando una participación eficiente.
+                    <br>
+                    4. Ampliar los conocimientos en ingeniería y capacitar al profesional para aplicar de manera
+                    innovadora el conocimiento científico y técnico.
+                    <br>
+                    Nuestro compromiso es ofrecer una formación de alta calidad que prepare a nuestros estudiantes para
+                    enfrentar los desafíos tecnológicos y contribuir al crecimiento económico y social de la región y
+                    del país.
+                    <br>
+                </p>
+            </div>
+            <div class="col-md-3">
+                <div class="col-md-12">
+                    <app-navbar4></app-navbar4>
+                </div>
+                <div class="col-md-12 img-responsive text-center" style="margin-top:20px;">
+                    <img src="conacyt-pnpc.png">
+                </div>
+
+
+            </div>
+
+
+
+            <!------------------------------------>
+            <!--------END CONTENIDO-->
+        </div>
+    </div>
+    <!----END NOTAS------>
+
+</div>

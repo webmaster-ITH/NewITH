@@ -1,1 +1,117 @@
-<p>perfil works!</p>
+<div class="row">
+    <script>
+        /*
+        
+        Want to customize your button? visit our documentation page:
+        
+        https://login.equalweb.com/custom-button.taf
+        
+        */
+        window.interdeal = {
+            "sitekey": "c8700d9cf950be63738668a48d457167",
+            "Position": "Left",
+            "domains": {
+                "js": "https://cdn.equalweb.com/",
+                "acc": "https://access.equalweb.com/"
+            },
+            "Menulang": "es-MX",
+            "showTooltip": true,
+            "btnStyle": {
+                "vPosition": [
+                    "80%",
+                    "80%"
+                ],
+                "scale": [
+                    "0.5",
+                    "0.5"
+                ],
+                "color": {
+                    "main": "#1876c9",
+                    "second": "#ffffff"
+                },
+                "icon": {
+                    "outline": false,
+                    "type": 1,
+                    "shape": "circle"
+                }
+            }
+        };
+        (function (doc, head, body) {
+            var coreCall = doc.createElement('script');
+            coreCall.src = interdeal.domains.js + 'core/5.0.9/accessibility.js';
+            coreCall.defer = true;
+            coreCall.integrity = 'sha512-dxjHZQgpVIG70EQus4+1KR3oj2KGyrtwR/nr4lY+tcMjrQ1Yb9V1SCKNVLGhD3CcPMgANKAqOk4ldI8WWNnQTw==';
+            coreCall.crossOrigin = 'anonymous';
+            coreCall.setAttribute('data-cfasync', true);
+            body ? body.appendChild(coreCall) : head.appendChild(coreCall);
+        })(document, document.head, document.body);
+    </script>
+    <div class="col-md-12">
+        <!------CONTENIDO-------->
+        <div class="col-md-12">
+            <h2 class="tnota">MAESTRÍA EN INGENIERÍA INDUSTRIAL</h2>
+        </div>
+
+        <div class="col-md-12">
+            <div class="col-md-9">
+                <p>
+                    Perfil de Ingreso
+                    <br>
+                    Los candidatos al programa de Maestría en Ingeniería Industrial deben cumplir los siguientes
+                    requisitos:
+                    <br>
+                    • Ser egresados de Ingeniería Industrial o carreras afines y con título universitario.
+                    <br>
+                    • Tener un promedio mínimo de 80 en su certificado de licenciatura.
+                    <br>
+                    • Presentar solicitud y una carta de motivos dirigida al Consejo de la Maestría.
+                    <br>
+                    • Superar el examen de selección.
+                    <br>
+                    • Participar en una entrevista con el comité de admisión del Consejo de la Maestría.
+                    <br>
+                    El consejo determina en base a los requisitos anteriores su aceptación al posgrado. La decisión del
+                    consejo es inapelable.
+                    <br>
+                    Perfil de Egreso
+                    <br>
+                    Los graduados de la Maestría en Ingeniería Industrial están capacitados para:
+                    <br>
+                    • Identificar, analizar y resolver problemas en áreas clave de la Ingeniería Industrial con enfoque
+                    sistémico, incluyendo Estudio del Trabajo, Ergonomía, Sistemas de Manufactura y Sistemas de Calidad.
+                    <br>
+                    • Dominar métodos y técnicas esenciales en su disciplina.
+                    <br>
+                    • Apoyar proyectos de ingeniería aplicados a la industria.
+                    <br>
+                    • Evaluar críticamente información científica y técnica actualizada en sistemas de producción
+                    industrial.
+                    <br>
+                    • Poseer habilidades de comunicación en inglés, tanto oral como escrita.
+                    <br>
+                    • Colaborar en la gestión y desarrollo de proyectos de innovación en organizaciones, gracias a su
+                    sólida base conceptual y habilidades profesionales de alto nivel.
+
+                    <br>
+                </p>
+            </div>
+            <div class="col-md-3">
+                <div class="col-md-12">
+                   <app-navbar4></app-navbar4>
+                </div>
+                <div class="col-md-12 img-responsive text-center" style="margin-top:20px;">
+                    <img src="conacyt-pnpc.png">
+                </div>
+
+
+            </div>
+
+
+
+            <!------------------------------------>
+            <!--------END CONTENIDO-->
+        </div>
+    </div>
+    <!----END NOTAS------>
+
+</div>

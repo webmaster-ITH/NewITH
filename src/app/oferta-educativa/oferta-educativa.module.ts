@@ -63,9 +63,34 @@ import {ContactoComponent as contacElec} from './maestria/Electronica/contacto/c
 import { ConvocatoriasComponent } from './maestria/INDUSTRIAL/convocatorias/convocatorias.component';
 import { ObjetivosComponent } from './maestria/INDUSTRIAL/objetivos/objetivos.component';
 import { ActividadComponent } from './maestria/INDUSTRIAL/actividad/actividad.component';
+//industrial
+import {HomeComponent as homeIndus} from './maestria/INDUSTRIAL/home/home.component';
+import {ActividadComponent as actIndus} from './maestria/INDUSTRIAL/actividad/actividad.component';
+import {ContactoComponent as contacIndus} from './maestria/INDUSTRIAL/contacto/contacto.component';
+import {ConvocatoriasComponent as convoIndus} from './maestria/INDUSTRIAL/convocatorias/convocatorias.component';
+import {EstudiantesComponent as estudiaIndus} from './maestria/INDUSTRIAL/estudiantes/estudiantes.component';
+import {InversionComponent as inverIndus} from './maestria/INDUSTRIAL/inversion/inversion.component';
+import {NucleoComponent as nucleoIndus} from './maestria/INDUSTRIAL/nucleo/nucleo.component';
+import {ObjetivosComponent as objIndus} from './maestria/INDUSTRIAL/objetivos/objetivos.component';
+import {PerfilComponent as perfilIndus} from './maestria/INDUSTRIAL/perfil/perfil.component';
+import {PlanComponent as planIndus} from './maestria/INDUSTRIAL/plan/plan.component';
+import {ProductividadComponent as producIndus} from './maestria/INDUSTRIAL/productividad/productividad.component';
+import {NavbarComponent as navbar4} from './maestria/INDUSTRIAL/navbar/navbar.component';
 @NgModule({
   declarations: [
     homeElec,
+    navbar4,
+    nucleoIndus,
+    perfilIndus,
+    producIndus,
+    objIndus,
+    planIndus,
+    inverIndus,
+    estudiaIndus,
+    convoIndus,
+    actIndus,
+    contacIndus,
+    homeIndus,
     costoElec,
     convoElec,
     contacElec,

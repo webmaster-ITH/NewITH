@@ -1,5 +1,3 @@
-import { ContactoComponent } from './../sitios-interes/pages/contacto/contacto.component';
-
 
 
 import { NgModule } from '@angular/core';
@@ -54,6 +52,19 @@ import {ProductividadComponent as producElec} from './maestria/Electronica/produ
 import {VinculacionComponent as VinculaElec} from './maestria/Electronica/vinculacion/vinculacion.component';
 import {ActividadesComponent as actElec} from './maestria/Electronica/actividades/actividades.component';
 import {ContactoComponent as contacElec} from './maestria/Electronica/contacto/contacto.component';
+
+//industrial
+import {HomeComponent as homeIndus} from './maestria/INDUSTRIAL/home/home.component';
+import {ActividadComponent as actIndus} from './maestria/INDUSTRIAL/actividad/actividad.component';
+import {ContactoComponent as contacIndus} from './maestria/INDUSTRIAL/contacto/contacto.component';
+import {ConvocatoriasComponent as convoIndus} from './maestria/INDUSTRIAL/convocatorias/convocatorias.component';
+import {EstudiantesComponent as estudiaIndus} from './maestria/INDUSTRIAL/estudiantes/estudiantes.component';
+import {InversionComponent as inverIndus} from './maestria/INDUSTRIAL/inversion/inversion.component';
+import {NucleoComponent as nucleoIndus} from './maestria/INDUSTRIAL/nucleo/nucleo.component';
+import {ObjetivosComponent as objIndus} from './maestria/INDUSTRIAL/objetivos/objetivos.component';
+import {PerfilComponent as perfilIndus} from './maestria/INDUSTRIAL/perfil/perfil.component';
+import {PlanComponent as planIndus} from './maestria/INDUSTRIAL/plan/plan.component';
+import {ProductividadComponent as producIndus} from './maestria/INDUSTRIAL/productividad/productividad.component';
 const routes: Routes = [
   {path:'',
     children: [
@@ -107,6 +118,18 @@ const routes: Routes = [
       {path:'Maestria-IE-vinculacion', component:VinculaElec},
       {path:'Maestria-IE-actividades', component:actElec},
       {path:'Maestria-IE-Contacto', component:contacElec},
+      //rutas de maestria industrial
+      {path:'Maestria-II', component:homeIndus},
+      {path:'Maestria-II-convocatorias', component:convoIndus},
+      {path:'Maestria-II-objetivo', component:objIndus},
+      {path:'Maestria-II-plan', component:planIndus},
+      {path:'Maestria-II-perfil', component:perfilIndus},
+      {path:'Maestria-II-inversion', component:inverIndus},
+      {path:'Maestria-II-nucleo', component:nucleoIndus},
+      {path:'Maestria-II-estudiantes', component:estudiaIndus},
+      {path:'Maestria-II-productividad', component:producIndus},
+      {path:'Maestria-II-actividad', component:actIndus},
+      {path:'Maestria-II-contacto', component:contacIndus},
     ]
   },
 

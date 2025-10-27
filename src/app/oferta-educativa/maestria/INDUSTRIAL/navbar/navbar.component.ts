@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import { AppRoutingModule } from "src/app/app-routing.module";
 
 @Component({
-  selector: 'app-navbar',
+  selector: 'app-navbar4',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  styleUrls: ['./navbar.component.css'],
 })
 export class NavbarComponent implements OnInit {
 
