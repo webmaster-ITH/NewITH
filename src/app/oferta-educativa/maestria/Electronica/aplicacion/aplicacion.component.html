@@ -1,1 +1,113 @@
-<p>aplicacion works!</p>
+<div class="row">
+    <script>
+        /*
+        
+        Want to customize your button? visit our documentation page:
+        
+        https://login.equalweb.com/custom-button.taf
+        
+        */
+        window.interdeal = {
+            "sitekey": "c8700d9cf950be63738668a48d457167",
+            "Position": "Left",
+            "domains": {
+                "js": "https://cdn.equalweb.com/",
+                "acc": "https://access.equalweb.com/"
+            },
+            "Menulang": "es-MX",
+            "showTooltip": true,
+            "btnStyle": {
+                "vPosition": [
+                    "80%",
+                    "80%"
+                ],
+                "scale": [
+                    "0.5",
+                    "0.5"
+                ],
+                "color": {
+                    "main": "#1876c9",
+                    "second": "#ffffff"
+                },
+                "icon": {
+                    "outline": false,
+                    "type": 1,
+                    "shape": "circle"
+                }
+            }
+        };
+        (function (doc, head, body) {
+            var coreCall = doc.createElement('script');
+            coreCall.src = interdeal.domains.js + 'core/5.0.9/accessibility.js';
+            coreCall.defer = true;
+            coreCall.integrity = 'sha512-dxjHZQgpVIG70EQus4+1KR3oj2KGyrtwR/nr4lY+tcMjrQ1Yb9V1SCKNVLGhD3CcPMgANKAqOk4ldI8WWNnQTw==';
+            coreCall.crossOrigin = 'anonymous';
+            coreCall.setAttribute('data-cfasync', true);
+            body ? body.appendChild(coreCall) : head.appendChild(coreCall);
+        })(document, document.head, document.body);
+    </script>
+    <div class="col-md-12">
+        <!------CONTENIDO-------->
+        <div class="col-md-12">
+            <h2 class="tnota text-uppercase">Maestría en Ingeniería Electrónica <br> LÍNEAS DE GENERACIÓN Y
+                APLICACIÓN DE CONOCIMIENTOS</h2>
+        </div>
+
+        <div class="col-md-12">
+            <div class="col-md-9">
+                <div>
+                    La Maestría en Ingeniería Electrónica se desarrolla en dos Líneas de Generación y
+                    Aplicación del Conocimiento, las cuales se generaron tomando como base, las necesidades
+                    del entorno regional, la experiencia en los campos disciplinarios de cada uno de los
+                    integrantes del Núcleo Académico Básico que soporta el programa:
+                    <br><br>
+                    <b>Robótica y Control</b>. Esta línea se centra en el estudio técnicas y teorías
+                    clásicas y avanzadas en las áreas de modelado, simulación, automatización industrial y
+                    control, así como el diseño e implementación de robots con el objetivo de diseñar e
+                    implementar sistemas que generen soluciones de calidad en procesos de producción
+                    industriales que integren tecnologías de punta. Se estudian técnicas avanzadas de
+                    control, control inteligente, programación y control aplicado, control de procesos
+                    industriales, sistemas SCADA, sistemas embebidos, entre otros.
+                    <br><br>
+                    <b>Electrónica Industrial</b>. En esta línea se aplican las tecnologías electrónicas con
+                    el fin de hacer desarrollos que den solución a problemas planteados por empresas del
+                    sector público y privado, así como en aplicaciones industriales en temas como el ahorro
+                    y uso eficiente de energía eléctrica con enfoque en aplicaciones como corrección del
+                    factor de potencia y calidad de la energía, fuentes de alimentación, fuentes alternas de
+                    energía (solar, eólica, celdas de combustible), reguladores de CA, filtros activos de
+                    potencia, sistemas y protocolos de comunicación alámbricos e inalámbricos, sensores,
+                    acondicionamiento y procesamientos de señal, etc.
+                    <br><br>
+
+
+                <div class="col-md-12">
+                    <div class="col-md-6"><img src="IMG_9533.jpg" class="img-responsive" style="padding:15px;"></div>
+                    <div class="col-md-6"><img src="IMG_9525.jpg" class="img-responsive" style="padding:15px;"></div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="col-md-6"><img src="IMG_9523.jpg" class="img-responsive" style="padding:15px;"></div>
+                    <div class="col-md-6"><img src="IMG_9521.jpg" class="img-responsive" style="padding:15px;"></div>
+                </div>
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="col-md-12">
+                    <app-navbar3></app-navbar3>
+                </div>
+                <div class="col-md-12 img-responsive text-center" style="margin-top:20px;">
+                    <img
+                        src="https://conahcyt.mx/wp-content/uploads/2021/10/logo_conacyt_con_sintagma_azul_completo.svg">
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <!------------------------------------>
+        <!--------END CONTENIDO-->
+    </div>
+</div>

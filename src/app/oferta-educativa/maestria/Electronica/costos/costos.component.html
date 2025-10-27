@@ -1,1 +1,109 @@
-<p>costos works!</p>
+<div class="row">
+    <script>
+        /*
+        
+        Want to customize your button? visit our documentation page:
+        
+        https://login.equalweb.com/custom-button.taf
+        
+        */
+        window.interdeal = {
+            "sitekey": "c8700d9cf950be63738668a48d457167",
+            "Position": "Left",
+            "domains": {
+                "js": "https://cdn.equalweb.com/",
+                "acc": "https://access.equalweb.com/"
+            },
+            "Menulang": "es-MX",
+            "showTooltip": true,
+            "btnStyle": {
+                "vPosition": [
+                    "80%",
+                    "80%"
+                ],
+                "scale": [
+                    "0.5",
+                    "0.5"
+                ],
+                "color": {
+                    "main": "#1876c9",
+                    "second": "#ffffff"
+                },
+                "icon": {
+                    "outline": false,
+                    "type": 1,
+                    "shape": "circle"
+                }
+            }
+        };
+        (function (doc, head, body) {
+            var coreCall = doc.createElement('script');
+            coreCall.src = interdeal.domains.js + 'core/5.0.9/accessibility.js';
+            coreCall.defer = true;
+            coreCall.integrity = 'sha512-dxjHZQgpVIG70EQus4+1KR3oj2KGyrtwR/nr4lY+tcMjrQ1Yb9V1SCKNVLGhD3CcPMgANKAqOk4ldI8WWNnQTw==';
+            coreCall.crossOrigin = 'anonymous';
+            coreCall.setAttribute('data-cfasync', true);
+            body ? body.appendChild(coreCall) : head.appendChild(coreCall);
+        })(document, document.head, document.body);
+    </script>
+    <div class="col-md-12">
+        <!------CONTENIDO-------->
+        <div class="col-md-12">
+            <h2 class="tnota text-uppercase">Maestría en Ingeniería Electrónica <br> COSTOS</h2>
+        </div>
+
+        <div class="col-md-12">
+            <div class="col-md-9">
+                <div>
+
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>
+                                NIVEL PRETENDIDO
+                            </th>
+                            <th>
+                                MONTO CORRESPONDIENTE
+
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>
+                                MAESTRÍA
+                            </th>
+                            <th>
+                                POR SEMESTRE: $ 7,500.00 pesos
+                            </th>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <strong>Becarios CONAHCYT.</strong>
+                De acuerdo con los Lineamientos del Sistema Nacional de Posgrados, específicamente en el transitorio
+                tercero, en referencia al artículo 39 de la Ley General en Materia de Humanidades, Ciencias, Tecnologías
+                e Innovación, se establece que, para los estudiantes inscritos en instituciones de educación superior
+                pública o privada, el monto máximo anual destinado a colegiaturas o conceptos equivalentes para el
+                ejercicio fiscal 2024 corresponderá al equivalente de un mes de beca.
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="col-md-12">
+                  <app-navbar3></app-navbar3>
+                </div>
+                <div class="col-md-12 img-responsive text-center" style="margin-top:20px;">
+                    <img
+                        src="https://conahcyt.mx/wp-content/uploads/2021/10/logo_conacyt_con_sintagma_azul_completo.svg">
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <!------------------------------------>
+        <!--------END CONTENIDO-->
+    </div>
+</div>

@@ -47,10 +47,38 @@ import { NucleoComponent as nucleocc } from './maestria/computacion/component/nu
 import { VinculacionComponent as vinculacioncc } from './maestria/computacion/component/vinculacion/vinculacion.component';
 import { PerfilComponent as perfilcc } from './maestria/computacion/component/perfil/perfil.component';
 import { ProductividadComponent as produccc } from './maestria/computacion/component/productividad/productividad.component';
+import { NavbarComponent as navbar3 } from './maestria/Electronica/navbar/navbar.component';
+//electronica
+import {HomeComponent as homeElec} from './maestria/Electronica/home/home.component';
+import {CostosComponent as costoElec} from './maestria/Electronica/costos/costos.component';
+import {ConvocatoriaComponent as convoElec} from './maestria/Electronica/convocatoria/convocatoria.component';
+import {PlanComponent as planElec} from './maestria/Electronica/plan/plan.component';
+import {AplicacionComponent as appElec} from './maestria/Electronica/aplicacion/aplicacion.component';
+import {NucleoComponent as nucleoElec} from './maestria/Electronica/nucleo/nucleo.component';
+import {EstudianteComponent as estdianElec} from './maestria/Electronica/estudiante/estudiante.component';
+import {ProductividadComponent as producElec} from './maestria/Electronica/productividad/productividad.component';
+import {VinculacionComponent as VinculaElec} from './maestria/Electronica/vinculacion/vinculacion.component';
+import {ActividadesComponent as actElec} from './maestria/Electronica/actividades/actividades.component';
+import {ContactoComponent as contacElec} from './maestria/Electronica/contacto/contacto.component';
+import { ConvocatoriasComponent } from './maestria/INDUSTRIAL/convocatorias/convocatorias.component';
+import { ObjetivosComponent } from './maestria/INDUSTRIAL/objetivos/objetivos.component';
+import { ActividadComponent } from './maestria/INDUSTRIAL/actividad/actividad.component';
 @NgModule({
   declarations: [
+    homeElec,
+    costoElec,
+    convoElec,
+    contacElec,
+    producElec,
+    estdianElec,
+    actElec,
+    VinculaElec,
+    planElec,
+    appElec,
+    nucleoElec,
     ElectricaComponent,
     estudiantescc,
+    navbar3,
     produccc,
     vinculacioncc,
     perfilcc,
@@ -93,7 +121,10 @@ import { ProductividadComponent as produccc } from './maestria/computacion/compo
     navmcc,
     homecc,
     convocatoriacc,
-    appcc
+    appcc,
+    ConvocatoriasComponent,
+    ObjetivosComponent,
+    ActividadComponent
   ],
   imports: [
     CommonModule,

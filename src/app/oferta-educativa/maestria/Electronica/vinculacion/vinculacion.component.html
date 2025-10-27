@@ -1,1 +1,109 @@
-<p>vinculacion works!</p>
+<div class="row">
+    <script>
+        /*
+        
+        Want to customize your button? visit our documentation page:
+        
+        https://login.equalweb.com/custom-button.taf
+        
+        */
+        window.interdeal = {
+            "sitekey": "c8700d9cf950be63738668a48d457167",
+            "Position": "Left",
+            "domains": {
+                "js": "https://cdn.equalweb.com/",
+                "acc": "https://access.equalweb.com/"
+            },
+            "Menulang": "es-MX",
+            "showTooltip": true,
+            "btnStyle": {
+                "vPosition": [
+                    "80%",
+                    "80%"
+                ],
+                "scale": [
+                    "0.5",
+                    "0.5"
+                ],
+                "color": {
+                    "main": "#1876c9",
+                    "second": "#ffffff"
+                },
+                "icon": {
+                    "outline": false,
+                    "type": 1,
+                    "shape": "circle"
+                }
+            }
+        };
+        (function (doc, head, body) {
+            var coreCall = doc.createElement('script');
+            coreCall.src = interdeal.domains.js + 'core/5.0.9/accessibility.js';
+            coreCall.defer = true;
+            coreCall.integrity = 'sha512-dxjHZQgpVIG70EQus4+1KR3oj2KGyrtwR/nr4lY+tcMjrQ1Yb9V1SCKNVLGhD3CcPMgANKAqOk4ldI8WWNnQTw==';
+            coreCall.crossOrigin = 'anonymous';
+            coreCall.setAttribute('data-cfasync', true);
+            body ? body.appendChild(coreCall) : head.appendChild(coreCall);
+        })(document, document.head, document.body);
+    </script>
+    <div class="col-md-12">
+        <!------CONTENIDO-------->
+        <div class="col-md-12">
+            <h2 class="tnota text-uppercase">Maestría en Ingeniería Electrónica <br> VINCULACIÓN</h2>
+        </div>
+
+        <div class="col-md-12">
+            <div class="col-md-9">
+                <p>
+                    El programa de Maestría en Ingeniería Electrónica se encuentra vinculado con diferentes
+                    sectores
+                    de la sociedad, tanto en el ámbito académico, como en el de investigación y en el sector
+                    industrial.
+                    A continuación, se listan las diferentes instituciones con las que se han realizado
+                    proyectos,
+                    estancias y/o se tienen convenios de colaboración.
+                    <br><br>
+                    • Groeni Truf S.A de C.V.<br>
+                    • Calentadores de América S.A. de C.V.
+                    • Electrocontroles del Noroeste S.A de C.V.
+                    • Grupo Latecoere México S.A. de C.V.<br>
+                    • Inteligencia Industrial INTI S.A. de C.V.<br>
+                    • Diseño e Ingeniería Sustentable S.A. de C.V.<br>
+                    • R.D. Research and Technology S.A. de C.V.<br>
+                    • Global VoIP.<br>
+                    • Hermogas S.A. de C.V.<br>
+                    • Integradora Ambiental del Pacífico INAMPA S.A de C.V.<br>
+                    • Bioxeco S.A. de C.V.<br>
+                    • CACTEX S.A. de C.V.<br>
+                    • Xantronic S.A. de C.V.<br>
+                    • Cooper Standad S.A de C.V.<br>
+                    • Acuícola México S.A. de C.V.<br>
+                    • Fundación Teletón de México A.C. (CRIT).<br>
+                    • Instituto Tecnológico de Tuxtla Gutiérrez.<br>
+                    • Instituto Tecnológico de Tijuana.<br>
+                    • Instituto Tecnológico de Celaya.<br>
+                    • Centro Nacional de Investigación y Desarrollo Tecnológico.<br>
+                    • Universidad Autónoma de San Luis Potosí.
+                </p>
+            </div>
+            <div class="col-md-3">
+                <div class="col-md-12">
+                   <app-navbar3></app-navbar3>
+                </div>
+                <div class="col-md-12 img-responsive text-center" style="margin-top:20px;">
+                    <img
+                        src="https://conahcyt.mx/wp-content/uploads/2021/10/logo_conacyt_con_sintagma_azul_completo.svg">
+                </div>
+
+
+            </div>
+
+
+
+            <!------------------------------------>
+            <!--------END CONTENIDO-->
+        </div>
+    </div>
+    <!----END NOTAS------>
+
+</div>

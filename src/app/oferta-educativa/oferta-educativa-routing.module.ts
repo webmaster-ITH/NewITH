@@ -1,3 +1,4 @@
+import { ContactoComponent } from './../sitios-interes/pages/contacto/contacto.component';
 
 
 
@@ -40,6 +41,19 @@ import { PerfilComponent as perfilcc } from './maestria/computacion/component/pe
 import { ProductividadComponent as produccc } from './maestria/computacion/component/productividad/productividad.component';
 // import { HomeComponent as homecc } from './maestria/computacion/component/home/home.component';
 // import { HomeComponent as homecc } from './maestria/computacion/component/home/home.component';
+
+//electronica
+import {HomeComponent as homeElec} from './maestria/Electronica/home/home.component';
+import {CostosComponent as costoElec} from './maestria/Electronica/costos/costos.component';
+import {ConvocatoriaComponent as convoElec} from './maestria/Electronica/convocatoria/convocatoria.component';
+import {PlanComponent as planElec} from './maestria/Electronica/plan/plan.component';
+import {AplicacionComponent as appElec} from './maestria/Electronica/aplicacion/aplicacion.component';
+import {NucleoComponent as nucleoElec} from './maestria/Electronica/nucleo/nucleo.component';
+import {EstudianteComponent as estdianElec} from './maestria/Electronica/estudiante/estudiante.component';
+import {ProductividadComponent as producElec} from './maestria/Electronica/productividad/productividad.component';
+import {VinculacionComponent as VinculaElec} from './maestria/Electronica/vinculacion/vinculacion.component';
+import {ActividadesComponent as actElec} from './maestria/Electronica/actividades/actividades.component';
+import {ContactoComponent as contacElec} from './maestria/Electronica/contacto/contacto.component';
 const routes: Routes = [
   {path:'',
     children: [
@@ -81,7 +95,18 @@ const routes: Routes = [
       {path:'Maestria-CC-contacto', component: Contactocc},
       {path:'Maestria-CC-vinculacion', component: vinculacioncc},
       // {path:'Maestria-CC-productivdad', component: homecc},
-
+      //rutas electronica maestria
+      {path:'Maestria-IE', component:homeElec},
+      {path:'Maestria-IE-costo', component:costoElec},
+      {path:'Maestria-IE-convocatoria', component:convoElec},
+      {path:'Maestria-IE-plan', component:planElec},
+      {path:'Maestria-IE-app', component:appElec},
+      {path:'Maestria-IE-nucleo', component:nucleoElec},
+      {path:'Maestria-IE-estudiantes', component:estdianElec},
+      {path:'Maestria-IE-productividad', component:producElec},
+      {path:'Maestria-IE-vinculacion', component:VinculaElec},
+      {path:'Maestria-IE-actividades', component:actElec},
+      {path:'Maestria-IE-Contacto', component:contacElec},
     ]
   },
 
