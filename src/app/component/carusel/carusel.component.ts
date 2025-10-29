@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 export interface CarouselSlide {
   image: string;
   title: string;
@@ -39,7 +38,7 @@ export class CaruselComponent implements OnInit {
     },
     {
       image: 'https://ith.mx/imagenes/WhatsApp Image 2025-09-09 at 12.18.32_2a648a40.jpg',
-      link: '/convocatorias',
+      link: 'https://ith.mx/convocatorias/index.html',
       alt: 'Convocatorias',
       title: 'Convocatorias',
       description: 'Consulta convocatorias recientes',
@@ -119,7 +118,7 @@ export class CaruselComponent implements OnInit {
     },
     {
       image: 'https://ith.mx/imagenes/WhatsApp Image 2025-08-08 at 11.52.01_e4efa1e1.jpg',
-      link: '/pasos-nuevo-ingreso',
+      link: 'https://ith.mx/pasos-nuevo-ingreso.html',
       alt: 'Pasos nuevo ingreso',
       title: 'Nuevo Ingreso',
       description: 'Conoce los pasos para nuevo ingreso',
@@ -127,7 +126,7 @@ export class CaruselComponent implements OnInit {
     },
     {
       image: 'https://ith.mx/imagenes/WhatsApp Image 2025-08-01 at 13.09.29_d0a7bfc1.jpg',
-      link: '/reinscripciones',
+      link: 'https://ith.mx/reinscripciones.html',
       alt: 'Reinscripciones',
       title: 'Reinscripciones',
       description: 'Información sobre reinscripciones',
@@ -141,7 +140,7 @@ export class CaruselComponent implements OnInit {
     },
     {
       image: 'https://ith.mx/imagenes/WhatsApp Image 2025-06-23 at 3.09.33 PM.jpeg',
-      link: '/convocatorias',
+      link: 'https://ith.mx/convocatorias/index.html',
       alt: '',
       title: 'Convocatorias',
       description: 'Convocatorias recientes',
@@ -149,7 +148,7 @@ export class CaruselComponent implements OnInit {
     },
     {
       image: 'https://ith.mx/imagenes/e1d88a2f-75a5-4209-beac-a1286e27d6e5.jpeg',
-      link: '/convocatorias',
+      link: 'https://ith.mx/convocatorias/index.html',
       alt: '',
       title: 'Convocatorias',
       description: 'Convocatorias activas',
@@ -157,7 +156,7 @@ export class CaruselComponent implements OnInit {
     },
     {
       image: 'https://ith.mx/imagenes/WhatsApp Image 2025-06-16 at 11.51.31 AM.jpeg',
-      link: '/avisos-adicionales',
+      link: 'https://ith.mx/avisos-adicionales.html',
       alt: 'Avisos adicionales',
       title: 'Avisos adicionales',
       description: 'Consulta avisos recientes',
@@ -165,7 +164,7 @@ export class CaruselComponent implements OnInit {
     },
     {
       image: '../../imagenes/WhatsApp Image 2025-06-10 at 11.58.17 AM.jpeg',
-      link: '/convocatorias',
+      link: '/convocatorias/index.html',
       alt: 'Convocatorias',
       title: 'Convocatorias',
       description: 'Consulta las convocatorias',
@@ -193,7 +192,7 @@ export class CaruselComponent implements OnInit {
     },
     {
       image: '../../imagenes/WhatsApp Image 2025-03-04 at 3.22.27 PM.jpeg',
-      link: '/convocatorias',
+      link: '/convocatorias/index.html',
       alt: '',
       title: 'Convocatorias',
       description: 'Convocatorias activas',
@@ -253,7 +252,7 @@ export class CaruselComponent implements OnInit {
     },
     {
       image: '../../imagenes/WhatsApp Image 2025-02-11 at 5.10.17 PM.jpeg',
-      link: '/convocatorias',
+      link: '/convocatorias/index.html',
       alt: '',
       title: 'Convocatorias',
       description: 'Convocatorias recientes',
@@ -312,6 +311,8 @@ export class CaruselComponent implements OnInit {
       openInNewTab: true
     }
   ];
+
+
 
   ngOnInit() {
     this.startAutoPlay();
