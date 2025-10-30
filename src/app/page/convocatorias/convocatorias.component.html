@@ -33,7 +33,7 @@
             body ? body.appendChild(coreCall) : head.appendChild(coreCall);
         })(document, document.head, document.body);
     </script>
-    
+
     <div class="col-md-12">
         <div class="col-md-12">
             <h2 class="tnota">CONVOCATORIAS</h2>
@@ -42,54 +42,44 @@
         <div class="col-md-12">
             <!-- Navegación por categorías -->
             <div class="btn-group mb-4" role="group" style="margin-bottom: 20px;">
-                <button type="button" class="btn" 
-                        [class.btn-primary]="categoriaActiva === 'abiertas'"
-                        [class.btn-outline-primary]="categoriaActiva !== 'abiertas'"
-                        (click)="cambiarCategoria('abiertas')">
+                <button type="button" class="btn" [class.btn-primary]="categoriaActiva === 'abiertas'"
+                    [class.btn-outline-primary]="categoriaActiva !== 'abiertas'" (click)="cambiarCategoria('abiertas')">
                     Convocatorias Abiertas
                 </button>
-                <button type="button" class="btn"
-                        [class.btn-primary]="categoriaActiva === 'posgrado'"
-                        [class.btn-outline-primary]="categoriaActiva !== 'posgrado'"
-                        (click)="cambiarCategoria('posgrado')">
+                <button type="button" class="btn" [class.btn-primary]="categoriaActiva === 'posgrado'"
+                    [class.btn-outline-primary]="categoriaActiva !== 'posgrado'" (click)="cambiarCategoria('posgrado')">
                     Posgrado
                 </button>
-                <button type="button" class="btn"
-                        [class.btn-primary]="categoriaActiva === 'becas'"
-                        [class.btn-outline-primary]="categoriaActiva !== 'becas'"
-                        (click)="cambiarCategoria('becas')">
+                <button type="button" class="btn" [class.btn-primary]="categoriaActiva === 'becas'"
+                    [class.btn-outline-primary]="categoriaActiva !== 'becas'" (click)="cambiarCategoria('becas')">
                     Becas y Apoyos
                 </button>
-                <button type="button" class="btn"
-                        [class.btn-primary]="categoriaActiva === 'docentes'"
-                        [class.btn-outline-primary]="categoriaActiva !== 'docentes'"
-                        (click)="cambiarCategoria('docentes')">
+                <button type="button" class="btn" [class.btn-primary]="categoriaActiva === 'docentes'"
+                    [class.btn-outline-primary]="categoriaActiva !== 'docentes'" (click)="cambiarCategoria('docentes')">
                     Docentes
                 </button>
-                <button type="button" class="btn"
-                        [class.btn-primary]="categoriaActiva === 'concursos'"
-                        [class.btn-outline-primary]="categoriaActiva !== 'concursos'"
-                        (click)="cambiarCategoria('concursos')">
+                <button type="button" class="btn" [class.btn-primary]="categoriaActiva === 'concursos'"
+                    [class.btn-outline-primary]="categoriaActiva !== 'concursos'"
+                    (click)="cambiarCategoria('concursos')">
                     Concursos y Eventos
                 </button>
-                <button type="button" class="btn"
-                        [class.btn-primary]="categoriaActiva === 'cerradas'"
-                        [class.btn-outline-primary]="categoriaActiva !== 'cerradas'"
-                        (click)="cambiarCategoria('cerradas')">
+                <button type="button" class="btn" [class.btn-primary]="categoriaActiva === 'cerradas'"
+                    [class.btn-outline-primary]="categoriaActiva !== 'cerradas'" (click)="cambiarCategoria('cerradas')">
                     Cerradas/Históricas
                 </button>
             </div>
 
             <!-- Contenido por categoría -->
             <div class="convocatorias-content">
-                
+
                 <!-- CONVOCATORIAS ABIERTAS -->
                 <div *ngIf="categoriaActiva === 'abiertas'">
                     <h3 class="mb-3"><i class="fa fa-folder-open"></i> Convocatorias Abiertas</h3>
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li *ngFor="let item of documents" class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a [href]="'../documentos/' + item.name" target="_blank">{{ item.name.replace('.pdf', '') }}</a>
+                            <a [href]="'../documentos/' + item.name" target="_blank">{{ item.name.replace('.pdf', '')
+                                }}</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
@@ -97,23 +87,28 @@
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/CONVOCATORIA IMPULSO A LA INVESTIGACION 2025.pdf" target="_blank">CONVOCATORIA Y PROTOCOLO IMPULSO A LA INVESTIGACIÓN 2025</a>
+                            <a href="../documentos/CONVOCATORIA IMPULSO A LA INVESTIGACION 2025.pdf"
+                                target="_blank">CONVOCATORIA Y PROTOCOLO IMPULSO A LA INVESTIGACIÓN 2025</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Investigacion Cientifica 2025.pdf" target="_blank">Convocatoria Investigación Científica 2025</a>
+                            <a href="../documentos/Convocatoria Investigacion Cientifica 2025.pdf"
+                                target="_blank">Convocatoria Investigación Científica 2025</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Formatos de Solicitud para Evaluacion de Promocion Docente 2025 (1).xlsx" target="_blank">Formatos de Solicitud para Evaluación de Promoción Docente 2025</a>
+                            <a href="../documentos/Formatos de Solicitud para Evaluacion de Promocion Docente 2025 (1).xlsx"
+                                target="_blank">Formatos de Solicitud para Evaluación de Promoción Docente 2025</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Modelo de Educacion Dual  Enero-Diciembre 2024.pdf" target="_blank">Convocatoria Modelo de Educación Dual Enero-Diciembre 2024</a>
+                            <a href="../documentos/Convocatoria Modelo de Educacion Dual  Enero-Diciembre 2024.pdf"
+                                target="_blank">Convocatoria Modelo de Educación Dual Enero-Diciembre 2024</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Cursos Intersemestrales 2024-1.pdf" target="_blank">Cursos Intersemestrales 2024-1</a>
+                            <a href="../documentos/Cursos Intersemestrales 2024-1.pdf" target="_blank">Cursos
+                                Intersemestrales 2024-1</a>
                         </li>
                     </ul>
                 </div>
@@ -121,24 +116,28 @@
                 <!-- POSGRADO -->
                 <div *ngIf="categoriaActiva === 'posgrado'">
                     <h3 class="mb-3"><i class="fa fa-graduation-cap"></i> Convocatorias de Posgrado</h3>
-                    
+
                     <h4 class="mt-4 mb-3" style="color: #28a745;">Maestrías 2025-2027</h4>
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Maestria en Ingenieria Industrial 2025-2027.pdf" target="_blank">Convocatoria Maestría en Ingeniería Industrial 2025-2027</a>
+                            <a href="../documentos/Convocatoria Maestria en Ingenieria Industrial 2025-2027.pdf"
+                                target="_blank">Convocatoria Maestría en Ingeniería Industrial 2025-2027</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Maestria en Ciencias de la Computacion 2025-2027.pdf" target="_blank">Convocatoria en Ciencias de la Computación 2025-2027</a>
+                            <a href="../documentos/Convocatoria Maestria en Ciencias de la Computacion 2025-2027.pdf"
+                                target="_blank">Convocatoria en Ciencias de la Computación 2025-2027</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Maestria en Administracion 2025-2027.pdf" target="_blank">Convocatoria en Maestría en Administración 2025-2027</a>
+                            <a href="../documentos/Convocatoria Maestria en Administracion 2025-2027.pdf"
+                                target="_blank">Convocatoria en Maestría en Administración 2025-2027</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Maestria en Ingenieria Electronica 2025-2027.pdf" target="_blank">Convocatoria de Maestría en Ingeniería en Electrónica 2025-2027</a>
+                            <a href="../documentos/Convocatoria Maestria en Ingenieria Electronica 2025-2027.pdf"
+                                target="_blank">Convocatoria de Maestría en Ingeniería en Electrónica 2025-2027</a>
                         </li>
                     </ul>
 
@@ -146,15 +145,18 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria_Doctorado en Ciencias de la Ingenieria.pdf" target="_blank">Convocatoria Doctorado en Ciencias de la Ingeniería</a>
+                            <a href="../documentos/Convocatoria_Doctorado en Ciencias de la Ingenieria.pdf"
+                                target="_blank">Convocatoria Doctorado en Ciencias de la Ingeniería</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria DCI-1.pdf" target="_blank">Convocatoria 2024-2028 Doctorado en Ciencias de la Ingeniería</a>
+                            <a href="../documentos/Convocatoria DCI-1.pdf" target="_blank">Convocatoria 2024-2028
+                                Doctorado en Ciencias de la Ingeniería</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/CONVOCATORIA DOCTORADO EN CIENCIAS ITH 2023.pdf" target="_blank">CONVOCATORIA DOCTORADO EN CIENCIAS ITH 2023</a>
+                            <a href="../documentos/CONVOCATORIA DOCTORADO EN CIENCIAS ITH 2023.pdf"
+                                target="_blank">CONVOCATORIA DOCTORADO EN CIENCIAS ITH 2023</a>
                         </li>
                     </ul>
 
@@ -162,19 +164,23 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria 2024-2026 Maestria en Administracion.pdf" target="_blank">Convocatoria 2024-2026 Maestría en Administración</a>
+                            <a href="../documentos/Convocatoria 2024-2026 Maestria en Administracion.pdf"
+                                target="_blank">Convocatoria 2024-2026 Maestría en Administración</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria 2024-2026 Maestria en Ciencias de la Computacion.pdf" target="_blank">Convocatoria 2024-2026 Maestría en Ciencias de la Computación</a>
+                            <a href="../documentos/Convocatoria 2024-2026 Maestria en Ciencias de la Computacion.pdf"
+                                target="_blank">Convocatoria 2024-2026 Maestría en Ciencias de la Computación</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria 2024-2026 Maestria en Ingenieria Electronica.pdf" target="_blank">Convocatoria 2024-2026 Maestría en Ingeniería Electrónica</a>
+                            <a href="../documentos/Convocatoria 2024-2026 Maestria en Ingenieria Electronica.pdf"
+                                target="_blank">Convocatoria 2024-2026 Maestría en Ingeniería Electrónica</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria 2024-2026 Maestria en Ingenieria Industrial.pdf" target="_blank">Convocatoria 2024-2026 Maestría en Ingeniería Industrial</a>
+                            <a href="../documentos/Convocatoria 2024-2026 Maestria en Ingenieria Industrial.pdf"
+                                target="_blank">Convocatoria 2024-2026 Maestría en Ingeniería Industrial</a>
                         </li>
                     </ul>
 
@@ -182,19 +188,23 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria 2023-2025 Maestria en Administracion (1).pdf" target="_blank">Convocatoria 2023-2025 Maestría en Administración</a>
+                            <a href="../documentos/Convocatoria 2023-2025 Maestria en Administracion (1).pdf"
+                                target="_blank">Convocatoria 2023-2025 Maestría en Administración</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria 2023-2025 MCC.pdf" target="_blank">Convocatoria 2023-2025 Maestría en Ciencias de la Computación</a>
+                            <a href="../documentos/Convocatoria 2023-2025 MCC.pdf" target="_blank">Convocatoria
+                                2023-2025 Maestría en Ciencias de la Computación</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria 2023-2025 MIE.pdf" target="_blank">Convocatoria 2023-2025 Maestría en Ingeniería Electrónica</a>
+                            <a href="../documentos/Convocatoria 2023-2025 MIE.pdf" target="_blank">Convocatoria
+                                2023-2025 Maestría en Ingeniería Electrónica</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria 2023-2025 Maestria en Ingenieria Industrial.pdf" target="_blank">Convocatoria 2023-2025 Maestría en Ingeniería Industrial</a>
+                            <a href="../documentos/Convocatoria 2023-2025 Maestria en Ingenieria Industrial.pdf"
+                                target="_blank">Convocatoria 2023-2025 Maestría en Ingeniería Industrial</a>
                         </li>
                     </ul>
 
@@ -202,19 +212,23 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Taiwan 2da Generacion.pdf" target="_blank">Convocatoria Taiwan 2da Generación</a>
+                            <a href="../documentos/Convocatoria Taiwan 2da Generacion.pdf" target="_blank">Convocatoria
+                                Taiwan 2da Generación</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Proceso para aspirantes extranjeros  2023-2025.pdf" target="_blank">Proceso para aspirantes extranjeros 2023-2025</a>
+                            <a href="../documentos/Proceso para aspirantes extranjeros  2023-2025.pdf"
+                                target="_blank">Proceso para aspirantes extranjeros 2023-2025</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria 2024-2026 Aspirantes Extranjeros.pdf" target="_blank">Convocatoria 2024-2026 Aspirantes Extranjeros</a>
+                            <a href="../documentos/Convocatoria 2024-2026 Aspirantes Extranjeros.pdf"
+                                target="_blank">Convocatoria 2024-2026 Aspirantes Extranjeros</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Proceso para aspirantes extranjeros  2021-2023.pdf" target="_blank">Convocatoria Proceso para aspirantes extranjeros 2021-2023</a>
+                            <a href="../documentos/Proceso para aspirantes extranjeros  2021-2023.pdf"
+                                target="_blank">Convocatoria Proceso para aspirantes extranjeros 2021-2023</a>
                         </li>
                     </ul>
 
@@ -222,11 +236,13 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria 2022-2024 MII.pdf" target="_blank">Convocatoria 2022-2024 MII</a>
+                            <a href="../documentos/Convocatoria 2022-2024 MII.pdf" target="_blank">Convocatoria
+                                2022-2024 MII</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria 2022-2024 MA.pdf" target="_blank">Convocatoria 2022-2024 MA</a>
+                            <a href="../documentos/Convocatoria 2022-2024 MA.pdf" target="_blank">Convocatoria 2022-2024
+                                MA</a>
                         </li>
                     </ul>
 
@@ -234,11 +250,13 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria 2021-2023 MIE.pdf" target="_blank">Convocatoria 2021-2023 MIE</a>
+                            <a href="../documentos/Convocatoria 2021-2023 MIE.pdf" target="_blank">Convocatoria
+                                2021-2023 MIE</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria 2021-2023 MCC.pdf" target="_blank">Convocatoria 2021-2023 MCC</a>
+                            <a href="../documentos/Convocatoria 2021-2023 MCC.pdf" target="_blank">Convocatoria
+                                2021-2023 MCC</a>
                         </li>
                     </ul>
                 </div>
@@ -246,20 +264,23 @@
                 <!-- BECAS Y APOYOS -->
                 <div *ngIf="categoriaActiva === 'becas'">
                     <h3 class="mb-3"><i class="fa fa-money"></i> Becas y Apoyos</h3>
-                    
+
                     <h4 class="mt-4 mb-3" style="color: #28a745;">Becas Internacionales</h4>
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://app.santanderopenacademy.com/es/program/movilidad-internacional-2024?utm_source=CRM_country&utm_medium=Email&utm_campaign=Movilidad2024_Mexico_paes" target="_blank">Becas Santander Movilidad Internacional 2024</a>
+                            <a href="https://app.santanderopenacademy.com/es/program/movilidad-internacional-2024?utm_source=CRM_country&utm_medium=Email&utm_campaign=Movilidad2024_Mexico_paes"
+                                target="_blank">Becas Santander Movilidad Internacional 2024</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.becas-santander.com/es/program/becas-santander-idiomas-ingles-slang" target="_blank">Becas Santander Idiomas - Inglés - Slang</a>
+                            <a href="https://www.becas-santander.com/es/program/becas-santander-idiomas-ingles-slang"
+                                target="_blank">Becas Santander Idiomas - Inglés - Slang</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Becas Santander Habilidades TECNM 2021 VF1 (2708 vf).pdf" target="_blank">Becas Santander Habilidades</a>
+                            <a href="../documentos/Convocatoria Becas Santander Habilidades TECNM 2021 VF1 (2708 vf).pdf"
+                                target="_blank">Becas Santander Habilidades</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
@@ -267,23 +288,29 @@
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Oferta de Becas por la Embajada de Francia en México.pdf" target="_blank">Oferta de Becas por la Embajada de Francia en México</a>
+                            <a href="../documentos/Oferta de Becas por la Embajada de Francia en México.pdf"
+                                target="_blank">Oferta de Becas por la Embajada de Francia en México</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="http://resilientmaterials.ucsd.edu/ENLACE/" target="_blank">Convocatoria para estudiantes e investigadores Enlace 2022 University of California, San Diego</a>
+                            <a href="http://resilientmaterials.ucsd.edu/ENLACE/" target="_blank">Convocatoria para
+                                estudiantes e investigadores Enlace 2022 University of California, San Diego</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="http://resilientmaterials.ucsd.edu/ENLACE" target="_blank">Enlace 2021 Experiencia de Verano de Investigación UC San Diego</a>
+                            <a href="http://resilientmaterials.ucsd.edu/ENLACE" target="_blank">Enlace 2021 Experiencia
+                                de Verano de Investigación UC San Diego</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/2021 FWIS INTERNATIONAL AWARDS - CALL FOR NOMINATION.pdf" target="_blank">L'Oreal-UNESCO 2021 for Women in Science International Awards</a>
+                            <a href="../documentos/2021 FWIS INTERNATIONAL AWARDS - CALL FOR NOMINATION.pdf"
+                                target="_blank">L'Oreal-UNESCO 2021 for Women in Science International Awards</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://fer.org.mx/maestria/" target="_blank">Beca de Excelencia 2021 para estudios de maestría en el extranjero de Pitic, Familia Ortega Huerta y Fundación Esposos Rodríguez</a>
+                            <a href="https://fer.org.mx/maestria/" target="_blank">Beca de Excelencia 2021 para estudios
+                                de maestría en el extranjero de Pitic, Familia Ortega Huerta y Fundación Esposos
+                                Rodríguez</a>
                         </li>
                     </ul>
 
@@ -291,7 +318,8 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Beca de Excelencia 2024.pdf" target="_blank">Convocatoria Beca de Excelencia 2024</a>
+                            <a href="../documentos/Convocatoria Beca de Excelencia 2024.pdf"
+                                target="_blank">Convocatoria Beca de Excelencia 2024</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
@@ -299,31 +327,38 @@
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Concluido Titulacion.pdf" target="_blank">Beca Federal por Haber Concluido la Titulación 2021-2</a>
+                            <a href="../documentos/Convocatoria Concluido Titulacion.pdf" target="_blank">Beca Federal
+                                por Haber Concluido la Titulación 2021-2</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Inicio Titulacion.pdf" target="_blank">Beca Federal para Iniciar la Titulación 2021-2</a>
+                            <a href="../documentos/Convocatoria Inicio Titulacion.pdf" target="_blank">Beca Federal para
+                                Iniciar la Titulación 2021-2</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Manutencion Federal 2021-II.pdf" target="_blank">Beca Federal para Apoyo a la Manutención 2021-II</a>
+                            <a href="../documentos/Convocatoria Manutencion Federal 2021-II.pdf" target="_blank">Beca
+                                Federal para Apoyo a la Manutención 2021-II</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Manutenci_n_Federal_2020-I.pdf" target="_blank">Beca Federal Apoyo a la Manutención 2020-1</a>
+                            <a href="../documentos/Manutenci_n_Federal_2020-I.pdf" target="_blank">Beca Federal Apoyo a
+                                la Manutención 2020-1</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/CONVOCATORIA_MANUTENCI_N_FUERZAS_ARMADAS.pdf" target="_blank">Beca de Apoyo a la Manutención para hijos/as de militares de las Fuerzas Armadas</a>
+                            <a href="../documentos/CONVOCATORIA_MANUTENCI_N_FUERZAS_ARMADAS.pdf" target="_blank">Beca de
+                                Apoyo a la Manutención para hijos/as de militares de las Fuerzas Armadas</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-image-o text-info"></i>
-                            <a href="../imagenes/CONVOCATORIA BECAS DISCAPACIDAD AUDITIVA 2020.jpg" target="_blank">Beca para discapacidad auditiva 2020</a>
+                            <a href="../imagenes/CONVOCATORIA BECAS DISCAPACIDAD AUDITIVA 2020.jpg" target="_blank">Beca
+                                para discapacidad auditiva 2020</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-image-o text-info"></i>
-                            <a href="../imagenes/CONVOCATORIA  BECA TÉCNICO SUPERIOR Y LICENCIATURA PÚBLICA CICLO 2020-2021.jpg" target="_blank">Beca Sonora 2020</a>
+                            <a href="../imagenes/CONVOCATORIA  BECA TÉCNICO SUPERIOR Y LICENCIATURA PÚBLICA CICLO 2020-2021.jpg"
+                                target="_blank">Beca Sonora 2020</a>
                         </li>
                     </ul>
 
@@ -331,23 +366,28 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/CONVOCATORIA RECONOCIMIENTO PERFIL DESEABLE 2024.pdf" target="_blank">CONVOCATORIA RECONOCIMIENTO PERFIL DESEABLE 2024</a>
+                            <a href="../documentos/CONVOCATORIA RECONOCIMIENTO PERFIL DESEABLE 2024.pdf"
+                                target="_blank">CONVOCATORIA RECONOCIMIENTO PERFIL DESEABLE 2024</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/CONVOCATORIA APOYOS PERFIL DESEABLE 2024.pdf" target="_blank">CONVOCATORIA APOYOS PERFIL DESEABLE 2024</a>
+                            <a href="../documentos/CONVOCATORIA APOYOS PERFIL DESEABLE 2024.pdf"
+                                target="_blank">CONVOCATORIA APOYOS PERFIL DESEABLE 2024</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/CONVOCATORIA APOYOS GASTOS DE PUBLICACION 2024.pdf" target="_blank">CONVOCATORIA APOYOS GASTOS DE PUBLICACIÓN 2024</a>
+                            <a href="../documentos/CONVOCATORIA APOYOS GASTOS DE PUBLICACION 2024.pdf"
+                                target="_blank">CONVOCATORIA APOYOS GASTOS DE PUBLICACIÓN 2024</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/CONVOCATORIA APOYOS ESTUDIOS DE POSGRADO 2024.pdf" target="_blank">CONVOCATORIA APOYOS ESTUDIOS DE POSGRADO 2024</a>
+                            <a href="../documentos/CONVOCATORIA APOYOS ESTUDIOS DE POSGRADO 2024.pdf"
+                                target="_blank">CONVOCATORIA APOYOS ESTUDIOS DE POSGRADO 2024</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/CONVOCATORIA APOYOS FORTALECIMIENTO CA 2024.pdf" target="_blank">CONVOCATORIA APOYOS FORTALECIMIENTO CA 2024</a>
+                            <a href="../documentos/CONVOCATORIA APOYOS FORTALECIMIENTO CA 2024.pdf"
+                                target="_blank">CONVOCATORIA APOYOS FORTALECIMIENTO CA 2024</a>
                         </li>
                     </ul>
 
@@ -355,27 +395,33 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Apoyos para Fortalecimiento CA 2023.pdf" target="_blank">Apoyos para Fortalecimiento CA 2023</a>
+                            <a href="../documentos/Apoyos para Fortalecimiento CA 2023.pdf" target="_blank">Apoyos para
+                                Fortalecimiento CA 2023</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Apoyos a Perfil Deseable 2023.pdf" target="_blank">Apoyos a Perfil Deseable 2023</a>
+                            <a href="../documentos/Apoyos a Perfil Deseable 2023.pdf" target="_blank">Apoyos a Perfil
+                                Deseable 2023</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Apoyos para Estudios Posgrado 2023.pdf" target="_blank">Apoyos para Estudios Posgrado 2023</a>
+                            <a href="../documentos/Apoyos para Estudios Posgrado 2023.pdf" target="_blank">Apoyos para
+                                Estudios Posgrado 2023</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Apoyos para Gastos Publicacion 2023.pdf" target="_blank">Apoyos para Gastos Publicación 2023</a>
+                            <a href="../documentos/Apoyos para Gastos Publicacion 2023.pdf" target="_blank">Apoyos para
+                                Gastos Publicación 2023</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Apoyos para Posdoctorales 2023.pdf" target="_blank">Apoyos para Posdoctorales 2023</a>
+                            <a href="../documentos/Apoyos para Posdoctorales 2023.pdf" target="_blank">Apoyos para
+                                Posdoctorales 2023</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Reconocimiento a Perfil Deseable 2023.pdf" target="_blank">Reconocimiento a Perfil Deseable 2023</a>
+                            <a href="../documentos/Reconocimiento a Perfil Deseable 2023.pdf"
+                                target="_blank">Reconocimiento a Perfil Deseable 2023</a>
                         </li>
                     </ul>
 
@@ -383,42 +429,54 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Apoyo para el fortalecimiento de los Cuerpos Académicos y Gastos de publicación 2022.pdf" target="_blank">Convocatoria Apoyo para el fortalecimiento de los Cuerpos Académicos y Gastos de publicación 2022</a>
+                            <a href="../documentos/Convocatoria Apoyo para el fortalecimiento de los Cuerpos Académicos y Gastos de publicación 2022.pdf"
+                                target="_blank">Convocatoria Apoyo para el fortalecimiento de los Cuerpos Académicos y
+                                Gastos de publicación 2022</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Reconocimiento a Profesores-as de Tiempo Completo con Perfil Deseable 2022.pdf" target="_blank">Convocatoria Reconocimiento a Profesores-as de Tiempo Completo con Perfil Deseable 2022</a>
+                            <a href="../documentos/Convocatoria Reconocimiento a Profesores-as de Tiempo Completo con Perfil Deseable 2022.pdf"
+                                target="_blank">Convocatoria Reconocimiento a Profesores-as de Tiempo Completo con
+                                Perfil Deseable 2022</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Apoyo a PTC con Perfil Deseable 2022.pdf" target="_blank">Convocatoria Apoyo a PTC con Perfil Deseable 2022</a>
+                            <a href="../documentos/Convocatoria Apoyo a PTC con Perfil Deseable 2022.pdf"
+                                target="_blank">Convocatoria Apoyo a PTC con Perfil Deseable 2022</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Apoyos para Estudios de Posgrado de Alta Calidad 2022.pdf" target="_blank">Convocatoria Apoyos para Estudios de Posgrado de Alta Calidad 2022</a>
+                            <a href="../documentos/Convocatoria Apoyos para Estudios de Posgrado de Alta Calidad 2022.pdf"
+                                target="_blank">Convocatoria Apoyos para Estudios de Posgrado de Alta Calidad 2022</a>
                         </li>
                     </ul>
-<h4 class="mt-4 mb-3" style="color: #28a745;">Apoyos para Docentes e Investigadores 2021</h4>
+                    <h4 class="mt-4 mb-3" style="color: #28a745;">Apoyos para Docentes e Investigadores 2021</h4>
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Apoyo a Profesores con Perfil Deseable.pdf" target="_blank">Convocatoria Apoyo a Profesores con Perfil Deseable</a>
+                            <a href="../documentos/Convocatoria Apoyo a Profesores con Perfil Deseable.pdf"
+                                target="_blank">Convocatoria Apoyo a Profesores con Perfil Deseable</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Fortalecimiento de Cuerpos Académicos y Gastos de Publicación.pdf" target="_blank">Convocatoria Fortalecimiento de Cuerpos Académicos y Gastos de Publicación</a>
+                            <a href="../documentos/Convocatoria Fortalecimiento de Cuerpos Académicos y Gastos de Publicación.pdf"
+                                target="_blank">Convocatoria Fortalecimiento de Cuerpos Académicos y Gastos de
+                                Publicación</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria para Apoyo de Posgrado de Alta Calidad.pdf" target="_blank">Convocatoria para Apoyo de Posgrado de Alta Calidad</a>
+                            <a href="../documentos/Convocatoria para Apoyo de Posgrado de Alta Calidad.pdf"
+                                target="_blank">Convocatoria para Apoyo de Posgrado de Alta Calidad</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Reconocimiento al Perfil Deseable.pdf" target="_blank">Convocatoria Reconocimiento al Perfil Deseable</a>
+                            <a href="../documentos/Convocatoria Reconocimiento al Perfil Deseable.pdf"
+                                target="_blank">Convocatoria Reconocimiento al Perfil Deseable</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria ex becarios promep.pdf" target="_blank">Convocatoria Ex Becarios PROMEP</a>
+                            <a href="../documentos/Convocatoria ex becarios promep.pdf" target="_blank">Convocatoria Ex
+                                Becarios PROMEP</a>
                         </li>
                     </ul>
 
@@ -426,23 +484,32 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.conacyt.gob.mx/PDF/Convocatoria%202021%20Estancias%20Sabaticas%20VF.pdf" target="_blank">Apoyos complementarios para estancias sabáticas vinculadas a la consolidación de grupos de investigación CONVOCATORIA 2021</a>
+                            <a href="https://www.conacyt.gob.mx/PDF/Convocatoria%202021%20Estancias%20Sabaticas%20VF.pdf"
+                                target="_blank">Apoyos complementarios para estancias sabáticas vinculadas a la
+                                consolidación de grupos de investigación CONVOCATORIA 2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.conacyt.gob.mx/PDF/Convocatorias/Becas-al-extranjero/Propuesta%20Conacyt-FUNED%202021%20VF.pdf" target="_blank">Becas CONACYT – FUNED 2021 en Áreas Relacionadas con la Salud</a>
+                            <a href="https://www.conacyt.gob.mx/PDF/Convocatorias/Becas-al-extranjero/Propuesta%20Conacyt-FUNED%202021%20VF.pdf"
+                                target="_blank">Becas CONACYT – FUNED 2021 en Áreas Relacionadas con la Salud</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.conacyt.gob.mx/Convocatoria-Programas-nacionales-estrategicos-2021.html" target="_blank">Convocatoria 2021 para la presentación de proyectos de investigación e incidencia orientados a la adaptación y mitigación del cambio climático</a>
+                            <a href="https://www.conacyt.gob.mx/Convocatoria-Programas-nacionales-estrategicos-2021.html"
+                                target="_blank">Convocatoria 2021 para la presentación de proyectos de investigación e
+                                incidencia orientados a la adaptación y mitigación del cambio climático</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.conacyt.gob.mx/Convocatoria-Desarrollo-de-Innovaciones-Tecnologicas-para-una-Agricultura-Mexicana-Libre-de-Agroinsumos-Toxicos.html" target="_blank">Desarrollo de Innovaciones Tecnológicas para una Agricultura Mexicana Libre de Agroinsumos Tóxicos 2021</a>
+                            <a href="https://www.conacyt.gob.mx/Convocatoria-Desarrollo-de-Innovaciones-Tecnologicas-para-una-Agricultura-Mexicana-Libre-de-Agroinsumos-Toxicos.html"
+                                target="_blank">Desarrollo de Innovaciones Tecnológicas para una Agricultura Mexicana
+                                Libre de Agroinsumos Tóxicos 2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.conacyt.gob.mx/Convocatoria-Programas-nacionales-estrategicos-2021-Protocolos.html" target="_blank">Elaboración de Protocolos de Investigación e Incidencia en Materia de Soberanía Alimentaria</a>
+                            <a href="https://www.conacyt.gob.mx/Convocatoria-Programas-nacionales-estrategicos-2021-Protocolos.html"
+                                target="_blank">Elaboración de Protocolos de Investigación e Incidencia en Materia de
+                                Soberanía Alimentaria</a>
                         </li>
                     </ul>
 
@@ -450,15 +517,20 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="http://www.hermosillo.tecnm.mx/apoyo-a-madres-de-familia.html" target="_blank">Apoyo a Madres mexicanas Jefas de Familia para Fortalecer su Desarrollo Profesional Convocatoria 2021</a>
+                            <a href="http://www.hermosillo.tecnm.mx/apoyo-a-madres-de-familia.html"
+                                target="_blank">Apoyo a Madres mexicanas Jefas de Familia para Fortalecer su Desarrollo
+                                Profesional Convocatoria 2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria 2020 (1) Apoyos a Madres mexicanas jefas de familia.pdf" target="_blank">Apoyo a Madres mexicanas Jefas de Familia para Fortalecer su Desarrollo Profesional CONVOCATORIA 2020</a>
+                            <a href="../documentos/Convocatoria 2020 (1) Apoyos a Madres mexicanas jefas de familia.pdf"
+                                target="_blank">Apoyo a Madres mexicanas Jefas de Familia para Fortalecer su Desarrollo
+                                Profesional CONVOCATORIA 2020</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Jovenes con Talento MEGARREGION SONORA-ARIZONA 2020.pdf" target="_blank">Jóvenes con Talento, Megarregión Sonora-Arizona 2020</a>
+                            <a href="../documentos/Convocatoria Jovenes con Talento MEGARREGION SONORA-ARIZONA 2020.pdf"
+                                target="_blank">Jóvenes con Talento, Megarregión Sonora-Arizona 2020</a>
                         </li>
                     </ul>
                 </div>
@@ -466,16 +538,19 @@
                 <!-- DOCENTES -->
                 <div *ngIf="categoriaActiva === 'docentes'">
                     <h3 class="mb-3"><i class="fa fa-users"></i> Convocatorias para Docentes</h3>
-                    
+
                     <h4 class="mt-4 mb-3" style="color: #28a745;">Promoción Docente 2025</h4>
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-excel-o text-success"></i>
-                            <a href="../documentos/Formatos de Solicitud para Evaluacion de Promocion Docente 2025 (1).xlsx" target="_blank">Formatos de Solicitud para Evaluación de Promoción Docente 2025</a>
+                            <a href="../documentos/Formatos de Solicitud para Evaluacion de Promocion Docente 2025 (1).xlsx"
+                                target="_blank">Formatos de Solicitud para Evaluación de Promoción Docente 2025</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Documento del Proceso de Promocion para el Personal Docente de los ITs 2025.pdf" target="_blank">Documento del Proceso de Promoción para el Personal Docente de los ITs 2025</a>
+                            <a href="../documentos/Documento del Proceso de Promocion para el Personal Docente de los ITs 2025.pdf"
+                                target="_blank">Documento del Proceso de Promoción para el Personal Docente de los ITs
+                                2025</a>
                         </li>
                     </ul>
 
@@ -483,31 +558,38 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Politicas Academicas Periodo Sabatico 2-2024.pdf" target="_blank">Políticas Académicas Periodo Sabático 2-2024</a>
+                            <a href="../documentos/Politicas Academicas Periodo Sabatico 2-2024.pdf"
+                                target="_blank">Políticas Académicas Periodo Sabático 2-2024</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/CONVOCATORIA 2-2024.pdf" target="_blank">CONVOCATORIA 2-2024 Periodo Sabático</a>
+                            <a href="../documentos/CONVOCATORIA 2-2024.pdf" target="_blank">CONVOCATORIA 2-2024 Periodo
+                                Sabático</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria de Periodo Sabatico 2-2023.pdf" target="_blank">Convocatoria de Periodo Sabático 2-2023</a>
+                            <a href="../documentos/Convocatoria de Periodo Sabatico 2-2023.pdf"
+                                target="_blank">Convocatoria de Periodo Sabático 2-2023</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Politicas Academicas P Sabatico 2-2023.pdf" target="_blank">Políticas Académicas P Sabático 2-2023</a>
+                            <a href="../documentos/Politicas Academicas P Sabatico 2-2023.pdf" target="_blank">Políticas
+                                Académicas P Sabático 2-2023</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria_Anio_Sabatico__2_2021.pdf" target="_blank">Convocatoria Año Sabático 2-2021</a>
+                            <a href="../documentos/Convocatoria_Anio_Sabatico__2_2021.pdf" target="_blank">Convocatoria
+                                Año Sabático 2-2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Sabatico 1-2021.pdf" target="_blank">Año Sabático Convocatoria 1-2021</a>
+                            <a href="../documentos/Convocatoria Sabatico 1-2021.pdf" target="_blank">Año Sabático
+                                Convocatoria 1-2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-archive-o text-warning"></i>
-                            <a href="../documentos/convocatoria-periodo-sab-programa-lic.rar" target="_blank">Convocatoria de Periodo Sabático (Archivo RAR)</a>
+                            <a href="../documentos/convocatoria-periodo-sab-programa-lic.rar"
+                                target="_blank">Convocatoria de Periodo Sabático (Archivo RAR)</a>
                         </li>
                     </ul>
 
@@ -539,11 +621,14 @@
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-archive-o text-warning"></i>
-                            <a href="../documentos/Convocatoria-de-Estimulos-al-Desempeno-del-Personal-Docente-2022.rar" target="_blank">Programa de Estímulos al Desempeño del Personal Docente 2022</a>
+                            <a href="../documentos/Convocatoria-de-Estimulos-al-Desempeno-del-Personal-Docente-2022.rar"
+                                target="_blank">Programa de Estímulos al Desempeño del Personal Docente 2022</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.tecnm.mx/?vista=Convocatorias_TecNM_Academicos" target="_blank">Convocatoria 2021 Programa de Estímulos al Desempeño del Personal Docente</a>
+                            <a href="https://www.tecnm.mx/?vista=Convocatorias_TecNM_Academicos"
+                                target="_blank">Convocatoria 2021 Programa de Estímulos al Desempeño del Personal
+                                Docente</a>
                         </li>
                     </ul>
 
@@ -551,11 +636,13 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/CONVOCATORIA 2024.pdf" target="_blank">Convocatoria beca-comisión 2024</a>
+                            <a href="../documentos/CONVOCATORIA 2024.pdf" target="_blank">Convocatoria beca-comisión
+                                2024</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.tecnm.mx/archivos/slider/CONVOCATORIA%202020%20LICENCIA%20BECA%20COMISION.pdf" target="_blank">Convocatoria Licencia por Beca-Comisión 2020</a>
+                            <a href="https://www.tecnm.mx/archivos/slider/CONVOCATORIA%202020%20LICENCIA%20BECA%20COMISION.pdf"
+                                target="_blank">Convocatoria Licencia por Beca-Comisión 2020</a>
                         </li>
                     </ul>
 
@@ -563,11 +650,13 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-archive-o text-warning"></i>
-                            <a href="../documentos/Convocatorias docentes 2021 TecNM Hermosillo.zip" target="_blank">Convocatorias de Promoción Docente 2021</a>
+                            <a href="../documentos/Convocatorias docentes 2021 TecNM Hermosillo.zip"
+                                target="_blank">Convocatorias de Promoción Docente 2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="http://www.hermosillo.tecnm.mx/promocion-docente-2021.html" target="_blank">Proceso de Promoción Docente 2021</a>
+                            <a href="http://www.hermosillo.tecnm.mx/promocion-docente-2021.html" target="_blank">Proceso
+                                de Promoción Docente 2021</a>
                         </li>
                     </ul>
 
@@ -575,7 +664,8 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-archive-o text-warning"></i>
-                            <a href="../documentos/rvconvocatoriasnodocentes.zip" target="_blank">Convocatorias de Promoción no Docente 2021</a>
+                            <a href="../documentos/rvconvocatoriasnodocentes.zip" target="_blank">Convocatorias de
+                                Promoción no Docente 2021</a>
                         </li>
                     </ul>
 
@@ -583,7 +673,9 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="http://hermosillo.tecnm.mx/Capacitación%20Microsoft%20Teams%20Enero%202021.html" target="_blank">Proceso de Capacitación para Estudiantes, Docentes y Personal Administrativo de TECNM. Microsoft 365 y Microsoft Teams</a>
+                            <a href="http://hermosillo.tecnm.mx/Capacitación%20Microsoft%20Teams%20Enero%202021.html"
+                                target="_blank">Proceso de Capacitación para Estudiantes, Docentes y Personal
+                                Administrativo de TECNM. Microsoft 365 y Microsoft Teams</a>
                         </li>
                     </ul>
                 </div>
@@ -591,7 +683,7 @@
                 <!-- CONCURSOS Y EVENTOS -->
                 <div *ngIf="categoriaActiva === 'concursos'">
                     <h3 class="mb-3"><i class="fa fa-trophy"></i> Concursos y Eventos</h3>
-                    
+
                     <h4 class="mt-4 mb-3" style="color: #28a745;">Ciencias Básicas y Económico-Administrativas</h4>
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
@@ -628,15 +720,18 @@
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/CONVOCATORIA CECB&CEA 2020.pdf" target="_blank">XXI Concurso Estatal de Ciencias Básicas y Ciencias Económico-Administrativas</a>
+                            <a href="../documentos/CONVOCATORIA CECB&CEA 2020.pdf" target="_blank">XXI Concurso Estatal
+                                de Ciencias Básicas y Ciencias Económico-Administrativas</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="http://hermosillo.tecnm.mx/convocatorias/CONVOCATORIA-CENITAE-2021.pdf" target="_blank">Convocatoria CENITAE 2021</a>
+                            <a href="http://hermosillo.tecnm.mx/convocatorias/CONVOCATORIA-CENITAE-2021.pdf"
+                                target="_blank">Convocatoria CENITAE 2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/CONVOCATORIA_XXVI_2022.pdf" target="_blank">Convocatoria Evento Estudiantil De Ciencias Básicas</a>
+                            <a href="../documentos/CONVOCATORIA_XXVI_2022.pdf" target="_blank">Convocatoria Evento
+                                Estudiantil De Ciencias Básicas</a>
                         </li>
                     </ul>
 
@@ -652,15 +747,18 @@
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Hackatoìn 2022 - Convocatoria ACTUALIZADA 2.1 (1).pdf" target="_blank">Convocatoria Hackatón 2022</a>
+                            <a href="../documentos/Hackatoìn 2022 - Convocatoria ACTUALIZADA 2.1 (1).pdf"
+                                target="_blank">Convocatoria Hackatón 2022</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Hackathon BBVA 2022.pdf" target="_blank">Convocatoria de Hackathon BBVA</a>
+                            <a href="../documentos/Hackathon BBVA 2022.pdf" target="_blank">Convocatoria de Hackathon
+                                BBVA</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Copa de Inteligencia Artificial TE 2022-2023.pdf" target="_blank">Copa de Inteligencia Artificial TE 2022-2023</a>
+                            <a href="../documentos/Copa de Inteligencia Artificial TE 2022-2023.pdf"
+                                target="_blank">Copa de Inteligencia Artificial TE 2022-2023</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
@@ -668,11 +766,13 @@
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.clusterminerosonora.com.mx/hackatonconvocatoria.php" target="_blank">Hackatón Minero 2021</a>
+                            <a href="https://www.clusterminerosonora.com.mx/hackatonconvocatoria.php"
+                                target="_blank">Hackatón Minero 2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="http://innovacion.sec.gob.mx/hackaton2021/" target="_blank">Hackatón en línea 2021 Retos y Oportunidades del Regreso a Clases Presenciales</a>
+                            <a href="http://innovacion.sec.gob.mx/hackaton2021/" target="_blank">Hackatón en línea 2021
+                                Retos y Oportunidades del Regreso a Clases Presenciales</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-image-o text-info"></i>
@@ -680,11 +780,13 @@
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="http://www.hermosillo.tecnm.mx/Huawei-ICT-Academy.html" target="_blank">Huawei ICT Academy</a>
+                            <a href="http://www.hermosillo.tecnm.mx/Huawei-ICT-Academy.html" target="_blank">Huawei ICT
+                                Academy</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Español Solicitud 100K Concurso Mex-US 2020 (1).pdf" target="_blank">Concurso del Fondo de Innovación México-Estados Unidos 2020</a>
+                            <a href="../documentos/Español Solicitud 100K Concurso Mex-US 2020 (1).pdf"
+                                target="_blank">Concurso del Fondo de Innovación México-Estados Unidos 2020</a>
                         </li>
                     </ul>
 
@@ -692,7 +794,8 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Oficial WER Universidad 2021-2022.pdf" target="_blank">Convocatoria WER México 2021 -2022</a>
+                            <a href="../documentos/Convocatoria Oficial WER Universidad 2021-2022.pdf"
+                                target="_blank">Convocatoria WER México 2021 -2022</a>
                         </li>
                     </ul>
 
@@ -700,15 +803,19 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.tecnm.mx/menu/convocatorias_tecnm/Proyectos_de_desarrollo_Tecnologico_e_Innovacion_para_Estudiantes_Convocatoria_2021.pdf" target="_blank">Proyectos de Desarrollo Tecnológico e Innovación para Estudiantes Convocatoria 2021</a>
+                            <a href="https://www.tecnm.mx/menu/convocatorias_tecnm/Proyectos_de_desarrollo_Tecnologico_e_Innovacion_para_Estudiantes_Convocatoria_2021.pdf"
+                                target="_blank">Proyectos de Desarrollo Tecnológico e Innovación para Estudiantes
+                                Convocatoria 2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.tecnm.mx/menu/convocatorias_tecnm/Proyectos_de_Desarrollo_Tecnologico_e_Innovacion_Convocatoria_2021.pdf" target="_blank">Proyectos de Desarrollo Tecnológico e Innovación Convocatoria 2021</a>
+                            <a href="https://www.tecnm.mx/menu/convocatorias_tecnm/Proyectos_de_Desarrollo_Tecnologico_e_Innovacion_Convocatoria_2021.pdf"
+                                target="_blank">Proyectos de Desarrollo Tecnológico e Innovación Convocatoria 2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.tecnm.mx/menu/convocatorias_tecnm/Proyectos_de_Investigacion_Cientifica_Convocatoria_2021.pdf" target="_blank">Proyectos de Investigación Científica Convocatoria 2021</a>
+                            <a href="https://www.tecnm.mx/menu/convocatorias_tecnm/Proyectos_de_Investigacion_Cientifica_Convocatoria_2021.pdf"
+                                target="_blank">Proyectos de Investigación Científica Convocatoria 2021</a>
                         </li>
                     </ul>
 
@@ -716,27 +823,33 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Foro Humanismo.pdf" target="_blank">Convocatoria Foro Humanismo</a>
+                            <a href="../documentos/Convocatoria Foro Humanismo.pdf" target="_blank">Convocatoria Foro
+                                Humanismo</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria 25 Mujeres en la Ciencia-DGPPIE.pdf" target="_blank">Convocatoria 25 Mujeres en la Ciencia-DGPPIE</a>
+                            <a href="../documentos/Convocatoria 25 Mujeres en la Ciencia-DGPPIE.pdf"
+                                target="_blank">Convocatoria 25 Mujeres en la Ciencia-DGPPIE</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Subcomite de etica 2024.pdf" target="_blank">Convocatoria Subcomité de ética 2024</a>
+                            <a href="../documentos/Convocatoria Subcomite de etica 2024.pdf"
+                                target="_blank">Convocatoria Subcomité de ética 2024</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/CONVOCATORIA-CONCURSO-DE-ALTARES-2022.pdf" target="_blank">Convocatoria concurso de altares 2022</a>
+                            <a href="../documentos/CONVOCATORIA-CONCURSO-DE-ALTARES-2022.pdf"
+                                target="_blank">Convocatoria concurso de altares 2022</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria-Concurso-de-Altares-2022.pdf" target="_blank">Convocatoria Concurso de Altares 2022</a>
+                            <a href="../documentos/Convocatoria-Concurso-de-Altares-2022.pdf"
+                                target="_blank">Convocatoria Concurso de Altares 2022</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/PROGRAMA-SEMANA-NACIONAL-FINANCIERA-ITH-2022.pdf" target="_blank">Convocatoria Programa Semanal Nacional Financiera ITH</a>
+                            <a href="../documentos/PROGRAMA-SEMANA-NACIONAL-FINANCIERA-ITH-2022.pdf"
+                                target="_blank">Convocatoria Programa Semanal Nacional Financiera ITH</a>
                         </li>
                     </ul>
 
@@ -744,23 +857,28 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria-para-Profesores-Verano-Cientifico.pdf" target="_blank">Convocatoria para Profesores Verano Científico</a>
+                            <a href="../documentos/Convocatoria-para-Profesores-Verano-Cientifico.pdf"
+                                target="_blank">Convocatoria para Profesores Verano Científico</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria-para-Estudiantes-Verano-Cientifico.pdf" target="_blank">Convocatoria para Estudiantes Verano Científico</a>
+                            <a href="../documentos/Convocatoria-para-Estudiantes-Verano-Cientifico.pdf"
+                                target="_blank">Convocatoria para Estudiantes Verano Científico</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria-Tres-Minutos-Sobre-mi-Verano.pdf" target="_blank">Convocatoria Tres Minutos Sobre mi Verano</a>
+                            <a href="../documentos/Convocatoria-Tres-Minutos-Sobre-mi-Verano.pdf"
+                                target="_blank">Convocatoria Tres Minutos Sobre mi Verano</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Congreso Verano.pdf" target="_blank">Convocatoria Congreso Verano</a>
+                            <a href="../documentos/Convocatoria Congreso Verano.pdf" target="_blank">Convocatoria
+                                Congreso Verano</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/CURSOS DE VERANOS AUTORIZADOS-2022-DEP.pdf" target="_blank">Convocatoria Para Cursos de Verano 2022</a>
+                            <a href="../documentos/CURSOS DE VERANOS AUTORIZADOS-2022-DEP.pdf"
+                                target="_blank">Convocatoria Para Cursos de Verano 2022</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-excel-o text-success"></i>
@@ -772,27 +890,33 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria del Jurado Calificador de Profesionista del Ano.pdf" target="_blank">Convocatoria del Jurado Calificador de Profesion ista del Año</a>
+                            <a href="../documentos/Convocatoria del Jurado Calificador de Profesionista del Ano.pdf"
+                                target="_blank">Convocatoria del Jurado Calificador de Profesion ista del Año</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Jurado Calificador Firma.pdf" target="_blank">Convocatoria Jurado Calificador Firma</a>
+                            <a href="../documentos/Convocatoria Jurado Calificador Firma.pdf"
+                                target="_blank">Convocatoria Jurado Calificador Firma</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-word-o text-primary"></i>
-                            <a href="../documentos/Solicitud Final de Inscripción Jurado Calificador.doc" target="_blank">Solicitud Final de Inscripción Jurado Calificador</a>
+                            <a href="../documentos/Solicitud Final de Inscripción Jurado Calificador.doc"
+                                target="_blank">Solicitud Final de Inscripción Jurado Calificador</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-archive-o text-warning"></i>
-                            <a href="../documentos/Convocatoria y solicitud Profesionista del Año 2021-2.zip" target="_blank">Convocatoria Profesionista del Año</a>
+                            <a href="../documentos/Convocatoria y solicitud Profesionista del Año 2021-2.zip"
+                                target="_blank">Convocatoria Profesionista del Año</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.cjf.gob.mx/convocatorias2021.htm" target="_blank">Convocatoria para integrar la Lista de Peritos del Poder Judicial de la Federación 2022</a>
+                            <a href="https://www.cjf.gob.mx/convocatorias2021.htm" target="_blank">Convocatoria para
+                                integrar la Lista de Peritos del Poder Judicial de la Federación 2022</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/CONVOCATORIA PEJ2021 SOMOS MÁS.pdf" target="_blank">Premio Estatal de la Juventud 2021</a>
+                            <a href="../documentos/CONVOCATORIA PEJ2021 SOMOS MÁS.pdf" target="_blank">Premio Estatal de
+                                la Juventud 2021</a>
                         </li>
                     </ul>
 
@@ -800,31 +924,39 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.ceenl.mx/2021/historietas/" target="_blank">Primer Concurso Nacional Historietas por la Igualdad</a>
+                            <a href="https://www.ceenl.mx/2021/historietas/" target="_blank">Primer Concurso Nacional
+                                Historietas por la Igualdad</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.ceenl.mx/2021/cineminuto/" target="_blank">Cuarto Concurso Nacional de Cineminuto #ParidadEnCorto</a>
+                            <a href="https://www.ceenl.mx/2021/cineminuto/" target="_blank">Cuarto Concurso Nacional de
+                                Cineminuto #ParidadEnCorto</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-image-o text-info"></i>
-                            <a href="../imagenes/Convocatoria-prorroga-paridad-corto.jpg" target="_blank">Prórroga del Cuarto Concurso Nacional de Cineminuto Paridad en Corto</a>
+                            <a href="../imagenes/Convocatoria-prorroga-paridad-corto.jpg" target="_blank">Prórroga del
+                                Cuarto Concurso Nacional de Cineminuto Paridad en Corto</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://contraloria.sonora.gob.mx/images/Micrositios/transparencia-en-corto/convocatoria-xvi-cntc-son.pdf" target="_blank">XVI Concurso Nacional y Estatal de Transparencia en Corto 2021</a>
+                            <a href="https://contraloria.sonora.gob.mx/images/Micrositios/transparencia-en-corto/convocatoria-xvi-cntc-son.pdf"
+                                target="_blank">XVI Concurso Nacional y Estatal de Transparencia en Corto 2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="http://ibd.senado.gob.mx/sites/default/files/invitacion_190821_2.pdf" target="_blank">Concurso Nacional de Ensayo sobre Federalismo</a>
+                            <a href="http://ibd.senado.gob.mx/sites/default/files/invitacion_190821_2.pdf"
+                                target="_blank">Concurso Nacional de Ensayo sobre Federalismo</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="http://hermosillo.tecnm.mx/documentos/Convocatoria%202020%20v2.pdf" target="_blank">XVII Concurso Leamos La Ciencia para Todos, 2020-2021</a>
+                            <a href="http://hermosillo.tecnm.mx/documentos/Convocatoria%202020%20v2.pdf"
+                                target="_blank">XVII Concurso Leamos La Ciencia para Todos, 2020-2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Premio Universitario Anticorrupción.pdf" target="_blank">Convocatoria Premio Universitario de Protocolos de Investigación Aplicada en materia Anticorrupción</a>
+                            <a href="../documentos/Convocatoria Premio Universitario Anticorrupción.pdf"
+                                target="_blank">Convocatoria Premio Universitario de Protocolos de Investigación
+                                Aplicada en materia Anticorrupción</a>
                         </li>
                     </ul>
 
@@ -832,11 +964,13 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/CONVOCATORIA FEMECI SONORA 2023-1.pdf" target="_blank">CONVOCATORIA FEMECI SONORA 2023-1</a>
+                            <a href="../documentos/CONVOCATORIA FEMECI SONORA 2023-1.pdf" target="_blank">CONVOCATORIA
+                                FEMECI SONORA 2023-1</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-image-o text-info"></i>
-                            <a href="../documentos/Convocatoria quim tecnm 2021-2.png" target="_blank">Convocatoria Federación de químicos de sonora</a>
+                            <a href="../documentos/Convocatoria quim tecnm 2021-2.png" target="_blank">Convocatoria
+                                Federación de químicos de sonora</a>
                         </li>
                     </ul>
 
@@ -844,7 +978,8 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/CEE - Concursos Nacionales de Urna Electronica Y Via Remota.pdf" target="_blank">CEE - Concursos Nacionales de Urna Electrónica Y Vía Remota</a>
+                            <a href="../documentos/CEE - Concursos Nacionales de Urna Electronica Y Via Remota.pdf"
+                                target="_blank">CEE - Concursos Nacionales de Urna Electrónica Y Vía Remota</a>
                         </li>
                     </ul>
 
@@ -852,11 +987,13 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-image-o text-info"></i>
-                            <a href="../imagenes/MOOC Promo General 2022 banner standard(3).png" target="_blank">Convocatoria MOOCS TecNM</a>
+                            <a href="../imagenes/MOOC Promo General 2022 banner standard(3).png"
+                                target="_blank">Convocatoria MOOCS TecNM</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="http://educa.banxico.org.mx/eub2022.html" target="_blank">Convocatoria Enlaces Universitarios Banxico 2022</a>
+                            <a href="http://educa.banxico.org.mx/eub2022.html" target="_blank">Convocatoria Enlaces
+                                Universitarios Banxico 2022</a>
                         </li>
                     </ul>
                 </div>
@@ -865,14 +1002,16 @@
                 <div *ngIf="categoriaActiva === 'cerradas'">
                     <h3 class="mb-3"><i class="fa fa-archive"></i> Convocatorias Cerradas/Históricas</h3>
                     <div class="alert alert-info">
-                        <strong>Nota:</strong> Estas convocatorias ya han concluido y se mantienen como referencia histórica.
+                        <strong>Nota:</strong> Estas convocatorias ya han concluido y se mantienen como referencia
+                        histórica.
                     </div>
-                    
+
                     <h4 class="mt-4 mb-3" style="color: #6c757d;">Eventos ITH 2023</h4>
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/AGENDA 48 ANIVERSARIO ITH 2023.pdf" target="_blank">AGENDA 48 ANIVERSARIO ITH 2023</a>
+                            <a href="../documentos/AGENDA 48 ANIVERSARIO ITH 2023.pdf" target="_blank">AGENDA 48
+                                ANIVERSARIO ITH 2023</a>
                         </li>
                     </ul>
 
@@ -880,19 +1019,24 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Comunicado Publicacion Convocatorias 2024.pdf" target="_blank">Comunicado Publicación Convocatorias 2024</a>
+                            <a href="../documentos/Comunicado Publicacion Convocatorias 2024.pdf"
+                                target="_blank">Comunicado Publicación Convocatorias 2024</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Comunicado Publicación Convocatorias 2023.pdf" target="_blank">Comunicado Publicación Convocatorias 2023</a>
+                            <a href="../documentos/Comunicado Publicación Convocatorias 2023.pdf"
+                                target="_blank">Comunicado Publicación Convocatorias 2023</a>
                         </li>
                     </ul>
 
-                    <h4 class="mt-4 mb-3" style="color: #6c757d;">Posgrado - Generaciones Anteriores (2022 y anteriores)</h4>
+                    <h4 class="mt-4 mb-3" style="color: #6c757d;">Posgrado - Generaciones Anteriores (2022 y anteriores)
+                    </h4>
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/9 Convocatoria-Posgrado-DCI-2022-2 (1).pdf" target="_blank">Convocatoria programa de Doctorado en Ciencias de la Ingeniería 2022-2</a>
+                            <a href="../documentos/9 Convocatoria-Posgrado-DCI-2022-2 (1).pdf"
+                                target="_blank">Convocatoria programa de Doctorado en Ciencias de la Ingeniería
+                                2022-2</a>
                         </li>
                     </ul>
 
@@ -900,7 +1044,8 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.conacyt.gob.mx/PDF/Convocatorias/Becas-al-extranjero/Propuesta%20Conacyt-FUNED%202021%20VF.pdf" target="_blank">Becas CONACYT – FUNED 2021</a>
+                            <a href="https://www.conacyt.gob.mx/PDF/Convocatorias/Becas-al-extranjero/Propuesta%20Conacyt-FUNED%202021%20VF.pdf"
+                                target="_blank">Becas CONACYT – FUNED 2021</a>
                         </li>
                     </ul>
 
@@ -908,15 +1053,18 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.conacyt.gob.mx/Convocatoria-Programas-nacionales-estrategicos-2021.html" target="_blank">Convocatoria 2021 proyectos cambio climático</a>
+                            <a href="https://www.conacyt.gob.mx/Convocatoria-Programas-nacionales-estrategicos-2021.html"
+                                target="_blank">Convocatoria 2021 proyectos cambio climático</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.conacyt.gob.mx/Convocatoria-Desarrollo-de-Innovaciones-Tecnologicas-para-una-Agricultura-Mexicana-Libre-de-Agroinsumos-Toxicos.html" target="_blank">Desarrollo de Innovaciones Tecnológicas Agricultura 2021</a>
+                            <a href="https://www.conacyt.gob.mx/Convocatoria-Desarrollo-de-Innovaciones-Tecnologicas-para-una-Agricultura-Mexicana-Libre-de-Agroinsumos-Toxicos.html"
+                                target="_blank">Desarrollo de Innovaciones Tecnológicas Agricultura 2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.conacyt.gob.mx/Convocatoria-Programas-nacionales-estrategicos-2021-Protocolos.html" target="_blank">Elaboración de Protocolos Soberanía Alimentaria 2021</a>
+                            <a href="https://www.conacyt.gob.mx/Convocatoria-Programas-nacionales-estrategicos-2021-Protocolos.html"
+                                target="_blank">Elaboración de Protocolos Soberanía Alimentaria 2021</a>
                         </li>
                     </ul>
 
@@ -924,19 +1072,23 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/CONVOCATORIA-CONCURSO-DE-ALTARES-2022.pdf" target="_blank">Convocatoria concurso de altares 2022</a>
+                            <a href="../documentos/CONVOCATORIA-CONCURSO-DE-ALTARES-2022.pdf"
+                                target="_blank">Convocatoria concurso de altares 2022</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/PROGRAMA-SEMANA-NACIONAL-FINANCIERA-ITH-2022.pdf" target="_blank">Programa Semana Nacional Financiera ITH 2022</a>
+                            <a href="../documentos/PROGRAMA-SEMANA-NACIONAL-FINANCIERA-ITH-2022.pdf"
+                                target="_blank">Programa Semana Nacional Financiera ITH 2022</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Copa de Inteligencia Artificial TE 2022-2023.pdf" target="_blank">Copa de Inteligencia Artificial TE 2022-2023</a>
+                            <a href="../documentos/Copa de Inteligencia Artificial TE 2022-2023.pdf"
+                                target="_blank">Copa de Inteligencia Artificial TE 2022-2023</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/CEE - Concursos Nacionales de Urna Electronica Y Via Remota.pdf" target="_blank">CEE - Concursos Nacionales de Urna Electrónica</a>
+                            <a href="../documentos/CEE - Concursos Nacionales de Urna Electronica Y Via Remota.pdf"
+                                target="_blank">CEE - Concursos Nacionales de Urna Electrónica</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
@@ -944,27 +1096,33 @@
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Oficial WER Universidad 2021-2022.pdf" target="_blank">Convocatoria WER México 2021-2022</a>
+                            <a href="../documentos/Convocatoria Oficial WER Universidad 2021-2022.pdf"
+                                target="_blank">Convocatoria WER México 2021-2022</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.ceenl.mx/2021/historietas/" target="_blank">Primer Concurso Nacional Historietas por la Igualdad 2021</a>
+                            <a href="https://www.ceenl.mx/2021/historietas/" target="_blank">Primer Concurso Nacional
+                                Historietas por la Igualdad 2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.ceenl.mx/2021/cineminuto/" target="_blank">Cuarto Concurso Nacional de Cineminuto 2021</a>
+                            <a href="https://www.ceenl.mx/2021/cineminuto/" target="_blank">Cuarto Concurso Nacional de
+                                Cineminuto 2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="http://ibd.senado.gob.mx/sites/default/files/invitacion_190821_2.pdf" target="_blank">Concurso Nacional de Ensayo sobre Federalismo 2021</a>
+                            <a href="http://ibd.senado.gob.mx/sites/default/files/invitacion_190821_2.pdf"
+                                target="_blank">Concurso Nacional de Ensayo sobre Federalismo 2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://contraloria.sonora.gob.mx/images/Micrositios/transparencia-en-corto/convocatoria-xvi-cntc-son.pdf" target="_blank">XVI Concurso Nacional Transparencia en Corto 2021</a>
+                            <a href="https://contraloria.sonora.gob.mx/images/Micrositios/transparencia-en-corto/convocatoria-xvi-cntc-son.pdf"
+                                target="_blank">XVI Concurso Nacional Transparencia en Corto 2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="http://innovacion.sec.gob.mx/hackaton2021/" target="_blank">Hackatón en línea 2021</a>
+                            <a href="http://innovacion.sec.gob.mx/hackaton2021/" target="_blank">Hackatón en línea
+                                2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
@@ -972,15 +1130,18 @@
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.clusterminerosonora.com.mx/hackatonconvocatoria.php" target="_blank">Hackatón Minero 2021</a>
+                            <a href="https://www.clusterminerosonora.com.mx/hackatonconvocatoria.php"
+                                target="_blank">Hackatón Minero 2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="http://hermosillo.tecnm.mx/documentos/Convocatoria%202020%20v2.pdf" target="_blank">XVII Concurso Leamos La Ciencia para Todos 2020-2021</a>
+                            <a href="http://hermosillo.tecnm.mx/documentos/Convocatoria%202020%20v2.pdf"
+                                target="_blank">XVII Concurso Leamos La Ciencia para Todos 2020-2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/CONVOCATORIA CECB&CEA 2020.pdf" target="_blank">XXI Concurso Estatal de Ciencias Básicas 2020</a>
+                            <a href="../documentos/CONVOCATORIA CECB&CEA 2020.pdf" target="_blank">XXI Concurso Estatal
+                                de Ciencias Básicas 2020</a>
                         </li>
                     </ul>
 
@@ -988,23 +1149,28 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria-para-Profesores-Verano-Cientifico.pdf" target="_blank">Convocatoria para Profesores Verano Científico (Histórica)</a>
+                            <a href="../documentos/Convocatoria-para-Profesores-Verano-Cientifico.pdf"
+                                target="_blank">Convocatoria para Profesores Verano Científico (Histórica)</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria-para-Estudiantes-Verano-Cientifico.pdf" target="_blank">Convocatoria para Estudiantes Verano Científico (Histórica)</a>
+                            <a href="../documentos/Convocatoria-para-Estudiantes-Verano-Cientifico.pdf"
+                                target="_blank">Convocatoria para Estudiantes Verano Científico (Histórica)</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria-Tres-Minutos-Sobre-mi-Verano.pdf" target="_blank">Convocatoria Tres Minutos Sobre mi Verano (Histórica)</a>
+                            <a href="../documentos/Convocatoria-Tres-Minutos-Sobre-mi-Verano.pdf"
+                                target="_blank">Convocatoria Tres Minutos Sobre mi Verano (Histórica)</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Congreso Verano.pdf" target="_blank">Convocatoria Congreso Verano (Histórica)</a>
+                            <a href="../documentos/Convocatoria Congreso Verano.pdf" target="_blank">Convocatoria
+                                Congreso Verano (Histórica)</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/CURSOS DE VERANOS AUTORIZADOS-2022-DEP.pdf" target="_blank">Cursos de Verano 2022</a>
+                            <a href="../documentos/CURSOS DE VERANOS AUTORIZADOS-2022-DEP.pdf" target="_blank">Cursos de
+                                Verano 2022</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-excel-o text-success"></i>
@@ -1016,23 +1182,28 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-archive-o text-warning"></i>
-                            <a href="../documentos/Convocatorias docentes 2021 TecNM Hermosillo.zip" target="_blank">Convocatorias de Promoción Docente 2021</a>
+                            <a href="../documentos/Convocatorias docentes 2021 TecNM Hermosillo.zip"
+                                target="_blank">Convocatorias de Promoción Docente 2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-archive-o text-warning"></i>
-                            <a href="../documentos/rvconvocatoriasnodocentes.zip" target="_blank">Convocatorias de Promoción no Docente 2021</a>
+                            <a href="../documentos/rvconvocatoriasnodocentes.zip" target="_blank">Convocatorias de
+                                Promoción no Docente 2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-archive-o text-warning"></i>
-                            <a href="../documentos/Convocatoria-de-Estimulos-al-Desempeno-del-Personal-Docente-2022.rar" target="_blank">Programa de Estímulos al Desempeño 2022</a>
+                            <a href="../documentos/Convocatoria-de-Estimulos-al-Desempeno-del-Personal-Docente-2022.rar"
+                                target="_blank">Programa de Estímulos al Desempeño 2022</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.tecnm.mx/?vista=Convocatorias_TecNM_Academicos" target="_blank">Convocatoria 2021 Programa de Estímulos</a>
+                            <a href="https://www.tecnm.mx/?vista=Convocatorias_TecNM_Academicos"
+                                target="_blank">Convocatoria 2021 Programa de Estímulos</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="https://www.tecnm.mx/archivos/slider/CONVOCATORIA%202020%20LICENCIA%20BECA%20COMISION.pdf" target="_blank">Convocatoria Licencia por Beca-Comisión 2020</a>
+                            <a href="https://www.tecnm.mx/archivos/slider/CONVOCATORIA%202020%20LICENCIA%20BECA%20COMISION.pdf"
+                                target="_blank">Convocatoria Licencia por Beca-Comisión 2020</a>
                         </li>
                     </ul>
 
@@ -1040,19 +1211,24 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/CONVOCATORIA PEJ2021 SOMOS MÁS.pdf" target="_blank">Premio Estatal de la Juventud 2021</a>
+                            <a href="../documentos/CONVOCATORIA PEJ2021 SOMOS MÁS.pdf" target="_blank">Premio Estatal de
+                                la Juventud 2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-archive-o text-warning"></i>
-                            <a href="../documentos/Convocatoria y solicitud Profesionista del Año 2021-2.zip" target="_blank">Convocatoria Profesionista del Año 2021</a>
+                            <a href="../documentos/Convocatoria y solicitud Profesionista del Año 2021-2.zip"
+                                target="_blank">Convocatoria Profesionista del Año 2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria del Jurado Calificador de Profesionista del Ano.pdf" target="_blank">Convocatoria del Jurado Calificador de Profesionista del Año (Histórica)</a>
+                            <a href="../documentos/Convocatoria del Jurado Calificador de Profesionista del Ano.pdf"
+                                target="_blank">Convocatoria del Jurado Calificador de Profesionista del Año
+                                (Histórica)</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Jurado Calificador Firma.pdf" target="_blank">Convocatoria Jurado Calificador Firma (Histórica)</a>
+                            <a href="../documentos/Convocatoria Jurado Calificador Firma.pdf"
+                                target="_blank">Convocatoria Jurado Calificador Firma (Histórica)</a>
                         </li>
                     </ul>
 
@@ -1060,11 +1236,13 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-external-link text-primary"></i>
-                            <a href="http://hermosillo.tecnm.mx/Capacitación%20Microsoft%20Teams%20Enero%202021.html" target="_blank">Capacitación Microsoft 365 y Teams 2021</a>
+                            <a href="http://hermosillo.tecnm.mx/Capacitación%20Microsoft%20Teams%20Enero%202021.html"
+                                target="_blank">Capacitación Microsoft 365 y Teams 2021</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-image-o text-info"></i>
-                            <a href="../imagenes/MOOC Promo General 2022 banner standard(3).png" target="_blank">MOOCS TecNM 2022</a>
+                            <a href="../imagenes/MOOC Promo General 2022 banner standard(3).png" target="_blank">MOOCS
+                                TecNM 2022</a>
                         </li>
                     </ul>
 
@@ -1072,31 +1250,38 @@
                     <ul style="list-style-type: none; padding-left: 0;">
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Español Solicitud 100K Concurso Mex-US 2020 (1).pdf" target="_blank">Concurso del Fondo de Innovación México-Estados Unidos 2020</a>
+                            <a href="../documentos/Español Solicitud 100K Concurso Mex-US 2020 (1).pdf"
+                                target="_blank">Concurso del Fondo de Innovación México-Estados Unidos 2020</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-image-o text-info"></i>
-                            <a href="../imagenes/CONVOCATORIA BECAS DISCAPACIDAD AUDITIVA 2020.jpg" target="_blank">Beca para discapacidad auditiva 2020</a>
+                            <a href="../imagenes/CONVOCATORIA BECAS DISCAPACIDAD AUDITIVA 2020.jpg" target="_blank">Beca
+                                para discapacidad auditiva 2020</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-image-o text-info"></i>
-                            <a href="../imagenes/CONVOCATORIA  BECA TÉCNICO SUPERIOR Y LICENCIATURA PÚBLICA CICLO 2020-2021.jpg" target="_blank">Beca Sonora 2020</a>
+                            <a href="../imagenes/CONVOCATORIA  BECA TÉCNICO SUPERIOR Y LICENCIATURA PÚBLICA CICLO 2020-2021.jpg"
+                                target="_blank">Beca Sonora 2020</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/2021 FWIS INTERNATIONAL AWARDS - CALL FOR NOMINATION.pdf" target="_blank">L'Oreal-UNESCO 2021 Women in Science Awards</a>
+                            <a href="../documentos/2021 FWIS INTERNATIONAL AWARDS - CALL FOR NOMINATION.pdf"
+                                target="_blank">L'Oreal-UNESCO 2021 Women in Science Awards</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Convocatoria Premio Universitario Anticorrupción.pdf" target="_blank">Premio Universitario Anticorrupción (Histórica)</a>
+                            <a href="../documentos/Convocatoria Premio Universitario Anticorrupción.pdf"
+                                target="_blank">Premio Universitario Anticorrupción (Histórica)</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/CONVOCATORIA_MANUTENCI_N_FUERZAS_ARMADAS.pdf" target="_blank">Beca Manutención Fuerzas Armadas (Histórica)</a>
+                            <a href="../documentos/CONVOCATORIA_MANUTENCI_N_FUERZAS_ARMADAS.pdf" target="_blank">Beca
+                                Manutención Fuerzas Armadas (Histórica)</a>
                         </li>
                         <li class="mb-2">
                             <i class="fa fa-file-pdf-o text-danger"></i>
-                            <a href="../documentos/Manutenci_n_Federal_2020-I.pdf" target="_blank">Beca Federal Manutención 2020-I</a>
+                            <a href="../documentos/Manutenci_n_Federal_2020-I.pdf" target="_blank">Beca Federal
+                                Manutención 2020-I</a>
                         </li>
                     </ul>
                 </div>
