@@ -26,7 +26,7 @@
             <h4>Galería de Imágenes</h4>
             <div class="row">
                 <div class="col-md-3" *ngFor="let imagen of nota.imagen; let i = index">
-                    <div class="thumbnail" style="cursor: pointer;" (click)="imagenSeleccionada = imagen">
+                    <div class="thumbnail" style="cursor: pointer;" (click)="abrirImagenEnIndice(i)">
                         <img [src]="imagen.url" loading="lazy" class="img-responsive" [alt]="imagen.descripcion"
                             style="width: 100%; height: 200px; object-fit: cover;">
                     </div>
@@ -35,20 +35,41 @@
         </div>
 
         <!-- Modal / Lightbox -->
-        <div *ngIf="imagenSeleccionada" class="imagen-overlay" (click)="imagenSeleccionada = null"
+        <div *ngIf="imagenSeleccionada" class="imagen-overlay" (click)="cerrarImagen()"
             style="position:fixed; inset:0; display:flex; justify-content:center; align-items:center; background:rgba(0,0,0,0.85); z-index:1050; cursor: zoom-out;">
 
             <div (click)="$event.stopPropagation()" style="position: relative; max-width:90%; max-height:90%;">
 
+                <!-- Flecha Izquierda -->
+                <button *ngIf="indiceActual > 0" (click)="imagenAnterior()"
+                    style="position:absolute; left:-60px; top:50%; transform:translateY(-50%); background:rgba(255,255,255,0.2); border:none; color:#fff; font-size:48px; cursor:pointer; width:50px; height:50px; border-radius:50%; line-height:1; transition: background 0.2s; display: flex; align-items: center; justify-content: center;"
+                    onmouseover="this.style.background='rgba(255,255,255,0.3)'"
+                    onmouseout="this.style.background='rgba(255,255,255,0.2)'">
+                    &#8249;
+                </button>
+
                 <img [src]="imagenSeleccionada.url" [alt]="imagenSeleccionada.descripcion"
                     style="display:block; max-width:100%; max-height:80vh; margin:0 auto; border-radius:4px;">
+
+                <!-- Flecha Derecha -->
+                <button *ngIf="indiceActual < nota.imagen.length - 1" (click)="imagenSiguiente()"
+                    style="position:absolute; right:-60px; top:50%; transform:translateY(-50%); background:rgba(255,255,255,0.2); border:none; color:#fff; font-size:48px; cursor:pointer; width:50px; height:50px; border-radius:50%; line-height:1; transition: background 0.2s; display: flex; align-items: center; justify-content: center;"
+                    onmouseover="this.style.background='rgba(255,255,255,0.3)'"
+                    onmouseout="this.style.background='rgba(255,255,255,0.2)'">
+                    &#8250;
+                </button>
 
                 <div *ngIf="imagenSeleccionada.descripcion"
                     style="text-align:center; color:#fff; margin-top:12px; font-size:16px;">
                     {{ imagenSeleccionada.descripcion }}
                 </div>
 
-                <button (click)="imagenSeleccionada = null"
+                <!-- Contador de imágenes -->
+                <div style="text-align:center; color:#fff; margin-top:8px; font-size:14px; opacity: 0.8;">
+                    {{ indiceActual + 1 }} / {{ nota.imagen.length }}
+                </div>
+
+                <button (click)="cerrarImagen()"
                     style="position:absolute; top:-40px; right:0; background:rgba(255,255,255,0.2); border:none; color:#fff; font-size:32px; cursor:pointer; width:40px; height:40px; border-radius:50%; line-height:1; transition: background 0.2s;"
                     onmouseover="this.style.background='rgba(255,255,255,0.3)'"
                     onmouseout="this.style.background='rgba(255,255,255,0.2)'">
@@ -58,103 +79,3 @@
         </div>
     </div>
 </div>
-<!-- <div class=row>
-    <div class=col-md-12>
-        <div class=col-md-12>
-            <h3 class="text-uppercase tnota">TecNM-Hermosillo celebra la Semana Aeronáutica en el marco de su 50
-                Aniversario
-            </h3>
-        </div>
-        <div class=col-md-12>
-            <div><img src="imagenes/552620823_803783745480047_132022493245703269_n.jpg" class=img-responsive
-                    style=max-width:100%;height:60% loading=lazy></div>
-        </div>
-        <div class=col-md-12>
-            <p style=text-align:justify><br><br><br><label id=fecha-noticia style=float:right>19 de septiembre
-                    del
-                    2025</label><br>En el marco del 50 Aniversario del TecNM-Hermosillo, se llevó a cabo la toma de
-                protesta del Comité femmeSTEM.
-                <br>En este acto, Anhely García concluyó su gestión como presidenta, dejando un importante legado de
-                trabajo y compromiso.
-                <br>A partir de ahora, Lidia Zazueta asume la responsabilidad de dirigir el comité, a quien deseamos
-                el
-                mayor de los éxitos en esta nueva etapa.
-                <br>El protocolo estuvo encabezado por el director del #ITH, Rogelio Noriega Vargas, acompañado de
-                los
-                subdirectores de la institución.
-                <br>Agradecemos profundamente a la mesa directiva saliente por el excelente trabajo realizado y
-                damos la
-                bienvenida con entusiasmo a la nueva gestión.
-                <br>¡Te invitamos a conocerlos y compartirlos!
-
-
-
-                <br>"En el Esfuerzo
-                Común, La Grandeza de
-                Todos".<br>#TodosSomosTecNM<br>#TecNMCercaDeTi<br>#CelebrandoNuestraHistoria<br><br>
-        </div>
-        <div class=col-md-12>
-            <div class=col-md-12></div>
-            <div class=col-md-12>
-                <section id=least>
-                    <div class=least-preview></div>
-                    <ul class=least-gallery id=image-list></ul>
-                    <script>const images = [
-                            {
-                                "name": "552148985_803783548813400_5524244655935457231_n.jpg",
-                                "extension": "jpg"
-                            },
-                            {
-                                "name": "550234021_803783675480054_5911154185292261178_n.jpg",
-                                "extension": "jpg"
-                            },
-                            {
-                                "name": "550656375_803783552146733_7022873156216361486_n.jpg",
-                                "extension": "jpg"
-                            },
-                            {
-                                "name": "552814919_803783555480066_1599330531581883992_n.jpg",
-                                "extension": "jpg"
-                            },
-                            {
-                                "name": "550377122_803783678813387_345709226102375710_n.jpg",
-                                "extension": "jpg"
-                            },
-                            {
-                                "name": "550094202_803783682146720_826646803563732360_n.jpg",
-                                "extension": "jpg"
-                            },
-                            {
-                                "name": "552620823_803783745480047_132022493245703269_n.jpg",
-                                "extension": "jpg"
-                            }
-                        ];
-
-                        const imageList = document.getElementById("image-list");
-
-                        images.forEach(image => {
-                            const li = document.createElement("li");
-                            const a = document.createElement("a");
-                            const img = document.createElement("img");
-
-                            a.href = `imagenes/${image.name}`;
-                            a.title = "";
-
-                            img.src = `imagenes/${image.name}`;
-                            img.loading = "lazy";
-                            img.className = "img-responsive";
-                            img.alt = "Imagen de galería";
-
-                            a.appendChild(img);
-                            li.appendChild(a);
-                            imageList.appendChild(li);
-                        });</script>
-                </section>
-            </div>
-        </div>
-        <script src="FotoGaleria/js/libs/jquery/2.0.2/jquery.min.js"></script>
-        <script src="FotoGaleria/js/libs/least/least.min.js"></script>
-        <script>$(document).ready(function () { $(".least-gallery").least() })</script>
-        <script>!function (e, a, n, t, g, c, s) { e.GoogleAnalyticsObject = g, e.ga = e.ga || function () { (e.ga.q = e.ga.q || []).push(arguments) }, e.ga.l = 1 * new Date, c = a.createElement(n), s = a.getElementsByTagName(n)[0], c.async = 1, c.src = "//www.google-analytics.com/analytics.js", s.parentNode.insertBefore(c, s) }(window, document, "script", 0, "ga"), ga("create", "UA-16040332-11", "leastjs.com"), ga("set", "anonymizeIp", !0), ga("send", "pageview")</script>
-    </div>
-</div> -->

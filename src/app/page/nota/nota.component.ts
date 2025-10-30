@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { NotasService } from 'src/app/services/notas.service';
 
@@ -12,6 +12,7 @@ export class NotaComponent implements OnInit {
   nota: any;
   albums: any[] = [];
   imagenSeleccionada: any = null;
+  indiceActual: number = 0;
 
   constructor(private notasService: NotasService, private route: ActivatedRoute) { }
 
@@ -23,8 +24,33 @@ export class NotaComponent implements OnInit {
       console.log('Nota obtenida:', nota);
       this.nota = nota;
       this.prepararGaleria();
-      // Aquí puedes asignar la nota a una variable para usarla en el template
     });
+  }
+
+  ngOnDestroy(): void {
+    // Limpieza al destruir el componente
+    this.imagenSeleccionada = null;
+  }
+
+  // Escuchar eventos del teclado
+  @HostListener('window:keydown', ['$event'])
+  manejarTeclado(event: KeyboardEvent): void {
+    if (!this.imagenSeleccionada) return;
+
+    switch (event.key) {
+      case 'ArrowLeft':
+        event.preventDefault();
+        this.imagenAnterior();
+        break;
+      case 'ArrowRight':
+        event.preventDefault();
+        this.imagenSiguiente();
+        break;
+      case 'Escape':
+        event.preventDefault();
+        this.cerrarImagen();
+        break;
+    }
   }
 
   prepararGaleria(): void {
@@ -37,11 +63,36 @@ export class NotaComponent implements OnInit {
     }
   }
 
+  abrirImagenEnIndice(index: number): void {
+    this.indiceActual = index;
+    this.imagenSeleccionada = this.nota.imagen[index];
+  }
+
+  imagenAnterior(): void {
+    if (this.indiceActual > 0) {
+      this.indiceActual--;
+      this.imagenSeleccionada = this.nota.imagen[this.indiceActual];
+    }
+  }
+
+  imagenSiguiente(): void {
+    if (this.indiceActual < this.nota.imagen.length - 1) {
+      this.indiceActual++;
+      this.imagenSeleccionada = this.nota.imagen[this.indiceActual];
+    }
+  }
+
+  cerrarImagen(): void {
+    this.imagenSeleccionada = null;
+  }
+
   abrirImagen(index: number): void {
-    // this.lightbox.open(this.albums, index);
+    // Método existente - mantenerlo por compatibilidad
+    this.abrirImagenEnIndice(index);
   }
 
   cerrar(): void {
-    // this.lightbox.close();
+    // Método existente - mantenerlo por compatibilidad
+    this.cerrarImagen();
   }
 }

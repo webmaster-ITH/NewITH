@@ -1,12 +1,15 @@
 <div class="row">
     <div class="col-sm-12">
-        
+
         <div class=row *ngFor="let item of notas">
-            <div class=col-md-3><img [src]="item.fotoperfil" loading=lazy
-                    class="img-responsive noticia">
-                <h6 style=float:left><span class="badge badge-secondary" style=margin-left:10px> {{item.fecha | date:'MMMM d'}} </span></h6><img src="imagenes/100 libre plastico logo 2.png" loading=lazy
-                    class=img-responsive-logo-libre-plastico
-                    style=float:right;margin-right:50px;margin-top:5px;max-width:80px>
+            <div class=col-md-3>
+                <div class="row">
+                    <img [src]="item.fotoperfil" loading=lazy class="img-responsive noticia">
+                    <h6 style=float:left><span class="badge badge-secondary" style=margin-left:10px> {{item.fecha |
+                            date:'MMMM d'}} </span></h6><img src="../imagenes/100 libre plastico logo 2.png"
+                        loading=lazy class=img-responsive-logo-libre-plastico
+                        style=float:right;margin-right:50px;margin-top:5px;max-width:80px>
+                </div>
             </div>
             <div class=col-md-7>
                 <div class=row>
@@ -18,8 +21,8 @@
                     <div class="col-md-12 contenido">
                         <div class=row>
                             <div class=col-md-12>
-                                    <input class="btn btn-sm" id="nota6" (click)="verNota(item.id)" src="imagenes/btnLeerMas.png"
-                                        value="Leer más..." />
+                                <input class="btn btn-sm" id="nota6" (click)="verNota(item.id)"
+                                    src="../imagenes/btnLeerMas.png" value="Leer más..." />
                             </div>
                         </div>
                     </div>
