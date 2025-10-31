@@ -24,6 +24,10 @@ import { SGIGComponent } from './pages/sgig/sgig.component';
 import { VideosComponent } from './pages/videos/videos.component';
 import { NotasOldComponent } from './pages/notas-old/notas-old.component';
 import { FormsModule } from '@angular/forms';
+import { ApoyoMadresComponent } from './page/convocatorias/component/apoyo-madres/apoyo-madres.component';
+import { PromocionDocentesComponent } from './page/convocatorias/component/promocion-docentes/promocion-docentes.component';
+import { CapacitacionMicrosoftComponent } from './page/convocatorias/component/capacitacion-microsoft/capacitacion-microsoft.component';
+import { HuaweiComponent } from './page/convocatorias/component/huawei/huawei.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +49,10 @@ import { FormsModule } from '@angular/forms';
     SGIGComponent,
     VideosComponent,
     NotasOldComponent,
+    ApoyoMadresComponent,
+    PromocionDocentesComponent,
+    CapacitacionMicrosoftComponent,
+    HuaweiComponent,
   ],
   imports: [
     BrowserModule,

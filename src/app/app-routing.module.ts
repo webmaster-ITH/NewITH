@@ -8,12 +8,18 @@ import { U079Component } from './pages/u079/u079.component';
 import { SGIGComponent } from './pages/sgig/sgig.component';
 import { VideosComponent } from './pages/videos/videos.component';
 import { NotasOldComponent } from './pages/notas-old/notas-old.component';
+import { CapacitacionMicrosoftComponent } from './page/convocatorias/component/capacitacion-microsoft/capacitacion-microsoft.component';
+import { PromocionDocentesComponent } from './page/convocatorias/component/promocion-docentes/promocion-docentes.component';
+import { ApoyoMadresComponent } from './page/convocatorias/component/apoyo-madres/apoyo-madres.component';
 
 const routes: Routes = [
    { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'noticia/:id', component: NotaComponent },
   { path: 'convocatorias', component: ConvocatoriasComponent },
+  { path: 'Capacitacion-Microsft-Teams', component: CapacitacionMicrosoftComponent },
+  { path: 'Promocion-Docente', component: PromocionDocentesComponent },
+  { path: 'Apoyo-Madres-Familia', component: ApoyoMadresComponent },
   { path: 'Archivero', component: NotasOldComponent },
   { path: 'iso', component: IsoComponent },
   { path: 'U079', component: U079Component },
