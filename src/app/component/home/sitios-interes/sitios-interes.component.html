@@ -1,112 +1,411 @@
-<div class="col-md-12">
-    <h4>Sitos de Interes</h4>
+<div class="sitios-container">
+        <div class="header-section">
+                <h2 class="section-title">Sitios de Interés</h2>
+                <div class="title-underline"></div>
+        </div>
 
-    <!-- Primera fila -->
-    <style>
-    /* Ajustes para que las imágenes no se vean tan grandes en móviles */
-    .custom-img {
-        width: 100%;
-        max-width: 360px; /* límite en pantallas pequeñas */
-        height: auto;
-        border: 2px solid gray;
-        border-radius: 15px;
-        display: block;
-    }
+        <style>
+                .sitios-container {
+                        max-width: 1400px;
+                        margin: 0 auto;
+                        padding: 2rem 1rem;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                }
 
-    /* En pantallas pequeñas centramos las imágenes dentro de la columna */
-    @media (max-width: 576px) {
-        .custom-img { max-width: 320px; }
-        .col-mobile-center { display: flex; justify-content: center; }
-    }
-    </style>
+                .header-section {
+                        text-align: center;
+                        margin-bottom: 3rem;
+                }
 
-    <div class="row mb-4">
-            <div class="col-12 col-sm-6 col-md-4 col-mobile-center mb-3">
-                    <a routerLink="/Sitios/Galery" title="Calendario escolar">
-                            <img class="img-fluid custom-img" src="../../imagenes/ea14224d-cd61-48ba-b7b2-a04bd7e9bb42.jpeg" alt="Galería">
-                    </a>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-mobile-center mb-3">
-                    <a routerLink="/Sitios/Calendario" title="Calendario escolar">
-                            <img class="img-fluid custom-img" src="../../imagenes/Boton - Calendario Escolar.jpg" alt="Calendario escolar">
-                    </a>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-mobile-center mb-3">
-                    <a href="documentos/INFORME DE RENDICION DE CUENTAS 2023-ITH.pdf" title="Informe de Rendición">
-                            <img class="img-fluid custom-img" src="../../imagenes/WhatsApp Image 2024-02-09 at 9.36.35 AM.jpeg" alt="Informe de Rendición">
-                    </a>
-            </div>
-    </div>
+                .section-title {
+                        font-size: 2.5rem;
+                        font-weight: 700;
+                        color: #1a1a2e;
+                        margin-bottom: 0.5rem;
+                        letter-spacing: -0.5px;
+                }
 
-    <!-- Segunda fila -->
-    <div class="row mb-4">
-            <div class="col-12 col-sm-6 col-md-4 col-mobile-center mb-3">
-                    <a href="documentos/Reglamento_de_Estudiantes_del_TecNM.pdf" title="Reglamento Estudiantil">
-                            <img class="img-fluid custom-img" src="../../imagenes/Boton - Reglamento Estudiantes TecNM.jpg" alt="Reglamento Estudiantil">
-                    </a>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-mobile-center mb-3">
-                    <a routerLink="/Sitios/CodigoEtica" title="Código de Conducta">
-                            <img class="img-fluid custom-img" src="../../imagenes/Boton - Codigo de Conducta.jpg" alt="Código de Conducta">
-                    </a>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-mobile-center mb-3">
-                    <a href="Revista-Espacio-ITH.html" title="Revista Espacio ITH">
-                            <img class="img-fluid custom-img" src="../../imagenes/Boton-Revista-Espacio-ITH-TecNM-Campus-Hermosillo.png" alt="Revista Espacio ITH">
-                    </a>
-            </div>
-    </div>
+                .title-underline {
+                        width: 80px;
+                        height: 4px;
+                        background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+                        margin: 0 auto;
+                        border-radius: 2px;
+                }
 
-    <!-- Tercera fila -->
-    <div class="row mb-4">
-            <!-- Oculto -->
-            <div class="col-md-4" style="display:none;">
-                    <a href="guia-ergonomica-para-trabajar-desde-casa-2020.html">
-                            <img class="img-fluid custom-img" src="../../imagenes/boton-guia-ergonomica.png" alt="Guía ergonómica">
-                    </a>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-mobile-center mb-3">
-                    <a href="https://www.mexicox.gob.mx/courses" title="MOOCs TecNM">
-                            <img class="img-fluid custom-img" src="../../imagenes/Boton-MOOCS-TecNM-Hermosillo.png" alt="MOOCs TecNM">
-                    </a>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-mobile-center mb-3">
-                    <a routerLink="/Sitios/Ciie">
-                            <img class="img-fluid custom-img" src="../../imagenes/Boton CIE.jpg" alt="CIE">
-                    </a>
-            </div>
+                .sites-grid {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                        gap: 2rem;
+                        margin-bottom: 2rem;
+                }
 
-            <div class="col-12 col-sm-6 col-md-4 col-mobile-center mb-3">
-                    <a routerLink="/Sitios/ContraloresSociales">
-                            <img class="img-fluid custom-img" src="../../imagenes/LOGOS_GUARDIANES DEL GASTO_PNG_Mesa de trabajo 1 copia 3.png" alt="Contralores Sociales">
-                    </a>
-            </div>
-    </div>
+                .site-card {
+                        position: relative;
+                        background: #ffffff;
+                        border-radius: 20px;
+                        overflow: hidden;
+                        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+                        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+                        height: 100%;
+                }
 
-    <!-- Cuarta fila -->
-    <div class="row mb-4">
-            <div class="col-12 col-sm-6 col-md-4 col-mobile-center mb-3">
-                    <a href="https://capacitacion.conricyt.mx/" title="Capacitación Virtual">
-                            <img class="img-fluid custom-img" src="../../imagenes/Boton-Capacitcion-Conricyt-TecNM-Hermosillo.png" loading="lazy" alt="Capacitación Virtual">
-                    </a>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-mobile-center mb-3">
-                    <a routerLink="/Sitios/MaterialServidoresPublicos" title="SFP TecNM">
-                            <img class="img-fluid custom-img" src="../../imagenes/Boton-SFP-TecNM-Hermosillo.png" loading="lazy" alt="SFP TecNM">
-                    </a>
-            </div>
+                .site-card:hover {
+                        transform: translateY(-8px);
+                        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+                }
 
-            <div class="col-12 col-sm-6 col-md-4 col-mobile-center mb-3">
-                    <a href="../documentos/INFORME 2023-6 MEJORADO-22-02.pdf" title="Informe Mejorado 2023">
-                            <img class="img-fluid custom-img" src="../../imagenes/WhatsApp Image 2024-02-26 at 2.23.08 PM.jpeg" loading="lazy" alt="Informe Mejorado 2023">
-                    </a>
-            </div>
-    </div>
+                .site-card::before {
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        height: 4px;
+                        background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+                        opacity: 0;
+                        transition: opacity 0.3s ease;
+                }
 
-    <!-- Quinta fila -->
-    <!-- <div class="row mb-4">
-                           
-                            
-                        </div> -->
+                .site-card:hover::before {
+                        opacity: 1;
+                }
 
+                .site-link {
+                        display: block;
+                        text-decoration: none;
+                        color: inherit;
+                        height: 100%;
+                }
+
+                .image-wrapper {
+                        position: relative;
+                        width: 100%;
+                        min-height: 250px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        overflow: hidden;
+                        background: #f8f9fa;
+                }
+
+                .site-image {
+                        width: 100%;
+                        height: auto;
+                        max-height: 300px;
+                        object-fit: contain;
+                        transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+                }
+
+                .site-card:hover .site-image {
+                        transform: scale(1.08);
+                }
+
+                .image-overlay {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 100%);
+                        opacity: 0;
+                        transition: opacity 0.3s ease;
+                }
+
+                .site-card:hover .image-overlay {
+                        opacity: 1;
+                }
+
+                .card-content {
+                        padding: 1.25rem;
+                        background: #ffffff;
+                }
+
+                .card-title {
+                        font-size: 1rem;
+                        font-weight: 600;
+                        color: #2d3748;
+                        margin: 0;
+                        line-height: 1.4;
+                        text-align: center;
+                }
+
+                /* Responsive adjustments */
+                @media (max-width: 768px) {
+                        .sitios-container {
+                                padding: 1.5rem 0.75rem;
+                        }
+
+                        .section-title {
+                                font-size: 2rem;
+                        }
+
+                        .sites-grid {
+                                grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+                                gap: 1.5rem;
+                        }
+                }
+
+                @media (max-width: 480px) {
+                        .section-title {
+                                font-size: 1.75rem;
+                        }
+
+                        .sites-grid {
+                                grid-template-columns: 1fr;
+                                gap: 1.25rem;
+                                padding: 0 0.5rem;
+                        }
+
+                        .site-card {
+                                max-width: 400px;
+                                margin: 0 auto;
+                        }
+                }
+
+                /* Animation on scroll */
+                @keyframes fadeInUp {
+                        from {
+                                opacity: 0;
+                                transform: translateY(30px);
+                        }
+
+                        to {
+                                opacity: 1;
+                                transform: translateY(0);
+                        }
+                }
+
+                .site-card {
+                        animation: fadeInUp 0.6s ease-out backwards;
+                }
+
+                .site-card:nth-child(1) {
+                        animation-delay: 0.1s;
+                }
+
+                .site-card:nth-child(2) {
+                        animation-delay: 0.2s;
+                }
+
+                .site-card:nth-child(3) {
+                        animation-delay: 0.3s;
+                }
+
+                .site-card:nth-child(4) {
+                        animation-delay: 0.4s;
+                }
+
+                .site-card:nth-child(5) {
+                        animation-delay: 0.5s;
+                }
+
+                .site-card:nth-child(6) {
+                        animation-delay: 0.6s;
+                }
+
+                .site-card:nth-child(7) {
+                        animation-delay: 0.7s;
+                }
+
+                .site-card:nth-child(8) {
+                        animation-delay: 0.8s;
+                }
+
+                .site-card:nth-child(9) {
+                        animation-delay: 0.9s;
+                }
+
+                .site-card:nth-child(10) {
+                        animation-delay: 1s;
+                }
+
+                .site-card:nth-child(11) {
+                        animation-delay: 1.1s;
+                }
+
+                .site-card:nth-child(12) {
+                        animation-delay: 1.2s;
+                }
+        </style>
+
+        <!-- Grid de sitios -->
+        <div class="sites-grid">
+                <!-- Card 1: Galería -->
+                <div class="site-card">
+                        <a routerLink="/Sitios/Galery" class="site-link" title="Galería">
+                                <div class="image-wrapper">
+                                        <img class="site-image"
+                                                src="../../imagenes/ea14224d-cd61-48ba-b7b2-a04bd7e9bb42.jpeg"
+                                                alt="Galería">
+                                        <div class="image-overlay"></div>
+                                </div>
+                                <div class="card-content">
+                                        <h3 class="card-title">Galería</h3>
+                                </div>
+                        </a>
+                </div>
+
+                <!-- Card 2: Calendario Escolar -->
+                <div class="site-card">
+                        <a routerLink="/Sitios/Calendario" class="site-link" title="Calendario escolar">
+                                <div class="image-wrapper">
+                                        <img class="site-image" src="../../imagenes/Boton - Calendario Escolar.jpg"
+                                                alt="Calendario escolar">
+                                        <div class="image-overlay"></div>
+                                </div>
+                                <div class="card-content">
+                                        <h3 class="card-title">Calendario Escolar</h3>
+                                </div>
+                        </a>
+                </div>
+
+                <!-- Card 3: Informe de Rendición -->
+                <div class="site-card">
+                        <a href="documentos/INFORME DE RENDICION DE CUENTAS 2023-ITH.pdf" class="site-link"
+                                title="Informe de Rendición">
+                                <div class="image-wrapper">
+                                        <img class="site-image"
+                                                src="../../imagenes/WhatsApp Image 2024-02-09 at 9.36.35 AM.jpeg"
+                                                alt="Informe de Rendición">
+                                        <div class="image-overlay"></div>
+                                </div>
+                                <div class="card-content">
+                                        <h3 class="card-title">Informe de Rendición de Cuentas</h3>
+                                </div>
+                        </a>
+                </div>
+
+                <!-- Card 4: Reglamento Estudiantil -->
+                <div class="site-card">
+                        <a href="documentos/Reglamento_de_Estudiantes_del_TecNM.pdf" class="site-link"
+                                title="Reglamento Estudiantil">
+                                <div class="image-wrapper">
+                                        <img class="site-image"
+                                                src="../../imagenes/Boton - Reglamento Estudiantes TecNM.jpg"
+                                                alt="Reglamento Estudiantil">
+                                        <div class="image-overlay"></div>
+                                </div>
+                                <div class="card-content">
+                                        <h3 class="card-title">Reglamento Estudiantil</h3>
+                                </div>
+                        </a>
+                </div>
+
+                <!-- Card 5: Código de Conducta -->
+                <div class="site-card">
+                        <a routerLink="/Sitios/CodigoEtica" class="site-link" title="Código de Conducta">
+                                <div class="image-wrapper">
+                                        <img class="site-image" src="../../imagenes/Boton - Codigo de Conducta.jpg"
+                                                alt="Código de Conducta">
+                                        <div class="image-overlay"></div>
+                                </div>
+                                <div class="card-content">
+                                        <h3 class="card-title">Código de Conducta</h3>
+                                </div>
+                        </a>
+                </div>
+
+                <!-- Card 6: Revista Espacio ITH -->
+                <div class="site-card">
+                        <a href="Revista-Espacio-ITH.html" class="site-link" title="Revista Espacio ITH">
+                                <div class="image-wrapper">
+                                        <img class="site-image"
+                                                src="../../imagenes/Boton-Revista-Espacio-ITH-TecNM-Campus-Hermosillo.png"
+                                                alt="Revista Espacio ITH">
+                                        <div class="image-overlay"></div>
+                                </div>
+                                <div class="card-content">
+                                        <h3 class="card-title">Revista Espacio ITH</h3>
+                                </div>
+                        </a>
+                </div>
+
+                <!-- Card 7: MOOCs TecNM -->
+                <div class="site-card">
+                        <a href="https://www.mexicox.gob.mx/courses" class="site-link" title="MOOCs TecNM">
+                                <div class="image-wrapper">
+                                        <img class="site-image" src="../../imagenes/Boton-MOOCS-TecNM-Hermosillo.png"
+                                                alt="MOOCs TecNM">
+                                        <div class="image-overlay"></div>
+                                </div>
+                                <div class="card-content">
+                                        <h3 class="card-title">MOOCs TecNM</h3>
+                                </div>
+                        </a>
+                </div>
+
+                <!-- Card 8: CIE -->
+                <div class="site-card">
+                        <a routerLink="/Sitios/Ciie" class="site-link" title="CIE">
+                                <div class="image-wrapper">
+                                        <img class="site-image" src="../../imagenes/Boton CIE.jpg" alt="CIE">
+                                        <div class="image-overlay"></div>
+                                </div>
+                                <div class="card-content">
+                                        <h3 class="card-title">Centro de Innovación Educativa</h3>
+                                </div>
+                        </a>
+                </div>
+
+                <!-- Card 9: Contralores Sociales -->
+                <div class="site-card">
+                        <a routerLink="/Sitios/ContraloresSociales" class="site-link" title="Contralores Sociales">
+                                <div class="image-wrapper">
+                                        <img class="site-image"
+                                                src="../../imagenes/LOGOS_GUARDIANES DEL GASTO_PNG_Mesa de trabajo 1 copia 3.png"
+                                                alt="Contralores Sociales">
+                                        <div class="image-overlay"></div>
+                                </div>
+                                <div class="card-content">
+                                        <h3 class="card-title">Contralores Sociales</h3>
+                                </div>
+                        </a>
+                </div>
+
+                <!-- Card 10: Capacitación Virtual -->
+                <div class="site-card">
+                        <a href="https://capacitacion.conricyt.mx/" class="site-link" title="Capacitación Virtual">
+                                <div class="image-wrapper">
+                                        <img class="site-image"
+                                                src="../../imagenes/Boton-Capacitcion-Conricyt-TecNM-Hermosillo.png"
+                                                loading="lazy" alt="Capacitación Virtual">
+                                        <div class="image-overlay"></div>
+                                </div>
+                                <div class="card-content">
+                                        <h3 class="card-title">Capacitación Virtual</h3>
+                                </div>
+                        </a>
+                </div>
+
+                <!-- Card 11: SFP TecNM -->
+                <div class="site-card">
+                        <a routerLink="/Sitios/MaterialServidoresPublicos" class="site-link" title="SFP TecNM">
+                                <div class="image-wrapper">
+                                        <img class="site-image" src="../../imagenes/Boton-SFP-TecNM-Hermosillo.png"
+                                                loading="lazy" alt="SFP TecNM">
+                                        <div class="image-overlay"></div>
+                                </div>
+                                <div class="card-content">
+                                        <h3 class="card-title">Material Servidores Públicos</h3>
+                                </div>
+                        </a>
+                </div>
+
+                <!-- Card 12: Informe Mejorado 2023 -->
+                <div class="site-card">
+                        <a href="../documentos/INFORME 2023-6 MEJORADO-22-02.pdf" class="site-link"
+                                title="Informe Mejorado 2023">
+                                <div class="image-wrapper">
+                                        <img class="site-image"
+                                                src="../../imagenes/WhatsApp Image 2024-02-26 at 2.23.08 PM.jpeg"
+                                                loading="lazy" alt="Informe Mejorado 2023">
+                                        <div class="image-overlay"></div>
+                                </div>
+                                <div class="card-content">
+                                        <h3 class="card-title">Informe Mejorado 2023</h3>
+                                </div>
+                        </a>
+                </div>
+        </div>
 </div>

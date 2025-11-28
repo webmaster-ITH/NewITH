@@ -7,5 +7,14 @@ import { Component, Output, EventEmitter } from '@angular/core';
 })
 export class AppComponent {
   title = 'newITH';
-  
+  isTopNavbarOpen = false;
+  topNavbarHeight = 0;
+
+  onNavbarToggled(isOpen: boolean) {
+    this.isTopNavbarOpen = isOpen;
+  }
+
+  onNavbarHeightChanged(height: number) {
+    this.topNavbarHeight = height;
+  }
 }

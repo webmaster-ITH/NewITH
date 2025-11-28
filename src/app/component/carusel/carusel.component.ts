@@ -21,27 +21,19 @@ export class CaruselComponent implements OnInit {
 
   slides: CarouselSlide[] = [
     {
-      image: 'https://ith.mx/imagenes/Innovatec 2025 banner.jpg',
-      link: 'https://ith.mx/Innovatec 2025/Innovatec 2025.html',
-      alt: 'Innovatec 2025',
-      title: 'Innovatec 2025',
-      description: 'Evento Innovatec 2025',
+      image:'../imagenes/Banner CS Pp U079 2025_page-0001.jpg',
+      link: '',
+      alt: 'Convocatoria CS Pp U079 2025',
+      title: 'Convocatoria CS Pp U079 2025',
+      description: 'Consulta la convocatoria completa',
       openInNewTab: false
     },
     {
-      image: 'https://ith.mx/imagenes/WhatsApp Image 2025-09-12 at 10.01.50_5b37535a.jpg',
-      link: 'https://ith.mx/graduacion-2023-2025.html',
-      alt: 'Graduación 2023-2025',
-      title: 'Graduación',
-      description: 'Ceremonia de graduación',
-      openInNewTab: false
-    },
-    {
-      image: 'https://ith.mx/imagenes/WhatsApp Image 2025-09-09 at 12.18.32_2a648a40.jpg',
-      link: 'https://ith.mx/convocatorias/index.html',
-      alt: 'Convocatorias',
-      title: 'Convocatorias',
-      description: 'Consulta convocatorias recientes',
+      image:'../imagenes/WhatsApp Image 2025-11-12 at 13.38.42_408614a2.jpg',
+      link: '',
+      alt: 'Convocatoria CS Pp U079 2025',
+      title: 'Convocatoria CS Pp U079 2025',
+      description: 'Consulta la convocatoria completa',
       openInNewTab: false
     },
     {
@@ -53,90 +45,12 @@ export class CaruselComponent implements OnInit {
       description: 'Descarga la convocatoria del periodo sabático'
     },
     {
-      image: 'https://ith.mx/imagenes/IMG-20250902-WA0004.jpg',
-      link: '#',
-      alt: '',
-      title: '',
-      description: '',
-      openInNewTab: false
-    },
-    {
-      image: 'https://ith.mx/imagenes/IMG-20250902-WA0003.jpg',
-      link: '#',
-      alt: '',
-      title: '',
-      description: '',
-      openInNewTab: false
-    },
-    {
-      image: 'https://ith.mx/imagenes/IMG-20250902-WA0005.jpg',
-      link: '#',
-      alt: '',
-      title: '',
-      description: '',
-      openInNewTab: false
-    },
-    {
-      image: 'https://ith.mx/imagenes/IMG-20250902-WA0006.jpg',
-      link: '#',
-      alt: '',
-      title: '',
-      description: '',
-      openInNewTab: false
-    },
-    {
-      image: 'https://ith.mx/imagenes/IMG-20250902-WA0007.jpg',
-      link: '#',
-      alt: '',
-      title: '',
-      description: '',
-      openInNewTab: false
-    },
-    {
       image: 'https://ith.mx/imagenes/WhatsApp Image 2025-08-22 at 13.29.21_7b6a840d.jpg',
       link: '#',
       alt: '',
       title: '',
       description: '',
       openInNewTab: false
-    },
-    {
-      image: 'https://ith.mx/imagenes/WhatsApp Image 2025-08-20 at 10.45.39_6ef7f739.jpg',
-      link: '#',
-      alt: '',
-      title: '',
-      description: '',
-      openInNewTab: false
-    },
-    {
-      image: 'https://ith.mx/imagenes/WhatsApp Image 2025-08-19 at 16.33.39_8d0e4eb2.jpg',
-      downloadUrl: 'https://ith.mx/documentos/Programa de Asesorias paras el Departamento de Ciencias Basicas.pdf',
-      downloadFileName: 'Programa de Asesorias paras el Departamento de Ciencias Basicas.pdf',
-      alt: 'Programa de Asesorías',
-      title: 'Asesorías',
-      description: 'Descarga el programa de asesorías'
-    },
-    {
-      image: 'https://ith.mx/imagenes/WhatsApp Image 2025-08-08 at 11.52.01_e4efa1e1.jpg',
-      link: 'https://ith.mx/pasos-nuevo-ingreso.html',
-      alt: 'Pasos nuevo ingreso',
-      title: 'Nuevo Ingreso',
-      description: 'Conoce los pasos para nuevo ingreso',
-      openInNewTab: false
-    },
-    {
-      image: 'https://ith.mx/imagenes/WhatsApp Image 2025-08-01 at 13.09.29_d0a7bfc1.jpg',
-      link: 'https://ith.mx/reinscripciones.html',
-      alt: 'Reinscripciones',
-      title: 'Reinscripciones',
-      description: 'Información sobre reinscripciones',
-      openInNewTab: false
-    },
-    {
-      image: 'https://ith.mx/imagenes/3c27fe7f-6cc4-46a3-b5d9-256d1dd3c346.jpeg',
-      alt: '',
-      title: '',
-      description: ''
     },
     {
       image: 'https://ith.mx/imagenes/WhatsApp Image 2025-06-23 at 3.09.33 PM.jpeg',
@@ -162,42 +76,21 @@ export class CaruselComponent implements OnInit {
       description: 'Consulta avisos recientes',
       openInNewTab: false
     },
-    {
-      image: '../../imagenes/WhatsApp Image 2025-06-10 at 11.58.17 AM.jpeg',
-      link: '/convocatorias/index.html',
-      alt: 'Convocatorias',
-      title: 'Convocatorias',
-      description: 'Consulta las convocatorias',
-      openInNewTab: false
-    },
+    
     {
       image: '../../imagenes/WhatsApp Image 2025-04-08 at 1.45.56 PM.jpeg',
       alt: '',
       title: '',
       description: ''
     },
-    {
-      image: '../../imagenes/img convotaria 2025 proyecto de investigacion educativa.jpg',
-      downloadUrl: '/documentos/COMUNICADO INVESTIGACION EDUCATIVA (1).pdf',
-      downloadFileName: 'COMUNICADO INVESTIGACION EDUCATIVA (1).pdf',
-      alt: 'Investigación educativa',
-      title: 'Investigación educativa',
-      description: 'Descarga el comunicado de investigación educativa'
-    },
+    
     {
       image: '../../imagenes/WhatsApp Image 2025-03-18 at 2.11.26 PM.jpeg',
       alt: '',
       title: '',
       description: ''
     },
-    {
-      image: '../../imagenes/WhatsApp Image 2025-03-04 at 3.22.27 PM.jpeg',
-      link: '/convocatorias/index.html',
-      alt: '',
-      title: 'Convocatorias',
-      description: 'Convocatorias activas',
-      openInNewTab: false
-    },
+    // 
     {
       image: '../../imagenes/8Banner-Respeto_01.png',
       alt: 'Respeto 01',
@@ -251,14 +144,6 @@ export class CaruselComponent implements OnInit {
       openInNewTab: true
     },
     {
-      image: '../../imagenes/WhatsApp Image 2025-02-11 at 5.10.17 PM.jpeg',
-      link: '/convocatorias/index.html',
-      alt: '',
-      title: 'Convocatorias',
-      description: 'Convocatorias recientes',
-      openInNewTab: false
-    },
-    {
       image: '../../imagenes/475850167_1076620044267098_3884819740472580519_n.jpg',
       alt: '',
       title: '',
@@ -296,7 +181,7 @@ export class CaruselComponent implements OnInit {
     },
     {
       image: '../../imagenes/Egresados (2).png',
-      link: 'https://hermosillo.tecnm.mx/EGRESADO%20LICENCIATURA%20Y%20POSGRADO.html',
+      link: '/comunidad/egresados',
       alt: 'Egresados',
       title: 'Egresados',
       description: 'Información para egresados',
@@ -304,7 +189,7 @@ export class CaruselComponent implements OnInit {
     },
     {
       image: '../../imagenes/Empleadores 2.png',
-      link: 'https://hermosillo.tecnm.mx/EMPLEADOR.html',
+      link: '/comunidad/empleadores',
       alt: 'Empleadores',
       title: 'Empleadores',
       description: 'Información para empleadores',

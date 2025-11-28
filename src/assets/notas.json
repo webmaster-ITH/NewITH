@@ -16,7 +16,7 @@
                     "descripcion": "Descripción de la imagen 2"
                 }
             ],
-            "activo": true
+            "activo": false
         },
         {
             "id": 4,
@@ -142,7 +142,7 @@
                     "descripcion": "Descripción de la imagen 2"
                 }
             ],
-            "activo": true
+            "activo": false
         },
         {
             "id": 5,
@@ -164,7 +164,7 @@
                     "descripcion": "jpg"
                 }
             ],
-            "activo": true
+            "activo": false
         },
         {
             "id": 6,
@@ -234,7 +234,7 @@
                     "descripcion": "jpg"
                 }
             ],
-            "activo": true
+            "activo": false
         },
         {
             "id": 7,
@@ -368,7 +368,7 @@
                     "descripcion": "jpg"
                 }
             ],
-            "activo": true
+            "activo": false
         },
         {
             "id": 8,
@@ -912,59 +912,59 @@
             "fotoperfil": "../imagenes/561706327_817295457462209_5191078071164163763_n.jpg",
             "imagen": [
                 {
-                    "url": "557725025_817305044127917_7253963314564186243_n.jpg",
+                    "url": "../imagenes/557725025_817305044127917_7253963314564186243_n.jpg",
                     "descripcion": "jpg"
                 },
                 {
-                    "url": "559840134_817305024127919_8124897202490818702_n.jpg",
+                    "url": "../imagenes/559840134_817305024127919_8124897202490818702_n.jpg",
                     "descripcion": "jpg"
                 },
                 {
-                    "url": "558226772_817295770795511_7678680161936093893_n.jpg",
+                    "url": "../imagenes/558226772_817295770795511_7678680161936093893_n.jpg",
                     "descripcion": "jpg"
                 },
                 {
-                    "url": "558438783_817295440795544_5108079161712113092_n.jpg",
+                    "url": "../imagenes/558438783_817295440795544_5108079161712113092_n.jpg",
                     "descripcion": "jpg"
                 },
                 {
-                    "url": "558868529_817295904128831_2796073114492889334_n.jpg",
+                    "url": "../imagenes/558868529_817295904128831_2796073114492889334_n.jpg",
                     "descripcion": "jpg"
                 },
                 {
-                    "url": "559556676_817295767462178_8114724641784138863_n.jpg",
+                    "url": "../imagenes/559556676_817295767462178_8114724641784138863_n.jpg",
                     "descripcion": "jpg"
                 },
                 {
-                    "url": "558044902_817295470795541_1676602982531060978_n.jpg",
+                    "url": "../imagenes/558044902_817295470795541_1676602982531060978_n.jpg",
                     "descripcion": "jpg"
                 },
                 {
-                    "url": "558190786_817304154128006_5181638425053874886_n.jpg",
+                    "url": "../imagenes/558190786_817304154128006_5181638425053874886_n.jpg",
                     "descripcion": "jpg"
                 },
                 {
-                    "url": "558688821_817305257461229_3475505916037794423_n.jpg",
+                    "url": "../imagenes/558688821_817305257461229_3475505916037794423_n.jpg",
                     "descripcion": "jpg"
                 },
                 {
-                    "url": "558956048_817295880795500_9218592952857422716_n.jpg",
+                    "url": "../imagenes/558956048_817295880795500_9218592952857422716_n.jpg",
                     "descripcion": "jpg"
                 },
                 {
-                    "url": "557771778_817295607462194_8306444467181536170_n.jpg",
+                    "url": "../imagenes/557771778_817295607462194_8306444467181536170_n.jpg",
                     "descripcion": "jpg"
                 },
                 {
-                    "url": "558760333_817295450795543_7951512478881779629_n.jpg",
+                    "url": "../imagenes/558760333_817295450795543_7951512478881779629_n.jpg",
                     "descripcion": "jpg"
                 },
                 {
-                    "url": "558092966_817295474128874_3129599843693345809_n.jpg",
+                    "url": "../imagenes/558092966_817295474128874_3129599843693345809_n.jpg",
                     "descripcion": "jpg"
                 },
                 {
-                    "url": "561706327_817295457462209_5191078071164163763_n.jpg",
+                    "url": "../imagenes/561706327_817295457462209_5191078071164163763_n.jpg",
                     "descripcion": "jpg"
                 }
             ],
@@ -2114,7 +2114,7 @@
                     "descripcion": "jpg"
                 }
             ],
-            "activo": true
+            "activo": false
         },
         {
             "id": 31,
@@ -2217,6 +2217,2058 @@
                 },
                 {
                     "url": "../imagenes/571209462_833542609170827_1346763286542269726_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": false
+        },
+        {
+            "id": 32,
+            "titulo": "TecNM-Hermosillo celebra 50 años de excelencia, innovación y compromiso educativo",
+            "contenido": "Con gran orgullo y emotividad, el Tecnológico Nacional de México-Hermosillo llevó a cabo la ceremonia por su 50 Aniversario, destacaron cinco décadas de excelencia académica, innovación y compromiso con la educación tecnológica.\n\nDurante el evento, se rindió un emotivo homenaje al personal docente y de apoyo a la educación por sus 10, 15, 20, 25, 30, 35, 40 y 45 años de servicio ininterrumpido, reconociendo su entrega, vocación y contribución al fortalecimiento institucional.\n\nEl Dr. Rodolfo Basurto Álvarez, Subsecretario de Educación Media Superior y Superior, en representación del Lic. Froylán Gámez Gamboa, Secretario de Educación y Cultura del Estado de Sonora, dirigió un mensaje en el que reconoció la trayectoria y aportación del TecNM-Hermosillo a la formación de generaciones de profesionistas que impulsan el desarrollo del estado y del país. Por su parte, el Mtro. Rogelio Noriega Vargas, Director del TecNM -Hermosillo, felicitó a las y los homenajeados por su dedicación, compromiso y contribución al prestigio institucional, destacando que su labor es parte esencial del legado que celebra el 50 aniversario.\n\nEn el marco de esta ceremonia, se realizó además el corte de listón inaugural de la escultura alusiva al Nuevo Modelo Educativo del Tecnológico Nacional de México, símbolo de transformación, crecimiento y compromiso con la pertinencia social, la equidad y la mejora continua.\n\nCon este significativo acto, el TecNM-Hermosillo reafirma su compromiso con la excelencia educativa y la innovación, consolidando su liderazgo en la formación de profesionistas que transforman su entorno.",
+            "fecha": "2025-10-31",
+            "fotoperfil": "../imagenes/571217328_835941205597634_2822553708054527446_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/573403722_836572788867809_6069207788032484294_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572096643_836572785534476_4631066208387895073_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/574031432_836572792201142_6806605996346496649_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571271342_836572798867808_2686132147393239430_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/574885408_836572802201141_5715763743541911856_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572058164_836572795534475_5516608717193102342_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572107889_836560135535741_1994440289788291723_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573862174_836560102202411_1714082479530416624_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572141918_836560072202414_2984934401910073652_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572094934_836560048869083_3840256933811029788_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573304432_836560022202419_7182367707737655388_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572035250_836559952202426_2316274091145657974_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572872930_836559992202422_1331660480486519749_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572271208_836559928869095_7977890467530919361_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572387677_836558795535875_3389936815459910397_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573427430_836559855535769_7773377103244226448_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571270414_836559822202439_8614827605034484813_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572316085_836558545535900_4825745667175877018_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573587691_836558542202567_8225203106597042693_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/574862014_836558572202564_4942521252205086649_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573933892_836558552202566_31400741442323449_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571352853_836559492202472_8718779983419903564_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571255640_836559825535772_4372838249451850697_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/574584337_836559748869113_712306520729667361_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571560905_836559732202448_1859288709680078566_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572121003_836559722202449_6507174284072778221_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572237297_836559618869126_2939394620074773001_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/574564868_836559615535793_5077461714438778407_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571238856_836559408869147_5157357018649539645_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573327242_836559258869162_5749544148361128009_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572271204_836559242202497_7197727434653138469_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572002434_836559488869139_7586831932940954006_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572786788_836559405535814_3254149225286539397_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573077365_836559312202490_7054708469147020874_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571766663_836559295535825_4481699554980352393_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/574875670_836558582202563_5190557408126066183_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571520977_836559185535836_8591473100627814705_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571593111_836559098869178_5893190034321902933_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571495932_836559102202511_6681805459226513276_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/574066964_836558958869192_1134274833275076844_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/559299726_836558538869234_3928436802765323384_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572787933_836558838869204_8126012102416542373_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572889911_836558762202545_6770686376095340929_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/574831880_836559232202498_2572104953728189740_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571197369_836559052202516_1126866644472919068_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571333253_836559038869184_246151465968719708_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571757276_836558562202565_1681947703071992528_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571341539_836558575535897_643899600205842572_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572271898_836558548869233_2464310808587180895_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573544172_836558568869231_5037128032088578137_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573918079_836558835535871_8013854110330468030_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572795670_836558822202539_7675418317890014881_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571494804_836558778869210_5041485078099425402_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571486233_836558555535899_2673019458051710719_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/574318019_836558535535901_6645644924046890865_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573856387_836559445535810_8236197178488868454_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572262237_836559442202477_6189156746514001089_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571558245_836559015535853_7176875938459687926_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/574398659_836562595535495_605407310215061590_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/574378904_835944202264001_265782350789296867_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/574319940_835941802264241_1154748890498045113_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573551351_835941568930931_273687562019575772_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572159074_835941582264263_3756919929599506280_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/574370124_835941578930930_3816008485220238332_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/574329657_835941428930945_5562184973213616474_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/574314739_835941432264278_3024524911694325242_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573067710_835941425597612_3988964600835110811_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571217328_835941205597634_2822553708054527446_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": false
+        },
+        {
+            "id": 33,
+            "titulo": "TecNM-Hermosillo realiza Ceremonia de Titulación Grupal en el marco de su 50 Aniversario",
+            "contenido": "En el marco del 50 Aniversario del TecNM-Hermosillo, se llevó a cabo la Ceremonia de Titulación Grupal de 25 estudiantes pertenecientes a las carreras de Ingeniería Biomédica e Ingeniería Electrónica.\n\nEl acto inaugural fue encabezado por el director del #ITH, Rogelio Noriega Vargas, quien estuvo acompañado por los subdirectores de la institución, María de la Paz García del CESA, docentes, personal de apoyo a la Educación y padres de familia.\n\nDurante la ceremonia, se reconoció el compromiso y la perseverancia de cada uno de los titulados, quienes hoy culminan una etapa fundamental de su vida académica y se preparan para continuar cosechando éxitos en el ámbito profesional.\n\n👏 Desde el Instituto Tecnológico de Hermosillo extendemos una cálida felicitación a las y los nuevos ingenieros, deseándoles el mayor de los éxitos en esta nueva etapa\n\n",
+            "fecha": "2025-10-31",
+            "fotoperfil": "../imagenes/573845415_836648895526865_3064247144282233891_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/573857634_836650105526744_7728246203770721198_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571662497_836650088860079_4655642352069535484_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572456306_836650018860086_3703861240196729558_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572355944_836650022193419_1275988172767980393_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573523005_836649992193422_4659847743983245519_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571492922_836649715526783_2774432829288037016_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571371562_836649908860097_8452318494420864637_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572465535_836649895526765_4452436757687128763_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571342831_836649815526773_4761735702278697554_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573870622_836649812193440_3059942968395872611_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571360590_836649708860117_7140950526329791658_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571743122_836649712193450_3179880520509968400_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573599653_836649702193451_5512051082981898654_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573588289_836649458860142_7350935167823190067_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572009523_836649325526822_3823074682023368423_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/574515442_836649322193489_906413313778355658_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572789609_836650625526692_5625778245750027697_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573583178_836649188860169_541475052640677849_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572114183_836649072193514_8531754459519609026_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/575105629_836649068860181_3170767974356786246_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572318380_836649818860106_675784675297372880_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573845415_836648895526865_3064247144282233891_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": false
+        },
+        {
+            "id": 34,
+            "titulo": "Estudiantes del TecNM-Hermosillo promueven el emprendimiento en el Bazar Venado",
+            "contenido": "En el marco del 50 Aniversario del TecNM-Hermosillo, el Comité Ejecutivo de Sociedad de Alumnos del #ITH llevó a cabo el Bazar Venado, un espacio donde estudiantes emprendedores tuvieron la oportunidad de promocionar sus productos, realizar dinámicas y compartir su talento con la comunidad tecnológica. \n\nAgradecemos a todas y todos los participantes, así como a quienes se sumaron y apoyaron esta iniciativa que impulsa el espíritu emprendedor y la convivencia estudiantil.",
+            "fecha": "2025-10-31",
+            "fotoperfil": "../imagenes/572048082_836652062193215_3453755279303083561_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/572271863_836652305526524_850917329383763761_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571688820_836652252193196_7213388575755623074_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571989799_836652235526531_6647450653181117050_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573896898_836652205526534_4272290726897811448_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572045330_836652158859872_2985496326440890326_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573328057_836652128859875_5555390747359990253_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573851164_836652112193210_7287167183388164387_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573866661_836652055526549_7429904424594575185_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571809000_836652058859882_5959825836008187277_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572048082_836652062193215_3453755279303083561_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": false
+        },
+        {
+            "id": 35,
+            "titulo": "TecNM-Hermosillo realiza Ceremonia de Titulación Grupal en el marco de su 50 Aniversario",
+            "contenido": "En el marco del 50 Aniversario del TecNM-Hermosillo, se llevó a cabo la Ceremonia de Titulación Grupal de 25 estudiantes pertenecientes a las carreras de Ingeniería Biomédica e Ingeniería Electrónica. El acto inaugural fue encabezado por el director del #ITH, Rogelio Noriega Vargas, quien estuvo acompañado por los subdirectores de la institución, María de la Paz García del CESA, docentes, personal de apoyo a la Educación y padres de familia. Durante la ceremonia, se reconoció el compromiso y la perseverancia de cada uno de los titulados, quienes hoy culminan una etapa fundamental de su vida académica y se preparan para continuar cosechando éxitos en el ámbito profesional. 👏 Desde el Instituto Tecnológico de Hermosillo extendemos una cálida felicitación a las y los nuevos ingenieros, deseándoles el mayor de los éxitos en esta nueva etapa.",
+            "fecha": "2025-10-31",
+            "fotoperfil": "../imagenes/573845415_836648895526865_3064247144282233891_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/573857634_836650105526744_7728246203770721198_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571662497_836650088860079_4655642352069535484_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572456306_836650018860086_3703861240196729558_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572355944_836650022193419_1275988172767980393_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573523005_836649992193422_4659847743983245519_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571492922_836649715526783_2774432829288037016_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571371562_836649908860097_8452318494420864637_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572465535_836649895526765_4452436757687128763_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571342831_836649815526773_4761735702278697554_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573870622_836649812193440_3059942968395872611_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571360590_836649708860117_7140950526329791658_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571743122_836649712193450_3179880520509968400_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573599653_836649702193451_5512051082981898654_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573588289_836649458860142_7350935167823190067_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572009523_836649325526822_3823074682023368423_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/574515442_836649322193489_906413313778355658_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572789609_836650625526692_5625778245750027697_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573583178_836649188860169_541475052640677849_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572114183_836649072193514_8531754459519609026_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/575105629_836649068860181_3170767974356786246_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572318380_836649818860106_675784675297372880_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573845415_836648895526865_3064247144282233891_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": false
+        },
+        {
+            "id": 36,
+            "titulo": "Estudiantes del TecNM-Hermosillo promueven el emprendimiento en el Bazar Venado",
+            "contenido": "En el marco del 50 Aniversario del TecNM-Hermosillo, el Comité Ejecutivo de Sociedad de Alumnos del #ITH llevó a cabo el Bazar Venado, un espacio donde estudiantes emprendedores tuvieron la oportunidad de promocionar sus productos, realizar dinámicas y compartir su talento con la comunidad tecnológica. Agradecemos a todas y todos los participantes, así como a quienes se sumaron y apoyaron esta iniciativa que impulsa el espíritu emprendedor y la convivencia estudiantil.",
+            "fecha": "2025-10-31",
+            "fotoperfil": "../imagenes/572048082_836652062193215_3453755279303083561_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/572271863_836652305526524_850917329383763761_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571688820_836652252193196_7213388575755623074_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571989799_836652235526531_6647450653181117050_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573896898_836652205526534_4272290726897811448_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572045330_836652158859872_2985496326440890326_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573328057_836652128859875_5555390747359990253_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573851164_836652112193210_7287167183388164387_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/573866661_836652055526549_7429904424594575185_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/571809000_836652058859882_5959825836008187277_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/572048082_836652062193215_3453755279303083561_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": false
+        },
+        {
+            "id": 37,
+            "titulo": "\"Un Día por el Tec”: Comunidad del TecNM-Hermosillo se une por la paz, la salud y el cuidado del entorno\"",
+            "contenido": "En el marco del 50 Aniversario del TecNM-Hermosillo, se llevó a cabo con gran entusiasmo la jornada “Un Día por el Tec”, actividad que reunió a estudiantes, docentes y personal de apoyo a la educación con el propósito de contribuir al embellecimiento y mantenimiento de nuestro instituto. El #ITH se suma a la Jornada Nacional por la Paz y en Contra de las Adicciones, fortaleciendo el compromiso con la formación integral y el bienestar de la comunidad tecnológica. 🦅🏫 Desde cada rincón del estado, y con la participación de escuelas y facultades, se realizaron actividades que promueven el bienestar, la salud y la conciencia social, como reforestaciones, rutas de recolección de residuos y eventos deportivos. 🧘‍♀️♻️⚽ 🤝🙂 Estas acciones reflejan el compromiso de nuestra comunidad universitaria con la paz social, la responsabilidad ambiental y el impulso de estilos de vida saludables.",
+            "fecha": "2025-11-07",
+            "fotoperfil": "../imagenes/577423633_842432688281819_6723365675223305685_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/578246048_842472654944489_4248142935113232187_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/576863068_842461484945606_2980973435874774250_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578250734_842461641612257_7260034503517821640_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579006143_842461644945590_5035586846436701964_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577543548_842461594945595_7458157773586498924_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/576818446_842461538278934_4072654448178083353_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577391067_842461531612268_7211594714736529102_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577575952_842461598278928_6073974054005380090_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577045908_842461481612273_5120482347983035938_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/576961973_842435684948186_3098088889748195393_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577483394_842433831615038_8257290497982473017_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/574952014_842433664948388_469118825795326953_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577795786_842433581615063_2449074189356825907_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/576530657_842433491615072_4144601054912652952_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577795783_842434171615004_2877331087593684948_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/576880090_842433344948420_4463874057717335859_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579457400_842433221615099_8857646762795155358_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/575098499_842433994948355_5988514608116949387_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577787814_842433974948357_773993107339500537_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577680707_842433314948423_7293647988956198819_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578271193_842433904948364_793542234467359450_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577119629_842433751615046_5271933240663415991_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577550239_842433701615051_8497550623354051963_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/576869827_842433141615107_2994993890594400881_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579654721_842432884948466_4057333102608513618_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579075503_842432888281799_8968101180120200791_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/576870061_842433621615059_3146095733227155490_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578788760_842432904948464_2111546629791672265_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577882543_842433468281741_3307206455458871985_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577620238_842433411615080_7480153467497101307_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/576747254_842433178281770_7392761502115093880_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577808845_842433328281755_1283173731064962819_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578271512_842432891615132_3019780837683489251_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578201729_842433134948441_7560418049068287057_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578801646_842432974948457_1901229293656635310_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/576531535_842432908281797_3753403711106960620_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/576952669_842433014948453_6961045948881458900_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577015184_842432911615130_4825309259632691015_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577012459_842434091615012_8045650401041743312_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577966784_842433914948363_3260561810325111850_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577122474_842433854948369_2328413108717309523_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/576851350_842433898281698_3417723705987000360_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578091138_842433674948387_2949363407589887006_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577439514_842433611615060_1315881486028057177_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/576963636_842433551615066_5455335317895403201_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/576501766_842433384948416_8615859821729531840_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/576611032_842433278281760_7938658660260090262_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577608927_842433261615095_6802092550197877085_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579192803_842432978281790_1739484749439713785_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/576531530_842433024948452_4936751134226543919_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577669916_842432901615131_8369772955668923271_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577423633_842432688281819_6723365675223305685_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": false
+        },
+        {
+            "id": 38,
+            "titulo": "Carrera de Aniversario y Jornada Tequios por la Paz",
+            "contenido": "En el marco del 50° aniversario del TecNM-Hermosillo, se llevó a cabo con gran éxito la Carrera de Aniversario de 5 km, donde estudiantes, docentes y personal de apoyo a la educación participaron con entusiasmo, promoviendo una vida sana, libre de adicciones y llena de valores que fortalecen la paz. 💪🎽 El Director #ITH Rogelio Noriega Vargas agradeció la participación de todas y todos los competidores, resaltando que el deporte y la unión comunitaria son pilares fundamentales para construir una sociedad más fuerte, saludable y en paz. Como parte de las actividades, también se realizaron los Tequios por la Paz, una jornada de servicio y colaboración que impulsa el trabajo en comunidad, la convivencia y el respeto entre todos los integrantes de nuestra institución. Durante el evento, se reforzó el mensaje sobre los peligros del consumo de drogas, especialmente del fentanilo, recordando que el fentanilo mata y que cada acción en favor de la salud y la vida cuenta.",
+            "fecha": "2025-11-08",
+            "fotoperfil": "../imagenes/577898295_843190291539392_5633247384735524545_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/579008312_843191101539311_5093911808588330577_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/580652667_843191071539314_5515726862073081623_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578272399_843191008205987_7166500885145370614_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577345371_843190988205989_5690880522921280085_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578999569_843190958205992_3608476160107976932_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577923408_843190904872664_5850750007397708413_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577703598_843190891539332_4113859221580812417_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577039247_843190861539335_1469735615067313683_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577791659_843190808206007_4122310889408309503_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579480368_843190791539342_8315324818480779074_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577966796_843190761539345_3590251047418656974_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578271512_843190704872684_5358053709949738795_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578816468_843190684872686_8934665716706786340_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577130096_843190641539357_1599839113382305388_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578273160_843190588206029_8076648625199737880_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577144412_843190574872697_6618414198562107840_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578969054_843190474872707_8845642155367913376_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579165639_843190518206036_7149668082537247130_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577922364_843190348206053_6673574397217666063_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579169353_843190328206055_3304569947834886135_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578527057_843190324872722_659997297415891558_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579982105_843190148206073_2003052609013926268_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577026870_843190074872747_1736350855211009146_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579612478_843189978206090_2597059630544794807_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577679445_843189964872758_7420442005655201036_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577778334_843189851539436_8999061272937229950_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577132273_843189781539443_5417529092044157561_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577768594_843189778206110_5352261924635223500_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579007912_843189594872795_9177701503064873926_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579793785_843189591539462_6248485886090731739_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577129876_843189638206124_4242730545537440807_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579594485_843190164872738_2146839246997603677_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577688354_843190144872740_6631117786873763778_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579159354_843190121539409_1877748443887799482_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578272808_843189981539423_6213096253616670020_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578271547_843189961539425_1103348642114271440_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577183375_843189941539427_9017324508027544631_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579192431_843189768206111_4102043113860229612_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579614971_843189751539446_7349368675070359313_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578252661_843189754872779_9176752777762245591_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578247307_843189584872796_7199839679698467144_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579205164_843189578206130_3775532155660248534_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578673067_843189451539476_7919196490731666919_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578271667_843189461539475_2730392345795653579_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577852795_843190181539403_3748785791050060739_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577806909_843189454872809_6719485963079183284_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577625582_843189444872810_3767784269819617856_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577898295_843190291539392_5633247384735524545_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": false
+        },
+        {
+            "id": 39,
+            "titulo": "Presentación del libro “Apuntes de Oratoria Emocional” de la Mtra. Ma. Teresa de Jesús Chew Lee en el TecNM-Hermosillo",
+            "contenido": "📖 En el marco del 50 Aniversario del TecNM-Hermosillo, la maestra Ma. Teresa de Jesús Chew Lee presentó su libro “Apuntes de Oratoria Emocional” en el auditorio de Posgrado. Agradecemos a todos los asistentes por acompañarnos y a la maestra Chew Lee por compartir su obra con la comunidad tecnológica.",
+            "fecha": "2025-11-10",
+            "fotoperfil": "../imagenes/579116713_842391511619270_235076737944891244_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/577764353_842391518285936_5248622488272758498_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577834534_842391508285937_3252401956970985951_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578014274_842391514952603_1513385556919594267_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577351745_842391504952604_6429461167009544358_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579116713_842391511619270_235076737944891244_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": false
+        },
+        {
+            "id": 40,
+            "titulo": "TecNM-Hermosillo celebra el Congreso Regional Interuniversitario IEEE en el marco de su 50 Aniversario",
+            "contenido": "En el marco del 50 Aniversario del TecNM-Hermosillo, se llevó a cabo el Congreso Regional Interuniversitario de la IEEE, celebrado en el Teatro-Auditorio “Juan Francisco Fernández Hernández”, un evento que reunió a estudiantes, docentes, investigadores y profesionales para compartir conocimientos, experiencias y avances tecnológicos en las áreas de ingeniería, ciencia y tecnología. El acto inaugural fue presidido por el Mtro. Rogelio Noriega Vargas, director del #ITH, acompañado de los subdirectores, docentes y el presidente de la Rama Estudiantil Soles IEEE, Jonathan Ríos, quien agradeció al comité organizador y a la institución por su apoyo en la realización del congreso. La declaratoria inaugural estuvo a cargo del Dr. Francisco Acuña Méndez, presidente ejecutivo de Codeso, quien impartió la conferencia magistral “Plan Sonora: Semiconductores y Energías Limpias”. Durante su intervención, destacó el trabajo del comité organizador y la importancia tecnológica del ITH como formador de talento para la industria del futuro. El congreso incluyó 18 conferencias, 16 talleres y 12 visitas industriales, consolidándose como un espacio clave para la formación integral, la vinculación y la innovación tecnológica. Agradecemos a todos los asistentes y participantes por su entusiasmo y compromiso con el conocimiento, la ciencia y la ingeniería ",
+            "fecha": "2025-11-10",
+            "fotoperfil": "../imagenes/577663450_842392751619146_8970907950161400776_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/577501019_842392948285793_5081676830729583418_n (1).jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577321997_842392754952479_5693949646337385311_n (1).jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577663450_842392751619146_8970907950161400776_n (1).jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577769498_842393601619061_2245059257204937823_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577756025_842393594952395_6250079121424585342_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577607482_842393591619062_1331161931225869043_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577940042_842393598285728_8207451959640685502_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577744150_842393561619065_1124826202353281316_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579112243_842393588285729_3417671269302862317_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579113856_842393204952434_5751265689112380283_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577650526_842393201619101_8490282179709747031_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579173885_842393194952435_4061935380674867944_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577428100_842393184952436_6877197197561864402_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577501019_842392948285793_5081676830729583418_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577321997_842392754952479_5693949646337385311_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577663450_842392751619146_8970907950161400776_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": false
+        },
+        {
+            "id": 41,
+            "titulo": "Estudiantes de Ingeniería Industrial presentan proyectos innovadores en la materia de Sistemas de Manufactura",
+            "contenido": "Estudiantes de la materia Sistemas de Manufactura de la carrera de Ingeniería Industrial, impartida por el Mtro. Sergio Rodrigo Amparán Martínez, presentaron sus proyectos y actividades académicas, demostrando su compromiso con la innovación y la mejora continua en los procesos productivos. Los grupos N7D y N7C participaron activamente en el desarrollo de propuestas aplicadas a la manufactura moderna, fortaleciendo sus habilidades técnicas, analíticas y de trabajo en equipo. Estas experiencias contribuyen de manera significativa a la formación integral de los futuros ingenieros industriales, haciendo relevante su aprendizaje y su capacidad para enfrentar los retos de la industria actual. 👷‍♀️👨‍🏭 Formamos profesionistas que transforman su entorno con conocimiento, práctica e innovación ",
+            "fecha": "2025-11-10",
+            "fotoperfil": "../imagenes/577745582_842406314951123_4303735449681829169_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/579197204_842406554951099_8725901367603835701_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578496581_842406548284433_3977638937047634027_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579447716_842406551617766_7386988949742459192_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578281139_842406541617767_18059844269677313_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577409679_842406531617768_2750221339791327953_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578250646_842406504951104_5071780003936802415_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577543589_842406514951103_5203074861940258149_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577745565_842406328284455_948100189432332975_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577259035_842406321617789_7233358012328403301_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577589009_842406331617788_8005343870288526648_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577787264_842406311617790_8074923030861906132_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577371745_842406318284456_6764545408200850369_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577316027_842406324951122_6891517136723692251_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/576920087_842406338284454_2131887722430473614_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578548918_842406308284457_3056980870129868644_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578250640_842406334951121_2893193373655145771_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577745582_842406314951123_4303735449681829169_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": false
+        },
+        {
+            "id": 42,
+            "titulo": "TecNM-Hermosillo inaugura el Congreso Internacional de Ingeniería Mecánica, Mecatrónica y Aeronáutica (CIIMM) 2025: “Diseñando el futuro, perfeccionando el presente”",
+            "contenido": "En el marco del 50 Aniversario del TecNM-Hermosillo, se llevó a cabo la inauguración del Congreso Internacional de Ingeniería Mecánica, Mecatrónica y Aeronáutica (CIIMM) 2025, un encuentro que impulsa la transformación tecnológica y el pensamiento innovador de las nuevas generaciones de ingenieras e ingenieros. Bajo el lema “Diseñando el futuro, perfeccionando el presente”, este evento reúne a líderes, investigadores, docentes y estudiantes que comparten su visión sobre el avance de la ingeniería aplicada y su impacto en la industria moderna. La ceremonia inaugural fue encabezada por el Mtro. Rogelio Noriega Vargas, director del #ITH, acompañado de Gertie Agraz Boeneker, directora de Beyond, y del MSc. Anderson Suzuki, CEO de Hyundai Brasil, quienes destacaron la importancia de la innovación, la sostenibilidad y la colaboración internacional como motores del desarrollo tecnológico. Este congreso cuenta con 8 conferencias que abordan temas como electromovilidad, aerodinámica, mecatrónica aplicada a la minería y visión emprendedora, entre otros que integran la ciencia y la tecnología en un pensamiento crítico y aplicado a la industria, asimismo, se desarrollan 8 talleres y 6 visitas a empresas, brindando a los participantes la oportunidad de fortalecer sus habilidades técnicas y su vinculación con el entorno productivo. El Mtro. Rogelio Noriega Vargas expresó su reconocimiento y felicitó al presidente del CIIMM 2025, Daniel Marín Barrera Márquez, y al Comité Organizador, por su compromiso, entusiasmo y por colocar muy en alto el nombre del Instituto Tecnológico de Hermosillo. El CIIMM es una plataforma para inspirar, innovar y transformar. Que cada conferencia, taller y encuentro sea una oportunidad para potenciar el talento, la creatividad y el liderazgo que distinguen a nuestra comunidad tecnológica. ¡Te invitamos a conocerlos y compartirlos!",
+            "fecha": "2025-11-10",
+            "fotoperfil": "../imagenes/581466465_845076688017419_1882066384568673134_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/581953322_845077358017352_6563005803107621182_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579243219_845078041350617_8622673681764680033_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/582103818_845077851350636_3728574516862252633_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/581943577_845077701350651_6370226851611680730_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/580430197_845077431350678_3790984662247771883_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/580245221_845078468017241_8823648768141377882_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/581828784_845078258017262_2331958892233589413_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577973557_845078201350601_3974498580587424919_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578660483_845078128017275_1175131529962831947_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/558474106_845078108017277_2057274762865827647_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/560799667_845078038017284_3298836896340300129_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578805530_845077958017292_7827949574249420256_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/581513137_845077954683959_6640066130764171849_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577042890_845077878017300_3132844249740595269_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578970513_845077741350647_6268838825365365926_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/580364426_845077721350649_2482325829376662380_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/582005034_845077651350656_5307069841442223773_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579319092_845077888017299_7694486053506672691_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/580460205_845077644683990_5022789343934242643_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/581954090_845078488017239_781595389447030378_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/580517170_845077541350667_5111373505763897655_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/581828452_845077724683982_9151592016690613187_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579196385_845078264683928_3502294181878800680_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579842645_845078391350582_412205154639565244_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/581050305_845078044683950_9166672458966477871_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579351591_845077534684001_1488839033237226953_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577834488_845077488017339_8047023113592057886_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/581943611_845077354684019_5072576213579265646_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/582017770_845076994684055_5518266854189440441_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578961648_845076868017401_318275049672799579_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/581466465_845076688017419_1882066384568673134_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": false
+        },
+        {
+            "id": 43,
+            "titulo": "Estudiantes de Ingeniería Industrial aplican metodología Six Sigma en proyecto con causa social",
+            "contenido": "Estudiantes de séptimo semestre de Ingeniería Industrial realizaron su práctica de la materia Introducción a Six Sigma, guiados por la maestra Karla Lucero y Dr. Enrique de la Vega Bustillos. El proyecto consiste en la elaboración de trenecitos de madera, los cuales serán donados, para los niños que asistirán al evento de \"sonrisas\" en la comunidad seri (comcáac), ubicada en punta chueca, Sonora. 👏 Felicitamos a los estudiantes por aplicar sus conocimientos en una actividad que une aprendizaje y compromiso social.",
+            "fecha": "2025-11-10",
+            "fotoperfil": "../imagenes/576862232_842412854950469_1152533553654719982_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/576369022_842412851617136_2210215972863693708_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/576862232_842412854950469_1152533553654719982_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/576928314_842412838283804_3783193418427257984_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577188450_842413001617121_7915166768416345851_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577571967_842413054950449_6179085678315101506_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577632632_842412861617135_3888364309631271196_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577654640_842412991617122_2246418294846827414_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577697876_842412841617137_7819341681661581634_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577704597_842413034950451_7391891875594252696_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577804613_842412858283802_6799634463340803425_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577939893_842413044950450_5844179917538652561_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577966592_842412848283803_6670093145443358723_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578278668_842412844950470_3396063289271848850_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578752613_842412834950471_3003709219391633543_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579638607_842412864950468_8314868713533356697_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": true
+        },
+        {
+            "id": 44,
+            "titulo": "Estudiantes del TecNM-Hermosillo reciben pláticas informativas sobre Residencias Profesionales",
+            "contenido": "En el marco del 50 Aniversario del TecNM-Hermosillo, se llevaron a cabo las pláticas informativas para los estudiantes próximos a realizar sus Residencias Profesionales durante el siguiente semestre. Nuestros jóvenes se reunieron en el teatro-auditorio “Juan Fco. Fernández Hernández”, donde recibieron la orientación necesaria para elegir el lugar ideal en el que aplicarán los conocimientos adquiridos a lo largo de su carrera. Esta etapa representa una fase clave en su formación profesional y una gran oportunidad para vincularse con el sector productivo, fortaleciendo su desarrollo académico y laboral.",
+            "fecha": "2025-11-10",
+            "fotoperfil": "../imagenes/578356802_842418144949940_4193976584337371601_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/578356802_842418144949940_4193976584337371601_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/576490297_842418148283273_7080605696984511340_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578568813_842418141616607_7597037860886606945_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": true
+        },
+        {
+            "id": 45,
+            "titulo": " “Un Paseo por la Historia Informática”: exposición que celebra la evolución tecnológica en el TecNM-Hermosillo",
+            "contenido": "En el marco del 50 Aniversario del TecNM-Hermosillo, se llevó a cabo el evento “Un Paseo por la Historia Informática”, realizado por los docentes Raymur Nuztas Alcantar y Jesús Emilio Barajas Mariscal, quienes presentaron una interesante exposición sobre la evolución del equipo de cómputo, memorias y dispositivos tecnológicos a lo largo de las décadas. El director del #ITH, Rogelio Noriega Vargas, acompañado de las subdirectoras, docentes y estudiantes, recorrieron los diferentes espacios de la muestra, recordando con entusiasmo las tecnologías que marcaron distintas etapas del desarrollo informático. Felicitamos a los docentes por esta valiosa iniciativa y agradecemos a todas las personas que se dieron cita para conocer y apreciar un poco de la historia y evolución de la tecnología.",
+            "fecha": "2025-11-11",
+            "fotoperfil": "../imagenes/577801983_842415551616866_3213007210115110130_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/579218246_842416534950101_5963061205164295704_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577902133_842416418283446_7635252169046475872_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579194204_842416414950113_791638255048556248_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577810947_842416388283449_8131238949873143641_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577152624_842416398283448_8760088879639758524_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579146667_842416401616781_5057181350162778595_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577984357_842416391616782_6914380325094986815_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577795934_842416404950114_374616722631625793_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577607484_842416408283447_3506550236314850789_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577698867_842416394950115_5371934990936210819_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579246260_842416411616780_1367648662688444324_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579187014_842415781616843_8739527767577609571_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577783282_842415808283507_8720661502413178685_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577115744_842415758283512_6256287946263840683_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577644134_842415748283513_157526862088094111_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577882486_842415738283514_3663054332823543568_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577824669_842415708283517_8417570131716501873_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577651695_842415578283530_5837689349724756100_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577879105_842415568283531_1043392560103856368_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577771829_842415558283532_6325756876989856828_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577339567_842415561616865_6100378451981955354_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579182978_842415548283533_7868141809431099384_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577818968_842415564950198_7943946799582390492_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577893063_842415554950199_5925295133117398371_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577130649_842415574950197_3770652405809336378_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/577801983_842415551616866_3213007210115110130_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": true
+        },
+        {
+            "id": 46,
+            "titulo": " TecNM-Hermosillo celebra el “Día del Ingeniero Biomédico” con conferencias, proyectos y networking académico",
+            "contenido": "En el marco del 50 Aniversario del TecNM-Hermosillo, se llevó a cabo el “Día del Ingeniero Biomédico”, organizado por el capítulo estudiantil EMBS (Engineering Medical Biology Society). El acto inaugural fue presidido por el director del #ITH, Rogelio Noriega Vargas, acompañado del subdirector académico Elmer Moreno Ruiz, el egresado Francisco Villaescusa, director del Instituto Hermosillense de la Juventud, así como Astryd Téllez Girón Thomson, presidenta del capítulo estudiantil de la EMBS, académicos y estudiantes. Durante la jornada se llevaron a cabo conferencias especializadas, un espacio de networking para el intercambio de ideas, y la exposición de proyectos realizados por las y los estudiantes de la carrera, quienes demostraron con su talento y creatividad la esencia de esta noble profesión. Agradecemos a todos los alumnos que participaron en esta jornada y que continúan fortaleciendo su formación académica con actividades que impulsan la innovación y el compromiso social.",
+            "fecha": "2025-11-11",
+            "fotoperfil": "../imagenes/577801983_842415551616866_3213007210115110130_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/582280957_845809954610759_3583247416544029251_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579589347_845809931277428_675866317692875594_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/580570258_845809971277424_3858154603902591996_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579686477_845809707944117_6167026666429697547_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/580775470_845809664610788_5726389492699410163_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/579017160_845809684610786_1857484961665093652_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/578985418_845809534610801_5241945797925326077_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/581942443_845809387944149_4191335764608320467_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": true
+        },
+        {
+            "id": 47,
+            "titulo": "TecNM-Hermosillo obtiene la acreditación de tres programas educativos por parte de los CIEES",
+            "contenido": "El Tecnológico Nacional de México -Hermosillo se enorgullece en anunciar la acreditación de los programas educativos de Ingeniería Industrial, Ingeniería en Mecatrónica e Ingeniería en Gestión Empresarial, otorgada por los Comités Interinstitucionales para la Evaluación de la Educación Superior (CIEES). Este logro consolida el compromiso del instituto con la excelencia académica, la mejora continua y la formación de profesionistas de alto nivel, capaces de impulsar el desarrollo tecnológico y productivo del país. Nuestra felicitación y reconocimiento a nuestras maestras y maestros y personal de apoyo a la educación que hicieron posible esta importante acreditación por tres años, reflejo del trabajo en equipo, la dedicación y el compromiso con la excelencia educativa.",
+            "fecha": "2025-11-12",
+            "fotoperfil": "../imagenes/579684047_846658527859235_9149080264618078551_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/579684047_846658527859235_9149080264618078551_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/581999463_846658531192568_50710038245161684_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/582691005_846659367859151_1897092188035024839_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": true
+        },
+        {
+            "id": 49,
+            "titulo": "Reconocen al Departamento de Servicios Escolares del TecNM-Hermosillo por cumplimiento total en auditoría institucional",
+            "contenido": "El Tecnológico Nacional de México- Hermosillo reconoce y felicita al Departamento de Servicios Escolares por haber obtenido el cumplimiento total en la auditoría de seis semestres de la matrícula institucional, reflejo del compromiso, la responsabilidad y la eficiencia en la gestión académica de nuestra comunidad tecnológica. Extendemos una felicitación especial a la Mtra. Bettina Santa Cruz Welsh, jefa del Departamento de Servicios Escolares, y a todo su equipo de trabajo por su destacada labor, esfuerzo y dedicación para mantener procesos confiables, transparentes y alineados con los estándares del TecNM. Este logro reafirma la excelencia administrativa y el compromiso institucional del #ITH con la calidad educativa y la mejora continua.",
+            "fecha": "2025-11-12",
+            "fotoperfil": "../imagenes/581935913_846665801191841_2219377130520563639_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/581935913_846665801191841_2219377130520563639_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/581055697_846665804525174_6915908909464814470_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": true
+        },
+        {
+            "id": 50,
+            "titulo": "TecNM-Hermosillo participa en la Feria Vocacional 2025 del Cobach Hermosillo V Plantel Villa Bonita",
+            "contenido": "Agradecemos al Cobach Hermosillo V Plantel Villa Bonita por su atenta invitación a la Feria Vocacional 2025. Fue un gusto para el TecNM-Hermosillo compartir con las y los estudiantes las opciones educativas, oportunidades de desarrollo y el acompañamiento que ofrecemos en su formación profesional. Nos entusiasma seguir fortaleciendo vínculos con instituciones comprometidas con el futuro de la juventud sonorense.",
+            "fecha": "2025-11-14",
+            "fotoperfil": "../imagenes/582446568_848245457700542_4371187079884673450_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/582446568_848245457700542_4371187079884673450_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/582766697_848245434367211_8292672173845832273_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/581929879_848245437700544_4292345582485194960_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/582460905_848245507700537_8768632361114550854_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/580522224_848245511033870_8646530835720801835_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": true
+        },
+        {
+            "id": 51,
+            "titulo": "Toman protesta nuevos integrantes del Capítulo Estudiantil de Ingeniería en Gestión Empresarial del TecNM-Hermosillo (2025-2026)",
+            "contenido": "En el marco del 50 Aniversario del TecNM-Hermosillo, se llevó a cabo la toma de protesta de la Mesa Directiva del Capítulo Estudiantil de Ingeniería en Gestión Empresarial, correspondiente al periodo 2025-2026, un evento que reafirma el compromiso de nuestra comunidad estudiantil con el liderazgo, la participación activa y el fortalecimiento de su formación profesional. La ceremonia fue encabezada por el director del #ITH, Rogelio Noriega Vargas, quien estuvo acompañado por los subdirectores de la institución; el jefe del Departamento de Ciencias Económico-Administrativas, Jorge Hugo Denney Noris; así como por la presidenta saliente, Lorelai Jaime Burboa, y la presidenta entrante de Ceige, Fátima Andrea Partida Lizárraga, asi como de manera virtual estuvo Rubén Abner García Cortes, Presidente del Consejo Nacional de Ingeniería en Gestión Empresarial AC. Expresamos nuestro reconocimiento a Lorelai Jaime por el esfuerzo, liderazgo y compromiso demostrados durante su gestión, que contribuyó significativamente al crecimiento del capítulo estudiantil. Asimismo, extendemos una cálida bienvenida al comité entrante, deseándoles el mayor de los éxitos en este nuevo periodo y que cada una de las metas planteadas se cumplan con dedicación, trabajo en equipo y visión de futuro.",
+            "fecha": "2025-11-18",
+            "fotoperfil": "../imagenes/584311207_851228254068929_7135962718483485866_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/585564493_851228217402266_8369730054424735208_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/584996797_851228184068936_6094455703065943524_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/584407958_851228174068937_6125761626397834671_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/585270918_851228177402270_7854471466285091824_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586020969_851228317402256_8608976852573571987_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/580496902_851228314068923_5598633438518177120_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/584580002_851228310735590_4237917377027322895_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/583332426_851228187402269_184917287542629839_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/582788752_851228180735603_4366606699929649625_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/584311207_851228254068929_7135962718483485866_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": true
+        },
+        {
+            "id": 52,
+            "titulo": "TecNM-Hermosillo celebra el Día del Ingeniero en Gestión Empresarial y anuncia la acreditación del programa educativo",
+            "contenido": "En el marco del 50 Aniversario del TecNM-Hermosillo, se llevó a cabo la celebración del Día del Ingeniero en Gestión Empresarial, una jornada dedicada a reconocer el compromiso, la vocación y la formación integral de nuestros futuros profesionistas. El evento fue encabezado por el Director del ITH, Rogelio Noriega Vargas, quien expresó una felicitación a la comunidad académica tras anunciar que, recientemente, la carrera de Ingeniería en Gestión Empresarial obtuvo su acreditación otorgada por los Comités Interinstitucionales para la Evaluación de la Educación Superior (CIEES). En su mensaje, el Director reconoció y agradeció el esfuerzo de las y los estudiantes, docentes de la academia y responsables del programa educativo, quienes participaron activamente en este proceso, demostrando su compromiso con la calidad, la mejora continua y la excelencia académica. Durante la jornada, el Director estuvo acompañado por los subdirectores del plantel, docentes de la academia y la presidenta del Comité CEIGE, Fátima Partida Lizárraga, quienes también celebraron este importante logro para la comunidad de Gestión Empresarial. A lo largo del día, se contó con la participación de diversos panelistas, entre ellos egresados de nuestra institución, quienes compartieron sus experiencias profesionales, inspirando y motivando a las y los estudiantes a continuar su formación con pasión, responsabilidad y visión de futuro. Agradecemos a todas y todos los asistentes por ser parte de esta celebración y por contribuir al fortalecimiento de nuestra comunidad académica ",
+            "fecha": "2025-11-19",
+            "fotoperfil": "../imagenes/585364248_851919753999779_5968747013858187115_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/582436823_851919870666434_7885334229222511339_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/583335656_851919797333108_3854401000033066270_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/585886554_851919827333105_8774655088155044490_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/584897998_851919747333113_8150117964878388204_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/585890106_851919820666439_4582952786371167626_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/585887567_851919723999782_8977461719645327465_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/584629617_851919727333115_3207721889709814027_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/584590927_851919790666442_1596260760099266895_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/585364248_851919753999779_5968747013858187115_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": true
+        },
+        {
+            "id": 53,
+            "titulo": "Contraloría social programa U079",
+            "contenido": "",
+            "fecha": "2025-11-20",
+            "fotoperfil": "../imagenes/Cartel CS U079 2025_page-0001.jpg",
+            "imagen": [
+                {
+                    "url": "Banner CS Pp U079 2025_page-0001.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "Banner CS Pp U079 2025 (Banner (vertical))_page-0001.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "Cartel CS U079 2025_page-0001.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": true
+        },
+        {
+            "id": 54,
+            "titulo": "Feria de Empleabilidad 2025: 30 Empresas Conectan con el Talento del TecNM-Hermosillo en su 50º Aniversario",
+            "contenido": "En el marco del 50 Aniversario del TecNM-Hermosillo, se llevó a cabo la Feria de Empleabilidad, un espacio donde alrededor de 30 empresas presentaron sus vacantes laborales y opciones para realizar residencias profesionales, dirigidas a estudiantes y egresados del #ITH. La inauguración estuvo a cargo del director Rogelio Noriega Vargas, acompañado por los subdirectores y el personal del Departamento de Gestión Tecnológica y Vinculación, quienes destacaron la importancia de fortalecer los lazos entre la industria y la comunidad tecnológica. Agradecemos profundamente a todas las empresas participantes por su confianza, por creer en el talento que se forma en nuestras aulas y por considerar al Tecnológico de Hermosillo como una institución que prepara profesionistas capaces, comprometidos y de excelencia.",
+            "fecha": "2025-11-20",
+            "fotoperfil": "../imagenes/586172993_853410877184000_1468814537180801015_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/585650253_853412073850547_6838462931067137719_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586077450_853412147183873_8014103611606547720_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/587777717_853412053850549_8103457126441955928_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/584578252_853411990517222_7033483381452647663_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586042834_853412000517221_2300727026351400502_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/585890112_853411853850569_7204984074923147374_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586711341_853411830517238_8667193572553511681_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/585575902_853411787183909_5760961025035697205_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586024248_853411753850579_5016278228357145427_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/585507584_853411757183912_6320842475432228201_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/582511343_853411700517251_5520602487507175303_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586434497_853411643850590_3453899128347757099_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586976462_853411647183923_5249883046493649117_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586554830_853411587183929_628537701532080989_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586028613_853411547183933_8822249981581779298_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586455012_853411343850620_7751434389128457288_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/584918805_853411530517268_6048846640351762009_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586856686_853411493850605_2162346043064443631_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/584892200_853411457183942_7734003728606130866_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/584895488_853411430517278_872997555413164845_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586248893_853411340517287_6317148697988482946_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/585891241_853411380517283_905521665876751234_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/585360804_853411347183953_7845369045681644246_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586026670_853410990517322_6867878859483755715_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/585397499_853411110517310_2472414219643678138_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586179029_853410803850674_2914012803383632807_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586172993_853410877184000_1468814537180801015_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": true
+        },
+        {
+            "id": 55,
+            "titulo": "Toma de Protesta de 28 Nuevos Ingenieros Industriales en el Marco del 50º Aniversario del TecNM-Hermosillo",
+            "contenido": "En el marco del 50 Aniversario del TecNM-Hermosillo, 28 egresados de la carrera de Ingeniería Industrial tomaron protesta como nuevos profesionistas. El acto protocolario fue encabezado por el director del #ITH, Mtro. Rogelio Noriega Vargas, acompañado por el subdirector académico, Mtro. Elmer Moreno Ruiz; el jefe del Departamento de Ingeniería Industrial, Mtro. Edgar Cheu Burgos; así como el sínodo encargado de la toma de protesta a los nuevos profesionistas. Extendemos una felicitación a las y los nuevos ingenieros industriales por alcanzar este importante logro. Les deseamos el mayor de los éxitos en la nueva etapa profesional que está por comenzar.",
+            "fecha": "2025-11-20",
+            "fotoperfil": "../imagenes/590306727_855604360297985_4359268828854238087_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/589744281_855604333631321_3162284336993799037_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586553948_855604353631319_2351355955836052600_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586779395_855604340297987_2766711958263927239_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586735365_855604363631318_148644794366065618_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586047065_855606746964413_6545285392655652629_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/587527446_855604470297974_4115887742443255934_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/590339612_855604510297970_4633230703615744610_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586273921_855604356964652_8998443455036055133_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586526886_855604350297986_4789277706533088220_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586700201_855604466964641_1300313644338445048_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/587022278_855604490297972_3677662423504016126_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/590306727_855604360297985_4359268828854238087_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": true
+        },
+        {
+            "id": 55,
+            "titulo": "Toma de Protesta del Comité Proxy en el Marco del 50º Aniversario del TecNM-Hermosillo",
+            "contenido": "En el marco del 50 Aniversario del TecNM-Hermosillo, se realizó la toma de protesta del comité Proxy, por Dalia Gabriela Soufflee González como presidenta. El director Rogelio Noriega Vargas destacó los avances en acreditación de programas educativos y el compromiso del instituto con la calidad académica. Proxy busca acercar a las y los estudiantes a nuevas tecnologías y fortalecer su formación a través de su congreso. Felicitamos al comité entrante y reconocemos al saliente por su gran trabajo.",
+            "fecha": "2025-11-20",
+            "fotoperfil": "../imagenes/585352776_855700990288322_5887741747022957035_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/585352776_855700990288322_5887741747022957035_n (1).jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586695881_855701076954980_827009322778995213_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586747032_855701020288319_5578847078420218704_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586700201_855700993621655_807954811447437450_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/586381351_855701073621647_1934852247771995462_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/585352776_855700990288322_5887741747022957035_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": true
+        },
+        {
+            "id": 56,
+            "titulo": "Feria de Divulgación de Ciencias Básicas 2025 en el Marco del 50º Aniversario del TecNM-Hermosillo",
+            "contenido": "En el marco del 50 Aniversario del TecNM-Hermosillo, se realizó la Feria de Divulgación de Ciencias Básicas 2025, un espacio para acercar la física y la química a nuestra comunidad. El director del #ITH, Mtro. Rogelio Noriega Vargas, acompañado por autoridades académicas y docentes, inauguró esta jornada que incluyó stands interactivos, experimentos, talleres y concursos científicos. Agradecemos la entusiasta participación de nuestras y nuestros estudiantes. Eventos como este fortalecen el perfil científico del TecNM-Hermosillo e inspiran a las nuevas generaciones.",
+            "fecha": "2025-11-20",
+            "fotoperfil": "../imagenes/588699784_855708350287586_4361304327687918438_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/589294990_855707780287643_5867912533116676250_n (1).jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/589159417_855707826954305_7011306336656536354_n (1).jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/589267501_855707980287623_7747137220737304238_n (1).jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/589267501_855707980287623_7747137220737304238_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/587229431_855708403620914_2784285503171876636_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/588667651_855708370287584_9020138632358848266_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/587038351_855708476954240_3007003715710212828_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/588657902_855707843620970_2405274931701694355_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/587210156_855708466954241_1548896320675022180_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/583339204_855708506954237_5830179296485827169_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/589611956_855707883620966_2293534269053729986_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/583336542_855708543620900_1529777149629646925_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/588843768_855707790287642_4293555523152235306_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/589294990_855707780287643_5867912533116676250_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/589159417_855707826954305_7011306336656536354_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/588699784_855708350287586_4361304327687918438_n.jpg",
+                    "descripcion": "jpg"
+                }
+            ],
+            "activo": true
+        },
+        {
+            "id": 58,
+            "titulo": "TecNM-Hermosillo forma listón humano por el Día Internacional de la Eliminación de la Violencia contra la Mujer",
+            "contenido": "🧡 TecNM-Hermosillo conmemora el Día Internacional de la Eliminación de la Violencia contra la Mujer En el marco del 25 de noviembre, el TecNM-Hermosillo llevó a cabo la formación de un listón humano integrado por directivos, docentes, personal de apoyo a la educación y estudiantes, quienes se unieron portando una prenda de color naranja, símbolo de la lucha contra la violencia hacia las mujeres y las niñas. Con esta actividad, nuestra comunidad reafirma su compromiso de promover espacios seguros, impulsar la igualdad y fortalecer la cultura de paz. 🧡 Juntos y juntas decimos: ¡No más violencia!",
+            "fecha": "2025-11-25",
+            "fotoperfil": "../imagenes/587107567_856459540212467_3028499420153351227_n.jpg",
+            "imagen": [
+                {
+                    "url": "../imagenes/587107567_856459540212467_3028499420153351227_n.jpg",
+                    "descripcion": "jpg"
+                },
+                {
+                    "url": "../imagenes/588319816_856459543545800_1295294782234530607_n.jpg",
                     "descripcion": "jpg"
                 }
             ],

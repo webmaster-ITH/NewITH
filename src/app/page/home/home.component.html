@@ -82,7 +82,8 @@
                     "acc": "https://access.equalweb.com/"
                 },
                 "Menulang": "es-MX",
-                "btnStyle": {
+                "btnStyle": 
+                {
                     "vPosition": ["80%", "80%"],
                     "scale": ["0.5", "0.5"],
                     "color": {
@@ -267,7 +268,7 @@
     <div class="modal-dialog modal-lg"
         role="dialog"
         aria-modal="true"
-        (click)="$event.stopPropagation()"
+        (click)="$any($event).stopPropagation()"
         style="position:relative;z-index:100000;max-width:900px;width:90%;">
        <div class="modal-content">
           <div class="modal-header">

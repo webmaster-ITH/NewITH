@@ -10,7 +10,7 @@ export class NotasService {
    constructor(private http: HttpClient) { }
 
   getNotas(): Observable<any[]> {
-    return this.http.get<{notas: any[]}>('assets/notas.json').pipe(
+    return this.http.get<{notas: any[]}>(`assets/notas.json?v=${new Date().getTime()}`).pipe(
       map(response =>
         response.notas
           .filter(nota => nota.activo === true)
@@ -23,7 +23,7 @@ export class NotasService {
     );
   }
  getNotasPaginada(options?: any): Observable<any[] | { items: any[]; total: number; page: number; pageSize: number }> {
-    return this.http.get<{ notas: any[] }>('assets/notas.json').pipe(
+    return this.http.get<{ notas: any[] }>(`assets/notas.json?v=${new Date().getTime()}`).pipe(
       map(response => {
         // base: activo false y orden descendente por fecha
         let notas = (response.notas || [])
@@ -73,7 +73,7 @@ export class NotasService {
   }
 
   getNota(id: number): Observable<any> {
-    return this.http.get<{ notas: any[] }>('assets/notas.json').pipe(
+    return this.http.get<{ notas: any[] }>(`assets/notas.json?v=${new Date().getTime()}`).pipe(
       map(response => (response.notas || []).find(nota => Number(nota.id) === Number(id)))
     );
   }

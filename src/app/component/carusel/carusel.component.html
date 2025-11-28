@@ -12,22 +12,22 @@
           <!-- Slide sin link o con link '#' (solo imagen) -->
           <ng-container *ngIf="(!slide.link || slide.link === '#') && !slide.downloadUrl">
             <img [src]="slide.image" [alt]="slide.alt">
-            <div class="slide-caption" *ngIf="slide.title || slide.description">
+            <!-- <div class="slide-caption" *ngIf="slide.title || slide.description">
               <h3>{{ slide.title }}</h3>
               <p>{{ slide.description }}</p>
-            </div>
+            </div> -->
           </ng-container>
 
           <!-- Slide con descarga -->
           <ng-container *ngIf="slide.downloadUrl">
             <img [src]="slide.image" [alt]="slide.alt">
-            <div class="slide-caption">
+            <!-- <div class="slide-caption">
               <h3>{{ slide.title }}</h3>
               <p>{{ slide.description }}</p>
               <span class="action-icon">
                 📥 Descargar
               </span>
-            </div>
+            </div> -->
           </ng-container>
 
           <!-- Slide con routerLink (rutas internas de Angular) -->
@@ -36,13 +36,13 @@
             [routerLink]="slide.link"
             class="slide-link">
             <img [src]="slide.image" [alt]="slide.alt">
-            <div class="slide-caption">
+            <!-- <div class="slide-caption">
               <h3>{{ slide.title }}</h3>
               <p>{{ slide.description }}</p>
               <span class="action-icon">
                 🔗 Ver más
               </span>
-            </div>
+            </div> -->
           </a>
 
           <!-- Slide con href (URLs externas o archivos .html) -->
@@ -53,13 +53,13 @@
             [rel]="slide.openInNewTab ? 'noopener noreferrer' : null"
             class="slide-link">
             <img [src]="slide.image" [alt]="slide.alt">
-            <div class="slide-caption">
+            <!-- <div class="slide-caption">
               <h3>{{ slide.title }}</h3>
               <p>{{ slide.description }}</p>
               <span class="action-icon">
                 🔗 Ver más
               </span>
-            </div>
+            </div> -->
           </a>
 
         </div>

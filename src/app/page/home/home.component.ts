@@ -7,7 +7,7 @@ import { Component, HostListener, OnInit, ViewChild } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-   show: boolean = true; // Cambia a false para no mostrar el modal
+   show: boolean = false; // Cambia a false para no mostrar el modal
 
   constructor() { }
 
@@ -83,7 +83,7 @@ export class HomeComponent implements OnInit {
 
   // Opcional: cerrar con la tecla ESC
   @HostListener('document:keydown.escape', ['$event'])
-  onEscapeKey(event: KeyboardEvent): void {
+  onEscapeKey(event: Event): void {
     if (this.show) {
       this.closeModal();
     }

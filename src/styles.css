@@ -1,1 +1,41 @@
-/* You can add global styles to this file, and also import other style files */
+/* Forzar que todas las navbars sean relativas en móviles */
+@media (max-width: 991px) {
+
+    .navbar-container,
+    .navbar,
+    .top-navbar,
+    .sub-navbar,
+    header {
+        position: relative !important;
+        z-index: auto !important;
+    }
+
+    /* Asegurar que el collapse se muestre debajo */
+    .navbar-collapse {
+        position: relative !important;
+        width: 100%;
+        clear: both;
+    }
+}
+
+/* Eliminar cualquier position fixed o absolute global */
+.navbar-main-on-top {
+    position: relative !important;
+}
+
+.main-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Eliminar el <br> y usar margin */
+app-navbar-top {
+    display: block;
+    margin-bottom: 0;
+}
+
+app-navbar-main {
+    display: block;
+    margin-top: 0;
+}
